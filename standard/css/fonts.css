@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: 'iconosgobsf';
+    src:url('../fonts/iconosgobsf/iconosgobsf.eot?mjmzms');
+    src:url('../fonts/iconosgobsf/iconosgobsf.eot?#iefixmjmzms') format('embedded-opentype'),
+        url('../fonts/iconosgobsf/iconosgobsf.woff?mjmzms') format('woff'),
+        url('../fonts/iconosgobsf/iconosgobsf.ttf?mjmzms') format('truetype'),
+        url('../fonts/iconosgobsf/iconosgobsf.svg?mjmzms#iconosgobsf') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'iconosgobsf';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-responde:before {
+    content: "\e611";
+}
+.icon-gsf:before {
+    content: "\e603";
+}
+.icon-lluviasol:before {
+    content: "\e61d";
+}
+.icon-envivo:before {
+    content: "\e61c";
+}
+.icon-mas:before {
+    content: "\e604";
+}
+.icon-corazon:before {
+    content: "\e605";
+}
+.icon-footeryoutube:before {
+    content: "\e61e";
+}
+.icon-footertwitter:before {
+    content: "\e61f";
+}
+.icon-cerrar:before {
+    content: "\e606";
+}
+.icon-footertumblr:before {
+    content: "\e620";
+}
+.icon-audio:before {
+    content: "\e607";
+}
+.icon-footerg:before {
+    content: "\e622";
+}
+.icon-footerfacebook:before {
+    content: "\e621";
+}
+.icon-boletin:before {
+    content: "\e60a";
+}
+.icon-normativa:before {
+    content: "\e60b";
+}
+.icon-aplicativo:before {
+    content: "\e60c";
+}
+.icon-enlace:before {
+    content: "\e60d";
+}
+.icon-documento:before {
+    content: "\e60e";
+}
+.icon-cifras:before {
+    content: "\e60f";
+}
+.icon-descarga:before {
+    content: "\e612";
+}
+.icon-link:before {
+    content: "\e613";
+}
+.icon-desplegable:before {
+    content: "\e614";
+}
+.icon-impresora:before {
+    content: "\e616";
+}
+.icon-compartir:before {
+    content: "\e617";
+}
+.icon-agenda:before {
+    content: "\e618";
+}
+.icon-menu:before {
+    content: "\e615";
+}
+.icon-lupa:before {
+    content: "\e610";
+}
+.icon-footerfoursquare:before {
+    content: "\e623";
+}
+.icon-footerinstagram:before {
+    content: "\e624";
+}
+.icon-footerlinkedin:before {
+    content: "\e625";
+}
+.icon-footerstorify:before {
+    content: "\e626";
+}
+.icon-ubicacion:before {
+    content: "\e609";
+}
+.icon-facebook:before {
+    content: "\e600";
+}
+.icon-twitter:before {
+    content: "\e601";
+}
+.icon-youtube:before {
+    content: "\e602";
+}
+.icon-intranet:before {
+    content: "\e627";
+}
+.icon-tramites:before {
+    content: "\e628";
+}
+.icon-tramite-1:before {
+    content: "\e62d";
+}
+.icon-tramite-2:before {
+    content: "\e62e";
+}
+.icon-expedientes:before {
+    content: "\e61a";
+}
+.icon-compras:before {
+    content: "\e61b";
+}
+.icon-concursos:before {
+    content: "\e619";
+}
+.icon-flechad:before {
+    content: "\e608";
+}
+.icon-link2:before {
+    content: "\e62c";
+}
+.icon-flechaizq:before {
+    content: "\e62f";
+}
+.icon-flechadesp:before {
+    content: "\e629";
+}
+.icon-flechadown:before {
+    content: "\e62a";
+}
+.icon-flechaup:before {
+    content: "\e62b";
+}
+.icon-tramite-1:before {
+    content: "\e62d";
+}
+.icon-tramite-2:before {
+    content: "\e62e";
+}
+.icon-alertam:before {
+    content: "\e630";
+}
+
+@font-face {
+    font-family: 'CC-ICONS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ccicons/cc-icons.ttf') format('truetype');
+}
+
+span.cc {
+    font-family: 'CC-ICONS';
+    color: #6b736c !important;
+}
+
+
+/* Icons 2016*/
+@font-face{font-family:'PF Beau Sans Pro';src:url("../fonts/pfbeausanspro/PFBeauSansPro-Bold.eot?78703725");src:url("../fonts/pfbeausanspro/PFBeauSansPro-Bold.eot?78703725#iefix") format("embedded-opentype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bold.woff?78703725") format("woff"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bold.ttf?78703725") format("truetype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bold.svg?78703725#pfbeausanspro") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'PF Beau Sans Pro';src:url("../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.eot?78703725");src:url("../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.eot?78703725#iefix") format("embedded-opentype"),url("../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.woff?78703725") format("woff"),url("../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.ttf?78703725") format("truetype"),url("../fonts/pfbeausanspro/PFBeauSansPro-SemiBold.svg?78703725#pfbeausanspro") format("svg");font-weight:600;font-style:normal}@font-face{font-family:'PF Beau Sans Pro';src:url("../fonts/pfbeausanspro/PFBeauSansPro-Bbook.eot?78703725");src:url("../fonts/pfbeausanspro/PFBeauSansPro-Bbook.eot?78703725#iefix") format("embedded-opentype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bbook.woff?78703725") format("woff"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bbook.ttf?78703725") format("truetype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Bbook.svg?78703725#pfbeausanspro") format("svg");font-weight:500;font-style:normal}@font-face{font-family:'PF Beau Sans Pro';src:url("../fonts/pfbeausanspro/PFBeauSansPro-Regular.eot?78703725");src:url("../fonts/pfbeausanspro/PFBeauSansPro-Regular.eot?78703725#iefix") format("embedded-opentype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Regular.woff?78703725") format("woff"),url("../fonts/pfbeausanspro/PFBeauSansPro-Regular.ttf?78703725") format("truetype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Regular.svg?78703725#pfbeausanspro") format("svg");font-weight:400;font-style:normal}@font-face{font-family:'PF Beau Sans Pro';src:url("../fonts/pfbeausanspro/PFBeauSansPro-Light.eot?78703725");src:url("../fonts/pfbeausanspro/PFBeauSansPro-Light.eot?78703725#iefix") format("embedded-opentype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Light.woff?78703725") format("woff"),url("../fonts/pfbeausanspro/PFBeauSansPro-Light.ttf?78703725") format("truetype"),url("../fonts/pfbeausanspro/PFBeauSansPro-Light.svg?78703725#pfbeausanspro") format("svg");font-weight:300;font-style:normal}@font-face{font-family:'icons';src:url("../fonts/icons/icons.eot?63867437");src:url("../fonts/icons/icons.eot?63867437#iefix") format("embedded-opentype"),url("../fonts/icons/icons.woff?63867437") format("woff"),url("../fonts/icons/icons.ttf?63867437") format("truetype"),url("fonts/icons/icons.svg?63867437#icons") format("svg");font-weight:normal;font-style:normal}[class^="icon-"]:before,[class*=" icon-"]:before{font-family:"icons";font-style:normal;font-weight:normal;speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-lupa:before{content:'\e800'}.icon-menu:before{content:'\e801'}.icon-camara:before{content:'\e802'}.icon-facebook:before{content:'\e803'}.icon-doc:before{content:'\e804'}.icon-twitter:before{content:'\e805'}.icon-play:before{content:'\e806'}.icon-audio:before{content:'\e807'}.icon-link-ext:before{content:'\e808'}.icon-footertwitter:before{content:'\e809'}.icon-footertumblr:before{content:'\e80a'}.icon-footerg:before{content:'\e80b'}.icon-footerfacebook:before{content:'\e80c'}.icon-footerfoursquare:before{content:'\e80d'}.icon-footerlinkedin:before{content:'\e80e'}.icon-footerstorify:before{content:'\e80f'}.icon-footerinstagram:before{content:'\e810'}.icon-footeryoutube:before{content:'\e811'}.icon-whatsapp:before{content:'\e812'}.icon-download-alt:before{content:'\e813'}.icon-youtube:before{content:'\e814'}.icon-calendar:before{content:'\e815'}.icon-arrow-down{display:inline-block;background:url(../images/icon-arrow-down.png) no-repeat;width:41px;height:25px}html,body{overflow-x:hidden !important}body{background-color:#fff;font-family:"PF Beau Sans Pro",sans-serif;color:#333}
+
+@font-face {
+  font-family: 'stg-logos';
+  src:  url('../fonts/stg/stg-logos.eot?1hf2ng');
+  src:  url('../fonts/stg/stg-logos.eot?1hf2ng#iefix') format('embedded-opentype'),
+    url('../fonts/stg/stg-logos.ttf?1hf2ng') format('truetype'),
+    url('../fonts/stg/stg-logos.woff?1hf2ng') format('woff'),
+    url('../fonts/stg/stg-logos.svg?1hf2ng#stg-logos') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="stg-logos-"], [class*=" stg-logos-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stg-logos' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stg-logos-logo-tec-stg:before {
+  content: "\e900";
+  color: #888;
+  font-size: 55px;
+}
+.stg-logos-logo-stg:before {
+  content: "\e901";
+  color: #888;
+}
+.stg-logos-logo-full-stg:before {
+  content: "\e902";
+  color: #888;
+}

@@ -1,0 +1,606 @@
+@font-face {
+    font-family: 'aller';
+    src: url('../fonts/aller_bd-webfont.eot');
+    src: url('../fonts/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_bd-webfont.woff') format('woff'),
+         url('../fonts/aller_bd-webfont.ttf') format('truetype'),
+         url('../fonts/aller_bd-webfont.svg#allerbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aller';
+    src: url('../fonts/aller_rg-webfont.eot');
+    src: url('../fonts/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_rg-webfont.woff') format('woff'),
+         url('../fonts/aller_rg-webfont.ttf') format('truetype'),
+         url('../fonts/aller_rg-webfont.svg#allerregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aller';
+    src: url('../fonts/aller_lt-webfont.eot');
+    src: url('../fonts/aller_lt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aller_lt-webfont.woff') format('woff'),
+         url('../fonts/aller_lt-webfont.ttf') format('truetype'),
+         url('../fonts/aller_lt-webfont.svg#aller_lightregular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CC-ICONS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ccicons/cc-icons.ttf') format('truetype');
+}
+
+span.cc {
+    font-family: 'CC-ICONS';
+    color: #6b736c !important;
+}
+
+/* agregado 21/08/14 */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap'), local('Asap-Regular'), url('../fonts/fcmHFw2-Y5XBgckTELHEMQ.woff2') format('woff2'), url('../fonts/dsVXAQJv9yk2zMxf8dGPYw.woff') format('woff');
+}
+/* latin */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap'), local('Asap-Regular'), url('../fonts/oiVlPAjaPL0EznW3E5Z2DQ.woff2') format('woff2'), url('../fonts/SgBaq0dzhSGNMfqm2JX5ng.woff') format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Asap Bold'), local('Asap-Bold'), url('../fonts/CR2dk1HR3x5VnkqjPj24Gg.woff2') format('woff2'), url('../fonts/DnflNOtIX5aHLkY8jK7faA.woff') format('woff');
+}
+/* latin */
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Asap Bold'), local('Asap-Bold'), url('../fonts/YUlqaYZPVSsAAN2ZtG3iyA.woff2') format('woff2'), url('../fonts/yVILXKVgPzaz72DegpV7Bg.woff') format('woff');
+}
+
+
+/*
+* fuentes de flat-ui-icons
+*/
+
+@font-face {
+  font-family: "Flat-UI-Icons";
+  src: url('../fonts/flat-ui-icons-regular.eot');
+  src: url('../fonts/flat-ui-icons-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/flat-ui-icons-regular.woff') format('woff'), url('../fonts/flat-ui-icons-regular.ttf') format('truetype'), url('../fonts/flat-ui-icons-regular.svg#flat-ui-icons-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'Flat-UI-Icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="fui-"] {
+*/
+.fui-arrow-right,
+.fui-arrow-left,
+.fui-cmd,
+.fui-check-inverted,
+.fui-heart,
+.fui-location,
+.fui-plus,
+.fui-check,
+.fui-cross,
+.fui-list,
+.fui-new,
+.fui-video,
+.fui-photo,
+.fui-volume,
+.fui-time,
+.fui-eye,
+.fui-chat,
+.fui-search,
+.fui-user,
+.fui-mail,
+.fui-lock,
+.fui-gear,
+.fui-radio-unchecked,
+.fui-radio-checked,
+.fui-checkbox-unchecked,
+.fui-checkbox-checked,
+.fui-calendar-solid,
+.fui-pause,
+.fui-play,
+.fui-check-inverted-2 {
+  display: inline-block;
+  font-family: 'Flat-UI-Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fui-arrow-right:before {
+  content: "\e02c";
+}
+.fui-arrow-left:before {
+  content: "\e02d";
+}
+.fui-cmd:before {
+  content: "\e02f";
+}
+.fui-check-inverted:before {
+  content: "\e006";
+}
+.fui-heart:before {
+  content: "\e007";
+}
+.fui-location:before {
+  content: "\e008";
+}
+.fui-plus:before {
+  content: "\e009";
+}
+.fui-check:before {
+  content: "\e00a";
+}
+.fui-cross:before {
+  content: "\e00b";
+}
+.fui-list:before {
+  content: "\e00c";
+}
+.fui-new:before {
+  content: "\e00d";
+}
+.fui-video:before {
+  content: "\e00e";
+}
+.fui-photo:before {
+  content: "\e00f";
+}
+.fui-volume:before {
+  content: "\e010";
+}
+.fui-time:before {
+  content: "\e011";
+}
+.fui-eye:before {
+  content: "\e012";
+}
+.fui-chat:before {
+  content: "\e013";
+}
+.fui-search:before {
+  content: "\e01c";
+}
+.fui-user:before {
+  content: "\e01d";
+}
+.fui-mail:before {
+  content: "\e01e";
+}
+.fui-lock:before {
+  content: "\e01f";
+}
+.fui-gear:before {
+  content: "\e024";
+}
+.fui-radio-unchecked:before {
+  content: "\e02b";
+}
+.fui-radio-checked:before {
+  content: "\e032";
+}
+.fui-checkbox-unchecked:before {
+  content: "\e033";
+}
+.fui-checkbox-checked:before {
+  content: "\e034";
+}
+.fui-calendar-solid:before {
+  content: "\e022";
+}
+.fui-pause:before {
+  content: "\e03b";
+}
+.fui-play:before {
+  content: "\e03c";
+}
+.fui-check-inverted-2:before {
+  content: "\e000";
+}
+
+
+@font-face {
+  font-family: 'iconosgobsf';
+  src:url('../fonts/iconosgobsf.eot?mjmzms');
+  src:url('../fonts/iconosgobsf.eot?#iefixmjmzms') format('embedded-opentype'),
+    url('../fonts/iconosgobsf.woff?mjmzms') format('woff'),
+    url('../fonts/iconosgobsf.ttf?mjmzms') format('truetype'),
+    url('../fonts/iconosgobsf.svg?mjmzms#iconosgobsf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'iconosgobsf';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-responde:before {
+  content: "\e611";
+}
+.icon-gsf:before {
+  content: "\e603";
+}
+.icon-lluviasol:before {
+  content: "\e61d";
+}
+.icon-envivo:before {
+  content: "\e61c";
+}
+.icon-mas:before {
+  content: "\e604";
+}
+.icon-corazon:before {
+  content: "\e605";
+}
+.icon-footeryoutube:before {
+  content: "\e61e";
+}
+.icon-footertwitter:before {
+  content: "\e61f";
+}
+.icon-cerrar:before {
+  content: "\e606";
+}
+.icon-footertumblr:before {
+  content: "\e620";
+}
+.icon-audio:before {
+  content: "\e607";
+}
+.icon-footerg:before {
+  content: "\e622";
+}
+.icon-footerfacebook:before {
+  content: "\e621";
+}
+.icon-boletin:before {
+  content: "\e60a";
+}
+.icon-normativa:before {
+  content: "\e60b";
+  color: #545454;
+}
+.icon-aplicativo:before {
+  content: "\e60c";
+}
+.icon-enlace:before {
+  content: "\e60d";
+  color: #8C8C8C;
+}
+.icon-documento:before {
+    content: "\e60e";
+    background-image: url("img/black.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+	color: white;
+}
+.icon-cifras:before {
+  content: "\e60f";
+}
+.icon-descarga:before {
+  content: "\e612";
+}
+.icon-link:before {
+  content: "\e613";
+}
+.icon-desplegable:before {
+  content: "\e614";
+}
+.icon-impresora:before {
+  content: "\e616";
+}
+.icon-compartir:before {
+  content: "\e617";
+}
+.icon-agenda:before {
+  content: "\e618";
+}
+.icon-menu:before {
+  content: "\e615";
+}
+.icon-lupa:before {
+  content: "\e610";
+}
+.icon-footerfoursquare:before {
+  content: "\e623";
+}
+.icon-footerinstagram:before {
+  content: "\e624";
+}
+.icon-footerlinkedin:before {
+  content: "\e625";
+}
+.icon-footerstorify:before {
+  content: "\e626";
+}
+.icon-ubicacion:before {
+  content: "\e609";
+}
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-twitter:before {
+  content: "\e601";
+}
+.icon-youtube:before {
+  content: "\e602";
+}
+.icon-intranet:before {
+  content: "\e627";
+}
+.icon-tramites:before {
+  content: "\e628";
+}
+.icon-tramite-1:before {
+  content: "\e62d";
+}
+.icon-tramite-2:before {
+  content: "\e62e";
+}
+.icon-expedientes:before {
+  content: "\e61a";
+}
+.icon-compras:before {
+  content: "\e61b";
+}
+.icon-concursos:before {
+  content: "\e619";
+}
+.icon-flechad:before {
+  content: "\e608";
+}
+.icon-link2:before {
+  content: "\e62c";
+}
+.icon-flechaizq:before {
+  content: "\e62f";
+}
+.icon-flechadesp:before {
+  content: "\e629";
+}
+.icon-flechadown:before {
+  content: "\e62a";
+}
+.icon-flechaup:before {
+  content: "\e62b";
+}
+
+
+
+@font-face {
+    font-family: 'webfont2016';
+    src:    url('../fonts/webfont2016/webfont2016.eot?n2jo1r');
+    src:    url('../fonts/webfont2016/webfont2016.eot?n2jo1r#iefix') format('embedded-opentype'),
+        url('../fonts/webfont2016/webfont2016.ttf?n2jo1r') format('truetype'),
+        url('../fonts/webfont2016/webfont2016.woff?n2jo1r') format('woff'),
+        url('../fonts/webfont2016/webfont2016.svg?n2jo1r#webfont2016') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="elementos"], [class*=" elementos"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'webfont2016' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.elementoslupa:before {
+    content: "\e800";
+}
+.elementosmenu:before {
+    content: "\e801";
+}
+.elementoscamara:before {
+    content: "\e802";
+}
+.elementosfacebook:before {
+    content: "\e803";
+}
+.elementosdoc:before {
+    content: "\e804";
+}
+.elementostwitter:before {
+    content: "\e805";
+}
+.elementosplay:before {
+    content: "\e806";
+}
+.elementosaudio:before {
+    content: "\e807";
+}
+.elementoslink-ext:before {
+    content: "\e808";
+}
+.elementosfootertwitter:before {
+    content: "\e809";
+}
+.elementosfootertumblr:before {
+    content: "\e80a";
+}
+.elementosfooterg:before {
+    content: "\e80b";
+}
+.elementosfooterfacebook:before {
+    content: "\e80c";
+}
+.elementosfooterfoursquare:before {
+    content: "\e80d";
+}
+.elementosfooterlinkedin:before {
+    content: "\e80e";
+}
+.elementosfooterstorify:before {
+    content: "\e80f";
+}
+.elementosfooterinstagram:before {
+    content: "\e810";
+}
+.elementosfooteryoutube:before {
+    content: "\e811";
+}
+.elementoswhatsapp:before {
+    content: "\e812";
+}
+.elementosdownload-alt:before {
+    content: "\e813";
+}
+.elementosyoutube:before {
+    content: "\e814";
+}
+.elementoscalendar:before {
+    content: "\e815";
+}
+
+@font-face {
+  font-family: 'portalweb2018';
+  src:  url('../fonts/portalweb2018/portalweb2018.eot?8zvb67');
+  src:  url('../fonts/portalweb2018/portalweb2018.eot?8zvb67#iefix') format('embedded-opentype'),
+    url('../fonts/portalweb2018/portalweb2018.ttf?8zvb67') format('truetype'),
+    url('../fonts/portalweb2018/portalweb2018.woff?8zvb67') format('woff'),
+    url('../fonts/portalweb2018/portalweb2018.svg?8zvb67#portalweb2018') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="portalweb2018-"], [class*=" portalweb2018-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'portalweb2018' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.portalweb2018-santafe-compras-logo .path1:before {
+  content: "\e900";
+  color: rgb(226, 110, 99);
+}
+.portalweb2018-santafe-compras-logo .path2:before {
+  content: "\e901";
+  margin-left: -1.0810546875em;
+  color: rgb(210, 41, 55);
+}
+.portalweb2018-santafe-compras-logo .path3:before {
+  content: "\e902";
+  margin-left: -1.0810546875em;
+  color: rgb(210, 41, 55);
+}
+
+/* logos de secretarÃ­a de tecnologÃ­as para la gestion remoto */
+
+@font-face {
+    font-family: 'stg-logos';
+    src:  url('/assets/standard/fonts/stg/stg-logos.eot?1hf2ng');
+    src:  url('/assets/standard/fonts/stg/stg-logos.eot?1hf2ng#iefix') format('embedded-opentype'),
+    url('/assets/standard/fonts/stg/stg-logos.ttf?1hf2ng') format('truetype'),
+    url('/assets/standard/fonts/stg/stg-logos.woff?1hf2ng') format('woff'),
+    url('/assets/standard/fonts/stg/stg-logos.svg?1hf2ng#stg-logos') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="stg-logos-"], [class*=" stg-logos-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'stg-logos' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stg-logos-logo-tec-stg:before {
+    content: "\e900";
+    color: #888;
+    font-size: 55px;
+}
+.stg-logos-logo-stg:before {
+    content: "\e901";
+    color: #888;
+}
+.stg-logos-logo-full-stg:before {
+    content: "\e902";
+    color: #888;
+}
+
+.stg-logos a:hover {
+    opacity: 0.8
+}
+
+@media (max-width: 980px) {
+
+    .stg-logos {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        float: none;
+        padding-left: 0px;
+        text-align: center;
+        display: inline-flex;
+        padding-top: 15px;
+    }
+}

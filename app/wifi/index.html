@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>        
+        <meta charset="ISO-8859-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Gobierno de Santa Fe">
+        <title>Gobierno de Santa Fe - WiFi Pública</title>
+        <meta name="author" content="Gobierno de Santa Fe">
+        <meta name="copyright" content="Gobierno de Santa Fe">
+        
+        
+        <meta name="keywords" content="gobierno, santa fe, api, portal santa fe, subportal educacion, sigae web, ministerio de educacion, impuesto inmobiliario, turnos dni, provincia de santa fe">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta name="google-site-verification" content="b96PRwX7ARwRCGUs6hbOpMwLqkelaPa2Qbz7AH0lQlU">
+        <link rel="icon" href="//www.santafe.gob.ar/assets/standard/images/favicon.ico">
+
+        <!-- apuntar asset nuevos para el dise?o -->
+        <!-- Bootstrap core CSS -->
+
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/bootstrap.min-new.css" rel="stylesheet"> 
+        <!-- Bootstrap theme -->
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/bootstrap-theme.css" rel="stylesheet">
+        
+        <!--link href="//www.santafe.gob.ar/assets/app/portal/css/owl.carousel.min-new.css" rel="stylesheet"-->
+        
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/flat-ui.min-new.css" rel="stylesheet">
+        <link href="//www.santafe.gob.ar/design/plain2/assets/standard/css/fonts.css" rel="stylesheet">
+        
+        <!--link href="//www.santafe.gob.ar/assets/app/portal/css/datepicker.min-new.css" rel="stylesheet"-->
+        
+
+        <!-- Custom styles for this template -->
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/santafe.css" rel="stylesheet">
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/media.min-new.css" rel="stylesheet">
+
+        <!-- N5 lightbox   -->
+        <!--link href="//www.santafe.gob.ar/assets/app/portal/css/lightbox.css" rel="stylesheet"-->
+
+        <!-- clima icons style -->
+        <link href="//www.santafe.gob.ar/assets/app/portal/css/clima-icons.min-new.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+                <link rel="Shortcut icon" href="//www.santafe.gob.ar/assets/standard/images/favicon.ico" type="image/x-icon" />
+                <link href="//www.santafe.gob.ar/assets/app/portal/css/ie8.min-new.css" rel="stylesheet">
+                <script src="//www.santafe.gob.ar/assets/app/portal/js/html5shiv.js"></script>
+                <script src="//www.santafe.gob.ar/assets/app/portal/js/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="//www.santafe.gob.ar/assets/app/portal/js/jquery.min.js"></script>         
+        <script src="//www.santafe.gob.ar/assets/app/portal/js/ie8/jquery.placeholder.min-new.js"></script>
+        <script src="//www.santafe.gob.ar/assets/app/portal/js/bootstrap.min.js"></script>                          
+    </head>
+
+    <body data-twttr-rendered="true" role="document">                            
+
+
+
+        <div class="navbar navbar-sf " role="navigation">
+            <div class="ui-bg-14">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-menu"></span>
+
+                        </button>
+                        <a class="navbar-brand" href="//www.santafe.gob.ar/index.php/web"><img src="//www.santafe.gob.ar/assets/standard/images/gob-santafe.png" alt="Gobierno de Santa Fe"></a>
+                    </div>
+                </div>
+            </div>         
+            <div class="container desktop-menu">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown divider gestion">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu"></i><span>Gestión</span></a>
+                            <span class="dropdown-arrow"></span>
+                            <ul class="dropdown-menu">
+
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93661">La Provincia</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93670">Organización del Estado</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93679">Ejes de Gestión</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93695">Personal del Estado</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/121711">Educación</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93702">Cultura</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93747">Desarrollo Social</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93760">Trabajo</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93773">Ciencia, Tecnología e Innovación</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93779">Economía y Finanzas</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93790">Producción</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93796">Salud</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93805">Justicia y Derechos Humanos</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93815">Seguridad</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/135329">Hábitat y Vivienda</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93822">Obras, Aguas y Servicios</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102676">Ambiente</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102282">Impuestos</a></li>
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102677">Jubilaciones y Pensiones</a></li>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="divider">
+                            <a href="javascript:void(0)" class="search-link"><i class="icon-lupa"></i></a>
+                            <form action="/searchgoogle" class="search-form">
+                                <label class="sr-only" for="q">Search:</label>
+                                <input name="q" id="q" placeholder="BUSCAR" type="text"><button><i class="appen icon-lupa"></i></button>
+                            </form>
+                        </li>
+                        <li class="divider"><a target="_blank" href="http://www.twitter.com/GobSantaFe"><i class="icon-twitter"></i></a></li>
+                        <li class="socials-icons"><a target="_blank" href="http://www.facebook.com/GobSantaFe"><i class="icon-facebook"></i></a></li>
+                        <li class="socials-icons"><a target="_blank" href="http://www.youtube.com/GobSantaFe"><i class="icon-youtube"></i></a></li>
+                        <li class="divider dropdown clima-item"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+
+                                <!-- Poner link al contenido de la alerta. -->
+
+                                <i style="visibility: visible;" id="alerta_off" class="icon-lluviasol"></i>                        
+                                <i style="visibility: hidden; display: none;" id="alerta_on" class="icono-alerta" title="Alerta Meteorológica"></i>
+                                <!--a style="display:inline" title="Alerta Meteorol&oacute;gica" href="//santafe.gob.ar/index.php/content/view/full/154569">Alerta Meteorol?gica</a-->
+
+                            </a>
+                            <div class="alerta_clima"><a href="//www.santafe.gob.ar/index.php/content/view/full/154569" target="_blank"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/alerta.png" alt="Alerta Meteorologica"></a></div>
+                            <span class="dropdown-arrow"></span>
+                            <div class="dropdown-menu">                        
+                                <div class="weather"><div class="header-clima"> <h2 class="pull-left">Martes 5 de Mayo  de 2015</h2> <span class="clima-updated pull-right">Datos actualizados a las 9:44hs</span></div><div class="box-clima"><div class="clima-region region-1">Region 1</div><div class="clima-details"><h4 class="clima-title">RECONQUISTA</h4><div class="current"><div class="pull-left clima-icon-state"><div class="clear-day"></div></div><div class="pull-right clima-current-temp"><div class="apparent">14 ?</div><p class="current-summary">8 ? / 24?</p></div><p class="current-summary">Despejado</p></div><div class="clima-next"><p>Miercoles <span class="pull-right">8 ? / 26? </span></p></div><div class="clima-next"><p>Jueves <span class="pull-right">9 ? / 24? </span></p></div></div></div><div class="box-clima"><div class="clima-region region-2">Region 2</div><div class="clima-details"><h4 class="clima-title">RAFAELA</h4><div class="current"><div class="pull-left clima-icon-state"><div class="partly-cloudy-day"></div></div><div class="pull-right clima-current-temp"><div class="apparent">15 ?</div><p class="current-summary">10 ? / 25?</p></div><p class="current-summary">Mayormente Nublado</p></div><div class="clima-next"><p>Miercoles <span class="pull-right">9 ? / 25? </span></p></div><div class="clima-next"><p>Jueves <span class="pull-right">8 ? / 24? </span></p></div></div></div><div class="box-clima"><div class="clima-region region-3">Region 3</div><div class="clima-details"><h4 class="clima-title">SANTA FE</h4><div class="current"><div class="pull-left clima-icon-state"><div class="partly-cloudy-day"></div></div><div class="pull-right clima-current-temp"><div class="apparent">15 ?</div><p class="current-summary">9 ? / 24?</p></div><p class="current-summary">Parcialmente Nublado</p></div><div class="clima-next"><p>Miercoles <span class="pull-right">9 ? / 24? </span></p></div><div class="clima-next"><p>Jueves <span class="pull-right">9 ? / 23? </span></p></div></div></div><div class="box-clima"><div class="clima-region region-4">Region 4</div><div class="clima-details"><h4 class="clima-title">ROSARIO</h4><div class="current"><div class="pull-left clima-icon-state"><div class="partly-cloudy-day"></div></div><div class="pull-right clima-current-temp"><div class="apparent">14 ?</div><p class="current-summary">9 ? / 23?</p></div><p class="current-summary">Parcialmente Nublado</p></div><div class="clima-next"><p>Miercoles <span class="pull-right">10 ? / 21? </span></p></div><div class="clima-next"><p>Jueves <span class="pull-right">6 ? / 20? </span></p></div></div></div><div class="box-clima"><div class="clima-region region-5">Region 5</div><div class="clima-details"><h4 class="clima-title">VENADO TUERTO</h4><div class="current"><div class="pull-left clima-icon-state"><div class="partly-cloudy-day"></div></div><div class="pull-right clima-current-temp"><div class="apparent">13 ?</div><p class="current-summary">9 ? / 23?</p></div><p class="current-summary">Parcialmente Nublado</p></div><div class="clima-next"><p>Miercoles <span class="pull-right">8 ? / 19? </span></p></div><div class="clima-next"><p>Jueves <span class="pull-right">6 ? / 19? </span></p></div></div></div></div>                        
+                            </div>
+                        </li>
+                        <li class="dropdown divider idioma">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Español<b class="caret"></b></a>
+                            <span class="dropdown-arrow"></span>
+                            <ul class="dropdown-menu">
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/190064">English</a></li>
+
+
+                                <li><a href="//www.santafe.gob.ar/index.php/web/content/view/full/190069">Portugués</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <div class="mobile-menu-custom-group mobile-search" style="display:none;">
+                                <form action="/searchgoogle" class="search-form ">
+                                    <label class="sr-only" for="q">Search:</label>
+                                    <input name="q" id="q" placeholder="BUSCAR" type="text"><button><i class="appen icon-lupa"></i></button>
+                                </form>
+                            </div>                    
+                            <ul class="mobile-menu-custom-group" style="display:none;">
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93661">La Provincia</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93670">Organizaci?n del Estado</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93679">Ejes de Gesti?n</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93695">Personal del Estado</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/121711">Educaci?n</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93702">Cultura</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93747">Desarrollo Social</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93760">Trabajo</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93773">Ciencia, Tecnolog?a e Innovaci?n</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93779">Econom?a y Finanzas</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93790">Producci?n</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93796">Salud</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93805">Justicia y Derechos Humanos</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93815">Seguridad</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/135329">H?bitat y Vivienda</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93822">Obras, Aguas y Servicios</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102676">Ambiente</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102282">Impuestos</a></li>
+                                <li class="mobile-menu-custom"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/102677">Jubilaciones y Pensiones</a></li>
+                            </ul>  
+                        </li>     
+
+
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+
+
+
+        <script>
+            function submitform()
+            {
+                document.forms["busq_azda"].submit();
+            }
+        </script>              
+
+
+
+
+
+        <script src="//www.santafe.gob.ar/assets/app/portal/js/clima.min-new.js"></script>
+
+
+
+
+
+
+
+        <div class="box-6 ui-bg-9">
+            <div class="container">
+                <h2 class="ui-h2-3"><a href="//www.santafe.gob.ar/index.php/web/content/view/full/93679" class="nombre_tema"> Ejes de Gestión</a></h2>
+            </div>
+        </div>
+        <div class="container" role="main">
+            <!-- Hot Links   -->
+
+            <div class="box-0 cta-headers  internal-cta">
+                <div class="row">
+                    <div class="pull-left sf-breadcrumb">
+                        <div>  
+                            <a href="//www.santafe.gob.ar/index.php/web/content/view/full/93679">Ejes de Gestión /</a>
+                            <script>
+            global_tema_node_id = 93679;
+            global_tema_name = " Ejes de Gestión";
+                            </script>
+                            <a href="//www.santafe.gob.ar/index.php/web/content/view/full/93686">Modernización y Reforma del Estado /</a>                					
+                            <a href="//www.santafe.gob.ar/index.php/web/content/view/full/193920/%28subtema%29/93686">Tecnología y conectividad /</a>
+                        </div>                
+                    </div>
+                    <div class="pull-right santafe-avanza">
+                        <a href="#"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/santafe-avanza.png" alt="Santa Fe Avanza"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News Grid  -->   
+            <div class="contents n5  with-cover">
+                <h3 class="ui-h3-1"><i class="icon-flechad"></i> WiFi Pública </h3>   
+
+                <div class="cover" style="background-image:url('//www.santafe.gob.ar/var/plain/storage/images/estructura-de-gobierno/ministerios/gobierno-y-reforma-del-estado/subsecretaria-de-modernizacion-de-la-gestion/temas-especificos/conectividad/wifi-publica/1111306-5-eng-GB/WiFi-Publica.jpg'); background-size: 1010px 300px;">
+                    <!-- Cover picture -->
+                    <!--  Module Picture -->
+                    <div class="module">
+                        <img src="//www.santafe.gob.ar/var/plain/storage/images/estructura-de-gobierno/ministerios/gobierno-y-reforma-del-estado/subsecretaria-de-modernizacion-de-la-gestion/temas-especificos/conectividad/wifi-publica/1111307-2-eng-GB/WiFi-Publica.png" alt="" height="190" width="270">
+                    </div>
+                </div>
+                <div class="main">
+                    <!-- 1st column  -->
+                    <div class="box-7 ">    
+
+                        <div class="body">
+
+                            <p>El Gobierno de Santa Fe, en el marco de sus políticas de 
+                                modernización y de ampliación de los servicios públicos que brinda, 
+                                lleva adelante diferentes acciones de infraestructura y conectividad que
+                                favorezcan un acceso más amplio a internet por parte de los ciudadanos.</p>
+
+                            <p>En este sentido, teniendo en cuenta la gran cantidad y variedad de 
+                                dispositivos de conectividad móvil, desde el Estado provincial se viene 
+                                trabajando en la creación de áreas de WiFi público en diferentes 
+                                localidades, en áreas de gobierno y fundamentalmente en espacios 
+                                públicos, como son los parques y plazas.</p>
+
+                            <p><b>Red de WiFi pública</b></p>
+
+                            <p>Inicialmente la red "GSF WiFi"se habilitó en cinco espacios verdes: 
+                                Parque Garay, Costanera Oeste (zona comprendida por el Puente Colgante, 
+                                el Faro y la UTN) y Costanera Este en la ciudad de Santa Fe; y Parque de
+                                las Colectividades y Parque de España, en Rosario. Posteriormente, en 
+                                ambas ciudades, a partir de septiembre de 2014 se incorporaron nuevas 
+                                áreas del servicio. Las mismas son las siguientes:</p>
+
+                            <p><b>Santa Fe</b></p>
+
+                            <ul>
+
+                                <li>Costanera Este</li>
+
+                                <li>Costanera Oeste: la cobertura se amplió al Parque Locomotora, el Monumento a Monzón y La Rotonda.</li>
+
+                                <li>Parque Garay</li>
+
+                                <li>Parque Sur: zona del anfiteatro y la pista de skate.</li>
+
+                                <li>Parque Federal</li>
+
+                                <li>La Redonda</li>
+
+                                <li>El Molino</li>
+
+                                <li>La Esquina Encendida</li>
+
+                                <li>Plaza España</li>
+
+                                <li>Plaza Colón</li>
+
+                                <li>Plaza de las Banderas</li>
+
+                            </ul>
+
+                            <p><b>Rosario</b></p>
+
+                            <p>Parque de España: la cobertura se amplió a la nueva explanada sobre 
+                                el río, el Centro de la Juventud y el Centro de Expresiones 
+                                Contemporáneas</p>
+
+                            <ul>
+
+                                <li>Parque Urquiza</li>
+
+                                <li>Parque Rodríguez</li>
+
+                                <li>Parque de la Independencia</li>
+
+                                <li>Parque Yrigoyen</li>
+
+                                <li>Parque Oeste</li>
+
+                                <li>Parque Ottone</li>
+
+                                <li>Parque Alem y complejo de piletas</li>
+
+                                <li>Parque Nacional a la Bandera</li>
+
+                                <li>Plaza Luzuriaga</li>
+
+                                <li>Plaza Che Guevara</li>
+
+                                <li>Plaza República de la Sexta</li>
+
+                                <li>Ingreso a la Ciudad Universitaria de Rosario (La Siberia)</li>
+
+                                <li>Balneario La Florida</li>
+
+                            </ul>
+                            <p></p>
+                        </div>
+                        <div id="childs" class="childs-group">
+                            <div class="child-panel">                                    
+                                <div class="child-heading">
+                                    <h4 class="child-title child-disabled">
+                                        <a href="//www.santafe.gob.ar/index.php/web/content/view/full/195173/%28subtema%29/93686">
+                                            <span class="pull-left icon-flechadesp"></span>
+                                            <span class="child-text">
+                                                Términos y condiciones de uso
+                                            </span>
+                                        </a>
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents below-contents">
+                    </div>      
+                </div>            
+
+                <div class="sidebar">
+                    <div class="panel-group" id="accordion">                
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                        Secretaría de Tecnologías para la Gestión<span class="pull-right caret"></span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <p>
+                                        San Martín 2466 (S3000FSB) Santa Fe
+                                    </p>                                                <p>Tel: 
+                                        54 - 342 - 4508700, 4574891 Internos: 5002, 5134
+
+                                        - Fax: 
+                                        54 - 342 - 4574892 Interno: 5138
+                                    </p>                            
+
+                                    <div class="map"><br><iframe id="mapa" class="map_embed" scrolling="no" src="https://www.santafe.gob.ar/idesf/servicios/mapa-embebido/?width=298&height=201&coords=-31.646991,-60.707010&egob" frameborder="0"></iframe></div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            $(document).ready(function () {
+                                $('#collapse1').addClass('in');
+                            });
+                        </script>
+                    </div>
+                    <div id="div_documentos"></div>
+                    <div class="row">
+                        <div class="col-md-4 touch-hidden">
+                            <a href="//www.santafe.gob.ar/index.php/web/guia/contactenos"><img class="flex-img" src="//www.santafe.gob.ar/assets/app/portal/imgs/santafe-responde.png" alt="Santa Fe Responde"></a>
+                        </div>                                      
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                var pagina = 1;
+
+                $(".below-contents").on("click", "#cargar_mas", function (event) {
+                    ++pagina;
+
+                    $.get('//www.santafe.gob.ar/index.php/guia/documentos?llamada=resultados&pag=' + pagina + '&clase=todas&nodoId=193922&subtema=93686', {}, function (data) {
+                        $('#mas_documentos').append(data);
+                        var html_vacio = data.search("<li>") == -1;
+                        if (html_vacio) {
+                            $("#cargar_mas").text("Cargar menos");
+                            $('#cargar_mas').attr({
+                                'id': 'cargar_menos'
+                            });
+                        }
+                    });
+                });
+
+                $(".sidebar").on("click", "#cargar_mas", function (event) {
+                    ++pagina;
+
+                    $.get('//www.santafe.gob.ar/index.php/guia/documentos?llamada=resultados&pag=' + pagina + '&clase=todas&nodoId=193922&subtema=93686', {}, function (data) {
+                        $('#mas_documentos').append(data);
+                        var html_vacio = data.search("<li>") == -1;
+                        if (html_vacio) {
+                            $("#cargar_mas").text("Cargar menos");
+                            $('#cargar_mas').attr({
+                                'id': 'cargar_menos'
+                            });
+                        }
+                    });
+                });
+
+                $(".below-contents").on("click", "#cargar_menos", function (event) {
+                    pagina = 1;
+
+                    $.get('//www.santafe.gob.ar/index.php/guia/documentos?clase=todas&nodoId=193922&subtema=93686', {}, function (data) {
+                        $('#div_documentos').html(data);
+                        var html_vacio = data.search("<li>") == -1;
+                        $("#cargar_menos").text("Cargar mas");
+                        $('#cargar_menos').attr({
+                            'id': 'cargar_mas'
+                        });
+                    });
+                });
+
+                $(".sidebar").on("click", "#cargar_menos", function (event) {
+                    pagina = 1;
+
+                    $.get('//www.santafe.gob.ar/index.php/guia/documentos?clase=todas&nodoId=193922&subtema=93686', {}, function (data) {
+                        $('#div_documentos').html(data);
+                        var html_vacio = data.search("<li>") == -1;
+                        $("#cargar_menos").text("Cargar mas");
+                        $('#cargar_menos').attr({
+                            'id': 'cargar_mas'
+                        });
+                    });
+                });
+
+                $('.search-link').on('click', function (ev) {
+                    ev.preventDefault();
+                    $(this).hide();
+                    $('.search-form').show();
+                    $('#q').focus()
+                });
+                $('#q').on('blur', function () {
+                    $('.search-link').show();
+                    $('.search-form').hide();
+                });
+
+                $('.enviar a').on('click', function () {
+                    location.href = encodeURI('mailto:?subject=Prensa Santa Fe&body=Esta nota podria interesarte:  ' + location.href);
+                });
+
+                // Load more
+                $('.load-more').each(function () {
+                    var m = $(this);
+                    t = m.data('target');
+                    l = parseInt(m.data('limit'));
+                    $(t + ':gt(' + (l - 1) + ')').addClass('hidden-li');
+                    // console.log(t+' gt('+(l-1)+')');
+
+                    m.on('click', function (ev) {
+                        ev.preventDefault();
+                        if ($(t + ':visible').size() == $(t).size()) {
+                            $(t + ':gt(' + (l - 1) + ')').addClass('hidden-li');
+                        } else {
+                            $(t).removeClass('hidden-li');
+                        }
+
+
+                    });
+                });
+
+                //seteo de variables globales para titulo y link del tema
+
+                $(".nombre_tema").html(global_tema_name);
+
+                $('.ui-h4-2').html('TRÁMITES / <span>' + global_tema_name + '</span><i class="caret">');
+
+                var ez_url = "/index.php/web/content/view/full";
+
+                $(".nombre_tema").attr('href', ez_url + "/" + global_tema_node_id);
+                
+
+            });</script>
+
+        <!--footer-->
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><a href="//www.santafe.gob.ar/index.php/web/content/view/full/117678">RSS / SUSCRIPCIÓN A NOTICIAS</a></p>
+                    <ul class="inline">
+                        <li><a target="_blank" href="http://www.twitter.com/GobSantaFe"><i class="icon-footertwitter"></i></a></li>
+                        <li><a target="_blank" href="http://www.facebook.com/GobSantaFe"><i class="icon-footerfacebook"></i></a></li>
+                        <li><a target="_blank" href="http://gplus.to/GobSantaFe"><i class="icon-footerg"></i></a></li>
+                        <li><a target="_blank" href="http://gobsantafe.tumblr.com/"><i class="icon-footertumblr"></i></a></li>
+                        <li><a target="_blank" href="http://www.youtube.com/GobSantaFe"><i class="icon-footeryoutube"></i></a></li>
+                        <li><a target="_blank" href="http://instagram.com/gobsantafe"><i class="icon-footerinstagram"></i></a></li>
+                        <li><a target="_blank" href="https://es.foursquare.com/gobsantafe"><i class="icon-footerfoursquare"></i></a></li>
+                        <li><a target="_blank" href="https://storify.com/GobSantaFe"><i class="icon-footerstorify"></i></a></li>
+                        <li><a target="_blank" href="http://www.linkedin.com/company/gobierno-de-la-provincia-de-santa-fe"><i class="icon-footerlinkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <p><b>GOBIERNO DE SANTA FE</b></p>
+                    <p>3 de Febrero 2649 (S3000DEE) Santa Fe <br>
+                        Teléfono + 54 342 4506600 / 4506700 / 4506800</p>
+                    <p>© Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>             
+
+        <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-13285624-1");
+                pageTracker._setDomainName(".santafe.gob.ar");
+                pageTracker._trackPageview();
+            } catch (err) {
+            }
+        </script>
+    </body>
+</html>

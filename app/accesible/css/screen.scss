@@ -1,0 +1,629 @@
+// (*) imports required
+
+// Import base*
+@import "_base";
+
+// Import variables*
+@import "_variables";
+
+// Import reset* (http://html5doctor.com/html-5-reset-stylesheet) 
+@import "_reset";
+
+// Import google fonts (http://fonts.google.com)
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,400i,700,700i');
+
+// Import icons
+@import "fonts/icons/icons";
+
+html,body{overflow-x:hidden !important}
+
+body {
+    background-color: $c-white;
+    font-family: $f-text;
+    color: $c-black;
+    &.contraste-1 {
+        background-color: $c-black;
+        color: $c-white;
+        a {
+            color: $c-white;
+        }
+        .btn-contraste-1 {
+            color: $c-blue;
+            background-color: $c-white;
+        }
+        .btn-contraste-2 {
+            color: $c-yellow;
+            background-color: $c-black;
+        }
+        article {
+            span {
+                color: $c-white !important;
+            }
+            &.last {
+                &:after {
+                    background-color: $c-white !important;
+                }
+            }
+        }
+        .box {
+            border: 2px solid $c-white !important;
+        }
+        form {
+            input, 
+            textarea,
+            select {
+                background-color: $c-black !important;
+                color: $c-white !important;
+                border: 2px solid $c-white !important;
+            }
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              color: $c-white;
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+              color: $c-white;
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+              color: $c-white;
+            }
+            :-moz-placeholder { /* Firefox 18- */
+              color: $c-white;
+            }
+            i {
+                color: $c-white;
+            }
+            .submit {
+                background-color: $c-black !important;
+                border: 2px solid $c-white !important;
+            }
+        }
+    }
+    &.contraste-2 {
+        background-color: $c-black;
+        color: $c-yellow;
+        a {
+            color: $c-yellow;
+        }
+        .btn-contraste-1 {
+            color: $c-white;
+            background-color: $c-black;
+        }
+        .btn-contraste-2 {
+            color: $c-blue;
+            background-color: $c-white;
+        }
+        article {
+            span {
+                color: $c-yellow !important;
+            }
+            &.last {
+                &:after {
+                    background-color: $c-yellow !important;
+                }
+            }
+        }
+        .box {
+            border: 2px solid $c-yellow;
+        }
+        form {
+            input, 
+            textarea,
+            select {
+                background-color: $c-black !important;
+                color: $c-yellow !important; 
+                border: 2px solid $c-yellow !important; 
+            }
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+              color: $c-yellow;
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+              color: $c-yellow;
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+              color: $c-yellow;
+            }
+            :-moz-placeholder { /* Firefox 18- */
+              color: $c-yellow;
+            }
+            i {
+                color: $c-yellow;
+            }
+            .submit {
+                background-color: $c-black !important;
+                border: 2px solid $c-yellow !important;
+            }
+        }
+    }
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    vertical-align: middle;
+}
+
+// Genericas
+.container {
+    @include clearfix;
+    @include container();
+    padding-left: 8px;
+    padding-right: 8px;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        @include container();
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @include susy-breakpoint($breakpoint-md, $container-md) {
+        @include container();
+    }
+    @include susy-breakpoint($breakpoint-lg, $container-lg) {
+        @include container();
+    }
+}
+.clearfix {
+    @include clearfix;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    text-align: center;
+}
+.small-container {
+    @include susy-breakpoint($breakpoint-md, $container-md) {
+        @include span(8 of 12);
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+a {
+    color: $c-blue;
+    line-height: 150%;
+    text-decoration: underline;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        line-height: 140%;
+    }
+}
+
+// Cajas
+.box {
+    display: inline-block;
+    border: 2px solid $c-black;
+    &.options {
+        font-family: $f-text-alt;
+        font-weight: 700;
+        font-size: 36px !important;
+        text-align: center;
+        float: left;
+        width: 50px;
+        height: 58px;
+        text-decoration: none;
+        margin-top: 15px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-top: 30px;
+        }
+    }
+    a {
+        font-size: 16px;
+    }
+    &.btn-size {
+        color: $c-black;
+        background-color: $c-white;
+        margin-right: 5px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-right: 10px;
+        }
+    }
+    &.btn-contraste-1 {
+        color: $c-white;
+        background-color: $c-black;
+        margin-left: 5px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-left: 10px;
+        }
+    }
+    &.btn-contraste-2 {
+        color: $c-yellow;
+        background-color: $c-black;
+        margin-left: 5px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-left: 10px;
+        }
+    }
+}
+
+// Header
+.site-header {
+    @include clearfix;
+    margin-bottom: 30px;
+    position: relative;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin-bottom: 50px;
+    }
+    &:before {
+        display: block;
+        content: '';
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-image: url(../images/gradient-sf.png);
+        background-position: 0 0;
+        height: 4px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            height: 9px;
+        }
+    }
+    img {
+        height: 80px;
+        -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2);
+        position: relative;
+        z-index: 5;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            height: inherit;
+        }
+    }
+    .buttons {
+        float: right;
+    }
+}
+
+#menu {
+    @include clearfix;
+    .box {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 30px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            @include span(4 of 12);
+            padding: 30px 35px 20px 40px;
+            min-height: 600px;
+        }
+        &.last {
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                @include span(4 of 12 last);
+            }
+        }
+    }
+    h5 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    li {    
+        margin-bottom: 15px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-bottom: 20px;
+        }
+    }
+    article {
+        margin-bottom: 15px;
+        > h3 {
+            font-weight: 400;
+        }
+        > span {
+            display: block;
+            color: $c-grey;
+            font-size: 13px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        &.last {
+            margin-bottom: 0;
+            padding-bottom: 30px;
+            position: relative;
+            &:after {
+                display: block;
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: black;
+                width: 100%;
+                height: 2px;        
+            }
+        }
+    }
+    .ver-mas {
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            margin-top: 35px;
+        }
+    }
+}
+
+#gobierno {
+    > ul {
+        li {
+            margin-bottom: 18px;
+            a {
+                line-height: 100%;
+            }
+        }
+    }
+}
+
+#responde {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    text-align: center;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin: 60px 0;
+    }
+    h4 {
+        > a {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    strong {
+        font-weight: 700;
+    }
+}
+
+#tramites {
+    margin-bottom: 50px;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin-bottom: 100px;
+    }
+    form {
+        position: relative;
+        margin-bottom: 45px;
+        .box {
+            width: 100%;
+            padding: 20px 55px 20px 10px;
+            font-style: italic;
+            font-size: 15px;
+            color: $c-black;
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                padding: 25px 70px 25px 30px;
+            }
+        }
+        .submit {
+            position: absolute;
+            top: 8px;
+            right: 18px;
+            padding: 14px;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                padding: 20px;
+            }
+        }
+        i {
+            position: absolute;
+            font-size: 27px;
+            top: 14px;
+            right: 20px;
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            font-size: 36px;
+            }
+        }
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    li {
+        margin-bottom: 20px;
+    }
+}
+
+.page-content {
+    @include clearfix;
+    margin-bottom: 20px;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin-bottom: 70px;
+    }
+    p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 25px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            font-size: 36px;
+            line-height: 46px;
+            margin-bottom: 50px;
+        }
+    }
+    ul {
+        width: 100%;
+        float: left;
+        margin-bottom: 25px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            width: 50%;
+        }
+        &.info-top {
+            float: inherit;
+        }
+        .number {
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                pointer-events: none;
+            }
+        }
+    }
+    span {
+        font-size: 20px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            font-size: 24px;
+        }            
+    }
+    a {
+        font-size: 25px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            font-size: 36px;
+        }
+    }
+}
+
+.formulario {
+    margin-bottom: 30px;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin-bottom: 70px;
+    }
+    > h5 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+    }
+    > p {
+        font-size: 18px;
+        line-height: 24px;        
+        margin-bottom: 25px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            line-height: inherit;
+            margin-bottom: 40px;
+        }
+    }
+    &.box {
+        width: 100%;
+        padding: 20px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            padding: 40px;
+        }
+    }
+    ul {
+        li {
+            @include clearfix;
+            margin-bottom: 20px;
+            label {
+                display: block;
+                font-size: 18px;
+                margin-bottom: 15px;
+                @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                    @include span(3 of 12);
+                    padding-top: 14px;
+                    margin-bottom: inherit;
+                }
+            }
+            input, 
+            textarea,
+            select {
+                border: 2px solid $c-black;
+                padding: 15px;
+                width: 100%;
+                font-family: $f-text;
+                background-color: white;
+                font-size: 14px;
+                line-height: 23px;
+                @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                    @include span(5 of 12 last);
+                    width: 460px;
+                    font-size: 19px;
+                }
+            }
+            &:nth-child(9) {
+                textarea {
+                    resize: vertical;
+                    height: 250px;
+                }
+            }
+            .submit {
+                width: 100%;
+                color: $c-white;
+                font-weight: bold;
+                font-size: 18px;
+                border: none;
+                background-color: $c-submit;
+                cursor: pointer;
+                @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                    width: 220px;
+                }
+            }
+        }
+    }
+}
+
+
+// Footer
+.site-footer {
+    background-color: $c-white;
+    position: relative;
+    padding: 15px 0 15px 0;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: $c-g-footer;
+    border-top: 1px solid silver;
+    z-index: 2;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        padding: 20px 0 30px 0;
+    }        
+    &:before {
+        @include background-image(linear-gradient(top, rgba(0,0,0,0.14) 0%,rgba(0,0,0,0) 100%));
+        background-color: transparent;
+        display: block;
+        content: '';
+        height: 190px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            height: 150px;
+        }
+    }
+    .footer-social {
+        margin-bottom: 10px;
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            @include span(8 of 12);
+            margin-bottom: inherent;
+        }
+        p {
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            a {
+                font-size: 13px;
+            }
+        }
+        ul {
+            overflow: hidden;
+            li {
+                margin-top: 4px;
+                margin-right: 11px;
+                float: left;
+                a {
+                    opacity: .5;
+                    font-size: 20px;
+                }
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $c-g-footer;
+        }
+    }
+    .footer-datos {
+        @include susy-breakpoint($breakpoint-sm, $container-sm) {
+            @include span(4 of 12 last);
+        }
+        .logo-footer {
+            display: block;
+            width: 110px;
+            height: 42px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-bottom: 10px;
+            background-image: url(../images/logo-footer.png);
+        }
+        p {
+            margin-bottom: 0px;
+        }
+    }
+}

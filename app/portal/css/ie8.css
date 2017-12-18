@@ -1,0 +1,113 @@
+/* HOJA DE ESTILO PARA INTERNET EXPLORER 8 */
+.search-form #q {
+	background-image: url(img/ie8/bg-search-form.png);
+}
+.footer {
+	border-top: 1px solid #c0c0c0;
+}
+.dropdown-arrow {
+	display: none;
+}
+.open .dropdown-arrow {
+	display: block;
+}
+
+#slider .item .info {
+	background: url(img/ie8/bg-transparent.png);
+	width: 100%;
+	display: block;
+}
+.hover-item .info {
+	background: url(img/ie8/bg-transparent.png);
+}
+.hover-item.no-image .info {
+	background: #706363;
+}
+.ui-p-1 {
+	color: #c4c4c4;
+}
+.item-2 a {
+	border: 5px solid #7bbbab;
+}
+.item-3 a {
+	border: 5px solid #e04d4c;
+}
+.item-7 a {
+	border: 5px solid #3696a2;
+}
+.item-8 a {
+	border: 5px solid #549fd6;
+}
+.item-9 a {
+	background-color: #0a3b89;
+	border: 5px solid rgba(255, 255, 255, 0.1);
+}
+.item-11 a {
+	background-color: #edc338;
+	border: 5px solid rgba(255, 255, 255, 0.1);
+}
+.agenda-item {
+	min-height: 67px;
+}
+.dropdowns .dropdown-menu>li>a:hover, .dropdowns .dropdown-menu>li>a:focus {
+	filter: none;
+}
+.navbar-sf .navbar-nav li li a:hover {
+	filter: none;
+}
+
+/* PORTAL - N1 */
+body .box-0 .col-md-2 {
+	width: 13% !important;
+}
+body .box-0 .santafe-avanza {
+	width: 45% !important;
+}
+
+body { 
+        background-image: none !important;
+}
+
+/* PORTAL - N5 */
+.load-more a {
+	min-height: inherit;
+}
+
+/* IDIOMA - N1 */
+.ui-bg-6 {
+	filter: none;
+}
+.item-10 a {
+	background-position: 0 0;
+}
+
+/* PERSONAS */
+.box-personas .box-persona {
+	width: 145px;
+	padding: 8px;
+}
+.perfil-desaparecido {
+	padding: 20px 20px 25px 20px;
+}
+
+/* EVENTOS */
+.datapicker table tr td.active.active {
+	background-color: transparent !important;
+}
+.event.sidebar  .mod-documents dd,
+.event.sidebar  .mod-documents dt {
+	display: block !important;
+}
+.n3.contents .sidebar,
+.slider-agenda.event,
+.slider-agenda {
+	margin-top: 20px;
+}
+
+/* SF RESPONDE */
+.contact-form input[type="radio"] + label span{
+   	background: transparent;
+}
+.contact-form.mensaje-enviado {
+	padding: 90px 0 90px 0;
+}

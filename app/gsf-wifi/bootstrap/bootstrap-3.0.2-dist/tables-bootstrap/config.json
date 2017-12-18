@@ -1,0 +1,9 @@
+{
+  "vars": {},
+  "css": [
+    "tables.less",
+    "pagination.less",
+    "responsive-utilities.less"
+  ],
+  "js": []
+}

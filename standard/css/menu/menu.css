@@ -1,0 +1,372 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 20/11/2014, 13:35:26
+    Author     : laguilar
+*/
+
+
+#cssmenu {
+    background: none repeat scroll 0 0 #817373;
+    display: block;
+    /*font-family: "PT Sans",sans-serif;*/
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+    text-transform: uppercase;
+}
+#cssmenu ul {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul:after, #cssmenu:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+#cssmenu ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#cssmenu ul li a {
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    text-decoration: none;
+    transition: color 0.2s ease 0s;
+}
+#cssmenu ul li ul {
+    left: -9999px;
+    position: absolute;
+    top: auto;
+}
+#cssmenu ul li ul li {
+    background: none repeat scroll 0 0 #817373;
+    max-height: 0;
+    position: absolute;
+    transition: max-height 0.4s ease-out 0s;
+	z-index:100;
+}
+#cssmenu ul li ul li.has-sub:after {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 5px;
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    width: 10px;
+    z-index: 1;
+}
+#cssmenu.align-right ul li ul li.has-sub:after {
+    left: 15px;
+    right: auto;
+}
+#cssmenu ul li ul li.has-sub:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #ffffff;
+    border-image: none;
+    border-style: solid;
+    border-width: 3px;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 0;
+    z-index: 2;
+}
+#cssmenu.align-right ul li ul li.has-sub:before {
+    border-left-color: transparent;
+    border-right-color: #ffffff;
+    left: 15px;
+    right: auto;
+}
+#cssmenu ul li ul li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 11px 10px 11px 20px;
+    text-transform: none;
+    width: 170px;
+}
+
+#cssmenu ul li ul li a:hover {
+        color: #FFFFFF;
+        background-color: #108A97;
+        transition: background-color 0.25s ease 0s;
+        border-radius: 4px;
+}
+
+#cssmenu ul li ul li:hover > a, #cssmenu ul li ul li.active > a {
+
+}
+
+#cssmenu ul li ul li:hover:after, #cssmenu ul li ul li.active:after {
+    background: none repeat scroll 0 0 #108A97;
+}
+#cssmenu ul li ul li:hover > ul {
+    left: 100%;
+    top: 0;
+}
+#cssmenu ul li ul li:hover > ul > li {
+    max-height: 72px;
+    position: relative;
+}
+#cssmenu > ul > li {
+    float: left;
+}
+#cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none;
+}
+#cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center;
+}
+#cssmenu.align-center ul ul {
+    text-align: left;
+}
+#cssmenu.align-right > ul {
+    float: right;
+}
+#cssmenu.align-right > ul > li:hover > ul {
+    left: auto;
+    right: 0;
+}
+#cssmenu.align-right ul ul li:hover > ul {
+    left: auto;
+    right: 100%;
+}
+#cssmenu.align-right ul ul li a {
+    text-align: right;
+}
+#cssmenu > ul > li:after {
+    background: none repeat scroll 0 0 #108A97;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    transition: height 0.2s ease 0s;
+    width: 100%;
+    z-index: 0;
+}
+#cssmenu > ul > li.has-sub > a {
+    padding-right: 40px;
+}
+#cssmenu > ul > li.has-sub > a:after {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 13px;
+    content: "";
+    display: block;
+    height: 12px;
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    width: 12px;
+}
+#cssmenu > ul > li.has-sub > a:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #108A97 transparent transparent;
+    border-image: none;
+    border-right: 4px solid transparent;
+    border-style: solid;
+    border-width: 4px;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 16px;
+    top: 21px;
+    width: 0;
+    z-index: 2;
+}
+#cssmenu > ul > li > a {
+    color: #ffffff;
+    font-size: 14px;
+    /*font-weight: 700;*/    
+    padding: 15px 20px;
+    position: relative;
+    /*text-transform: uppercase;*/
+    z-index: 2;
+}
+#cssmenu > ul > li:hover:after, #cssmenu > ul > li.active:after {
+    height: 100%;
+}
+#cssmenu > ul > li:hover > a, #cssmenu > ul > li.active > a {
+    /*color: #000000;*/
+}
+#cssmenu > ul > li:hover > a:after, #cssmenu > ul > li.active > a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#cssmenu > ul > li:hover > a:before, #cssmenu > ul > li.active > a:before {
+    border-top-color: #108A97;
+}
+#cssmenu > ul > li:hover > ul {
+    left: 0;
+}
+#cssmenu > ul > li:hover > ul > li {
+    max-height: 72px;
+    position: relative;
+}
+#cssmenu #menu-button {
+    display: none;
+}
+#cssmenu > ul > li > a {
+    display: block;
+}
+#cssmenu > ul > li {
+    width: auto;
+}
+#cssmenu > ul > li > ul {
+    display: block;
+    width: 170px;
+}
+#cssmenu > ul > li > ul > li {
+    display: block;
+    width: 170px;
+}
+@media all and (max-width: 800px), not all, only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    #cssmenu > ul {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease-out 0s;
+    }
+    #cssmenu > ul > li > ul {
+        display: block;
+        width: 100%;
+    }
+    #cssmenu.align-right ul li a {
+        text-align: left;
+    }
+    #cssmenu > ul > li > ul > li {
+        display: block;
+        width: 100%;
+    }
+    #cssmenu.align-right ul ul li a {
+        text-align: left;
+    }
+    #cssmenu > ul > li > ul > li > a {
+        display: block;
+        width: 100%;
+    }
+    #cssmenu ul li ul li a {
+        width: 100%;
+    }
+    #cssmenu.align-center > ul {
+        text-align: left;
+    }
+    #cssmenu.align-center > ul > li {
+        display: block;
+    }
+    #cssmenu > ul.open {
+        border-top: 1px solid rgba(110, 110, 110, 0.25);
+        max-height: 1000px;
+    }
+    #cssmenu ul {
+        width: 100%;
+    }
+    #cssmenu ul > li {
+        float: none;
+        width: 100%;
+    }
+    #cssmenu ul li a {
+        box-sizing: border-box;
+        padding: 12px 20px;
+        width: 100%;
+    }
+    #cssmenu ul > li:after {
+        display: none;
+    }
+    #cssmenu ul li.has-sub > a:after, #cssmenu ul li.has-sub > a:before, #cssmenu ul li ul li.has-sub:after, #cssmenu ul li ul li.has-sub:before {
+        display: none;
+    }
+    #cssmenu ul li ul, #cssmenu ul li ul li ul, #cssmenu ul li ul li:hover > ul, #cssmenu.align-right ul li ul, #cssmenu.align-right ul li ul li ul, #cssmenu.align-right ul li ul li:hover > ul {
+        left: 0;
+        position: relative;
+        right: auto;
+    }
+    #cssmenu ul li ul li, #cssmenu ul li:hover > ul > li {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+        max-height: 999px;
+        position: relative;
+    }
+    #cssmenu ul li ul li a {
+        color: #ffffff;
+        padding: 8px 20px 8px 35px;
+    }
+    #cssmenu ul li ul ul li a {
+        padding: 8px 20px 8px 50px;
+    }
+    #cssmenu ul li ul li:hover > a {
+        color: #FFFFFF;
+    }
+
+
+    #cssmenu ul li ul li a:hover  {
+        color: #FFFFFF;
+        background-color: #108A97;
+        transition: background-color 0.25s ease 0s;
+        border-radius: 4px;
+    }
+
+
+
+
+    #cssmenu #menu-button {
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding: 15px 20px;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    #cssmenu #menu-button:after {
+        border-bottom: 2px solid #ffffff;
+        border-top: 2px solid #ffffff;
+        content: "";
+        display: block;
+        height: 3px;
+        position: absolute;
+        right: 20px;
+        top: 16px;
+        width: 22px;
+    }
+    #cssmenu #menu-button:before {
+        border-top: 2px solid #ffffff;
+        content: "";
+        display: block;
+        height: 3px;
+        position: absolute;
+        right: 20px;
+        top: 26px;
+        width: 22px;
+    }
+}

@@ -1,0 +1,165 @@
+.placeholderCustom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden
+}
+
+.placeholderCustom img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s linear
+}
+
+.placeholderCustom img.loaded {
+    opacity: 1
+}
+
+.img-small {
+    filter: blur(50px);
+    transform: scale(1)
+}
+
+.btn-tab-active {
+    background-color: #fff;
+    color: #383838
+}
+
+.btn-tab-active:hover {
+    background-color: #383838;
+    color: #fff;
+    cursor: pointer
+}
+
+.loading {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background-image: url(loading.gif);
+    vertical-align: text-bottom
+}
+
+#autocomplete.ui-autocomplete-loading~.loading {
+    display: inline-block
+}
+
+.ui-autocomplete .m-name {
+    margin-right: 1em;
+    font-size: larger
+}
+
+.ui-autocomplete .m-year {
+    float: right;
+    font-size: larger
+}
+
+.ui-autocomplete .m-cast,
+.ui-autocomplete .rt-main {
+    display: block;
+    font-size: smaller
+}
+
+.ui-autocomplete .rt-main {
+    margin-left: 1em
+}
+
+.ui-autocomplete .rt-bar,
+.ui-autocomplete .rt-ico,
+.ui-autocomplete .rt-val {
+    display: inline-block;
+    margin-right: .5em
+}
+
+.ui-autocomplete .rt-ico {
+    width: 16px;
+    height: 16px;
+    background-image: url(rt-icons.png);
+    vertical-align: bottom
+}
+
+.ui-autocomplete .rt-ico.fresh {
+    background-position: 0 0
+}
+
+.ui-autocomplete .rt-ico.rotten {
+    background-position: -16px 0
+}
+
+.ui-autocomplete .rt-ico.certified_fresh {
+    background-position: -32px 0
+}
+
+.ui-autocomplete .rt-bar {
+    width: 10em;
+    height: 1em;
+    background-color: #ece4b5
+}
+
+.ui-autocomplete .rt-bar span {
+    display: block;
+    height: 1em
+}
+
+.ui-autocomplete .rt-bar.certified_fresh span,
+.ui-autocomplete .rt-bar.fresh span {
+    background-color: #c91b22
+}
+
+.ui-autocomplete .rt-bar.rotten span {
+    background-color: #94b13c
+}
+
+.item-tramite-autocomplete {
+    color: #12b5c8;
+    display: inline-block;
+    /*font-weight: 600;*/
+    margin: 0 4px 7px 0;
+    padding: 6px 9px;
+    position: relative;
+    top: -4px;
+    transition: all .3s ease 0s
+}
+
+.ui-menu-item:hover,.item-tramite-autocomplete:hover,
+.ui-menu-item-wrapper a:hover {
+    background-color: none!important;
+    transition: all .3s ease 0s;
+    color: #454545 !important
+}
+
+.ui-menu {
+    background-color: #fff;
+    display: block;
+    list-style: none;
+    margin: 0;
+    outline: 0;
+    padding: 0
+}
+
+.ui-autocomplete {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000!important;
+    max-width: 796px !important;
+}
+
+
+.ui-state-hover {
+    background: #428BCA !important;
+    color: black !important;
+}
+
+.transmision-vivo-hide {
+    display: none
+}
+
+@media only screen and (max-width:640px) {
+    .ui-autocomplete {
+        max-height: 250px;
+        width: 90%;
+        overflow-y: auto;
+        overflow-x: auto;
+        z-index: 1000!important;
+        font-size: small
+    }
+}

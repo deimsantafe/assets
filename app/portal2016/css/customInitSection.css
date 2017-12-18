@@ -1,0 +1,179 @@
+.placeholderCustom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+.placeholderCustom img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.placeholderCustom img.loaded {
+    opacity: 1;
+}
+
+.img-small {
+    filter: blur(50px);
+    /* this is needed so Safari keeps sharp edges */
+    transform: scale(1);
+}
+
+
+/**
+*   fix de estilos para prototipo para buscador
+*/
+
+.btn-tab-active {
+    background-color: white;
+    color: #383838;
+}
+
+.btn-tab-active:hover {
+    background-color: #383838;
+    color: white;
+    cursor: pointer;
+}
+
+.loading {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background-image: url(loading.gif);
+    vertical-align: text-bottom;
+}
+
+
+/* autocomplete adds the ui-autocomplete-loading class to the textbox when it is _busy_, use general sibling combinator ingeniously */
+
+#autocomplete.ui-autocomplete-loading ~ .loading {
+    display: inline-block;
+}
+
+.ui-autocomplete .m-name {
+    margin-right: 1em;
+    font-size: larger;
+}
+
+.ui-autocomplete .m-year {
+    float: right;
+    font-size: larger;
+}
+
+.ui-autocomplete .m-cast {
+    display: block;
+    font-size: smaller;
+}
+
+
+/* Rotten Tomatoes Branding */
+
+.ui-autocomplete .rt-main {
+    display: block;
+    margin-left: 1em;
+    font-size: smaller;
+}
+
+.ui-autocomplete .rt-ico {
+    display: inline-block;
+    margin-right: .5em;
+    width: 16px;
+    height: 16px;
+    background-image: url(rt-icons.png);
+    vertical-align: bottom;
+}
+
+.ui-autocomplete .rt-ico.fresh {
+    background-position: 0 0;
+}
+
+.ui-autocomplete .rt-ico.rotten {
+    background-position: -16px 0;
+}
+
+.ui-autocomplete .rt-ico.certified_fresh {
+    background-position: -32px 0;
+}
+
+.ui-autocomplete .rt-val {
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.ui-autocomplete .rt-bar {
+    display: inline-block;
+    margin-right: .5em;
+    width: 10em;
+    height: 1em;
+    background-color: #ECE4B5;
+}
+
+.ui-autocomplete .rt-bar span {
+    display: block;
+    height: 1em;
+}
+
+.ui-autocomplete .rt-bar.fresh span,
+.ui-autocomplete .rt-bar.certified_fresh span {
+    background-color: #C91B22;
+}
+
+.ui-autocomplete .rt-bar.rotten span {
+    background-color: #94B13C;
+}
+
+.item-tramite-autocomplete {
+    /*background-color: #fff;
+    border-radius: 5px;*/
+    color: #12b5c8;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 4px 7px 0;
+    padding: 6px 9px;
+    position: relative;
+    top: -4px;
+    transition: all 0.3s ease 0s;
+}
+
+.item-tramite-autocomplete:hover {
+    background-color: none !important;
+    transition: all 0.3s ease 0s;
+    color: #454545;
+}
+
+.ui-menu-item-wrapper a:hover {
+    background-color: none !important;
+    transition: all 0.3s ease 0s;
+    color: #454545;
+}
+
+.ui-menu {
+    background-color: white;
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+.ui-autocomplete {
+    max-height: 600px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    z-index: 1000 !important;
+}
+
+@media only screen and (max-width:640px) {
+    .ui-autocomplete {
+        max-height: 250px;
+        width: 90%;
+        overflow-y: auto;
+        overflow-x: auto;
+        z-index: 1000!important;
+        font-size: small
+    }
+}

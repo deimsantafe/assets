@@ -1,0 +1,275 @@
+.apps-content {
+    background:#e3e4e5;
+    padding:10px;
+    margin:28px 0 0 0 !important;
+}
+
+.box-app {
+    background:#bebebe;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:0 0 2% 0;
+}
+
+.box-app img {
+    max-width:140px;
+    float:left;
+    margin-right:10px;
+}
+
+.box-app dl dt {
+    font-size:1.125em;
+    font-weight:700;
+    color:#e30d1a;
+    line-height:normal;
+    padding:0;
+    margin:0;
+}
+
+.box-app dl dt a:hover {
+    color:#666 !important;
+}
+
+.box-app dl dd {
+    font-size:1em;
+    font-weight:400;
+    color:#5b5b5f;
+    line-height:normal;
+    padding:2px 0;
+    margin:0;
+}
+
+.box-app dl dd span {
+    font-style:italic;
+    color:#FFF;
+}
+
+/*-----*/
+
+.btn-vermas {
+    background:#EEE;
+    font-size:1em;
+    font-weight:400;
+    color:#CCC;
+    text-align:center;
+    display:block;
+    cursor:pointer;
+    padding:5px 0;
+    margin:0;
+}
+
+
+/*---- SIDEBAR ---*/
+
+.apps-sidebar h3 {
+    background:#454545;
+    font-size:1em;
+    font-weight:700;
+    color:#e3e4e5;
+    display:block;
+    padding:5px 15px;
+    margin:0;
+}
+
+.apps-sidebar form {
+    background:#c6c7ca;
+    padding:10px;
+    margin:0 0 20px 0;
+}
+
+.apps-sidebar form input {
+    width:90%;
+    height:30px;
+    background:#e3e4e5;
+    border:none;
+    font-size:0.875em;
+    font-weight:400;
+    color:#828282;
+    float:left;
+    padding:2px;
+    margin:0;
+}
+
+.apps-search-btn {
+    width:30px !important;
+    height:30px !important;
+    background:url(../imgs/apps/search-btn.jpg) no-repeat left top !important;
+    padding:0 !important;
+    margin:0;
+}
+
+.apps-sidebar ul {
+    background:#c6c7ca;
+    padding:10px;
+    list-style:none;
+}
+
+.apps-sidebar ul li {
+    background:#e3e4e5;
+    font-size:1em;
+    font-weight:400;
+    color:#828282;
+    margin:2px 0;
+}
+
+.apps-sidebar ul li a {
+    color:#828282;
+    display:block;
+    padding:5px 10px;
+}
+
+.apps-sidebar ul li a:hover {
+    background:#e30d1a;
+    color:#FFF;
+}
+
+
+/*---- FOOTER LINKS ----*/
+
+.apps-bg-footer-links {
+    background:#7f797c;
+}
+
+.caret-app {
+    border-top: 6px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin-right: 10px;
+}
+
+.caret-app {
+    position: absolute;
+    right: 90px;
+    top: 22px;
+}
+
+.app-h4-2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+.app-h4-2 .caret-app {
+    margin-left: 10px;
+    margin-right: 0;
+    color: #FFF;
+}
+
+.app-h4-2 span{
+    font-weight:400;
+}
+
+.app-h5-1{
+    color: #e9e9e9;
+    margin: 3px 0;
+}
+
+.app-list-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.app-list-2 li {
+    list-style: none;
+    font-size: 0.875em;
+}
+
+.app-list-2 li a:hover {
+    text-decoration: underline;
+}
+
+.app-list-2 li a{
+    color: #c7bcbc;
+}
+
+
+/*---- BOX APP DETAILS ----*/
+
+.box-app-details {
+    font-family: 'Asap';
+    color: #5b5b5f;
+    font-size: 13px;
+}
+
+.box-app-details ul {
+    list-style:disc;
+}
+
+.box-app-details p, .box-app-details ul li {
+    font-family: 'Asap';
+    color: #5b5b5f;
+    font-size: 13px;
+
+}
+
+.ui-h3-1{
+    margin-top: 10px;
+}
+
+.box-app-details h3 {
+    font-size:1em;
+    margin:0;
+}
+
+.box-app-details h3 a {
+    background:#c6c7ca;
+    font-size:1em;
+    font-weight:700;
+    color:#FFF;
+    display:block;
+    padding:5px;
+    margin:0 0 5px 0;
+}
+
+.box-app-details h3 a:hover {
+    background:#666;
+}
+
+.box-app-details h4 {
+    background:#efefef;
+    font-size:1em;
+    font-weight:400;
+    font-style:italic;
+    color:#909095;
+    padding:5px;
+    margin:0 0 5px 0;
+}
+
+.box-app-details img {
+    width:100%;
+    margin:0;
+}
+
+.os-app-details {
+    margin-bottom:5px;
+}
+
+
+.os-app-details img {
+    width:31px;
+    height:31px;
+    float:left;
+    padding:0;
+    margin:0 2px;
+}
+
+
+
+
+
+@media handheld, only screen and (max-width: 767px) {
+
+    .box-app img {
+        max-width: 100%;
+        float:none;
+        margin-bottom:20px;
+    }
+
+    .caret-app {
+        right: 60px;
+        border-width: 5px 5px 0;
+        border-bottom-width: 0;
+    }
+}

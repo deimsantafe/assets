@@ -1,0 +1,90 @@
+.onecol {
+    width: 4.7%;
+}
+
+.twocol {
+    width: 13.2%;
+}
+
+.threecol {
+    width: 22.05%;
+}
+
+.fourcol {
+    width: 30.6%;
+}
+
+.fivecol {
+    width: 39%;
+}
+
+.sixcol {
+    width: 48%;
+}
+
+.sevencol {
+    width: 56.75%;
+}
+
+.eightcol {
+    width: 61.6%;
+}
+
+.ninecol {
+    width: 74.05%;
+}
+
+.tencol {
+    width: 82%;
+}
+
+.elevencol {
+    width: 91.35%;
+}
+
+.head_aplicativo {
+    background: none;
+    border-bottom: 1px solid #CFCFCF;
+    height: 121px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header_menu {
+    background-color: #E6E6E6;
+    border-color: #D0D0D0;
+    border-style: solid;
+    border-width: 1px;
+    color: #CCCCCC;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+
+.tool-bars {
+    width: auto;
+    background-color: #CC0000;
+    padding: 0;
+    margin: 0;
+    height: 31px;
+}
+
+body {
+    background-color: #d8dbdd;
+    /*background-image: url("//www.santafe.gob.ar/assets/app/portal/css/img/bg.png") !important;*/
+    background-image: none !important;
+    background-position: 0 55px;
+    background-repeat: repeat-x;    
+
+}
+
+
+.pagination-ie > ul > li {                
+    margin-left: 5px;
+    width: 30px !important;            
+    float: left !important;
+    background: #CDCDCD;
+    text-align: center;
+    color: gray;
+}       

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aplicativo</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+
+        <link rel="icon" href="/assets/standard/images/favicon.ico">
+
+
+        <link rel="stylesheet"
+              href="/assets/standard/css/normalize.css"
+              type="text/css" />
+
+        <link rel="stylesheet"
+              href="/assets/standard/css/1140.css"
+              type="text/css" />
+
+        <link rel="stylesheet"
+              href="/assets/jquery-ui/jquery-ui-1.10.3/css/gobierno/jquery-ui-1.10.3.custom.css"
+              type="text/css" />
+        <link rel="stylesheet"
+              href="/assets/bootstrap/bootstrap-3.0.2-dist/tables-bootstrap/css/bootstrap.min.css"
+              type="text/css" />
+
+
+        <link rel="stylesheet"
+              href="/assets/standard/css/menu/menu.css"
+              type="text/css" />
+
+
+        <link rel="stylesheet"
+              href="/assets/standard/css/pagination/html5-pagination.css"
+              type="text/css" />
+
+
+        <link rel="stylesheet" href="/assets/standard/css/fonts.css" type="text/css" >
+
+
+        <link rel="stylesheet" href="/assets/standard/css/styles-1.0.2.css" type="text/css" >
+
+
+        <!-- 1140px Grid styles for IE -->
+        <!--[if lte IE 9]><link rel="stylesheet" href="/assets/standard/css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+        <!--[if gte IE 9]>
+                <style type="text/css">
+                        .gradient {
+                                filter: none;
+                        }
+                </style>
+                <![endif]-->
+    </head>
+
+    <body id="top">
+
+        <div role="navigation" class="navbar navbar-sf navbar-fixed-top">
+            <div class="container row-top">
+                <div class="navbar-header">
+                    <a href="//www.santafe.gob.ar/assets" class="navbar-brand"><img alt="Gobierno de Santa Fe" src="/assets/standard/images/gob-santafe.png"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row top-padding">
+
+
+
+                <div class="row">
+                    <div class="twelvecol">
+                        <div class="contents n5">
+                            <h2 class="titulo_aplicativo">Assets para maquetación</h2>
+                            <p class="organismo">Secretaría de tecnologías para la gestión. Ministerio de Gobierno y Reforma del Estado</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="margin-l-15">
+                        <p>
+                            Las siguientes pautas y recursos de diseño se aplican a la realización de los trámites, aplicaciones web y servicios interactivos que se publican en el dominio <a href="https://www.santafe.gob.ar" title="Portal de Gobierno de Santa Fe">www.santafe.gob.ar</a>, y deben emplearse tanto para la realización de nuevos trámites, aplicativos, como para la normalización de los ya existentes.
+                        </p>
+
+                        <h3>Procedimientos</h3>
+
+                        <p>
+
+                            1. Antes de dar inicio a un nuevo desarrollo de trámite en línea se debe comunicar a la Dirección Provincial de Desarrollo de Software de la Secretaría de Tecnologías para la Gestión al siguiente correo <a href="mailto:dpds@santafe.gob.ar?Subject=Consulta sobre Assets de Gobierno" title="Consultas sobre assets" target="_top">dpds@santafe.gob.ar</a>
+                        </p>
+
+                        <p>
+                            2. Los recursos y elementos gráficos y visuales (archivos css, js, imágenes, iconos, etc.) que se deben emplear para el desarrollo del trámite se encuentran publicados en este sitio.
+                        </p>
+
+                        <p>
+                            3. En la realización del trabajo, los elementos indicados anteriormente deben apuntarse - via url absoluta - al repositorio de assets indicados en este sitio.
+                        </p>
+                        <p>
+                            4. Una vez finalizado el desarrollo, y antes de su puesta en línea, debe comunicarse a la Dirección Provincial de Desarrollo de Software para la correspondiente validación del cumplimiento de los estándares. En esta instancia se definirá la url de publicación de la aplicación.
+                        </p>
+                        <p>
+                            5. Para poder ser incluido en el Subportal de Trámites del Sitio Oficial el responsable del desarrollo del trámite en línea deberá contactarse con el contenidista del organismo a fin de que pueda cumplirse con esta instancia y publique el trámite según la pauta establecida.
+
+                            Deberá darle todos los datos del trámite y la url de acceso al formulario online.
+
+                        </p>
+
+                        <p>
+                            La maqueta/plantilla publicada en este sitio muestra a modo de ejemplo cómo aplicar las correspondientes clases de estilos, y como maquetar el contenido html. Se recomienda utilizar Firefox con el complemento Firebug para la inspección de páginas web.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="row form detalles">
+                    <form>
+                        <h3>Plantilla para trámites y aplicativos web</h3>
+                        <div class="row">
+                            <div class="twelvecol table-responsive">
+
+                                <table cellspacing="0" cellpadding="0" border="0" class="table table-condensed table-hover table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5" scope="col">Plantillas html</th>
+                                        </tr>
+                                        <tr>
+                                            <th class="columns-dest">Descripción</th>
+                                            <th class="columns-dest"><a>Versión</a></th>
+                                            <th class="columns-dest">Responsive</th>
+                                            <th class="columns-dest">Compatibilidad</th>
+                                            <th class="columns-dest">Detalles</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+                                            <td><a href="index_1.0.2.html">Plantilla para trámites / aplicativos</a></td>
+                                            <td>Versión 1.0.2</td>
+                                            <td>SI</td>
+                                            <td>
+                                                <ul>
+                                                    <li>Google Chrome <span>version actualizada</span></li>
+                                                    <li>Mozilla Firefox <span>version actualizada</span></li>
+                                                    <li>Internet Explorer <span>> 8</span></li>
+                                                </ul>
+                                            </td>
+                                            <td><h3>Html5 con diseño adaptativo</h3>
+                                                <p>
+                                                <p>
+                                                    <b>Importante:</b> apuntar los archivos css, js, fuentes e imágenes, de manera absoluta al repositorio, por ejemplo:
+
+                                                    //www.santafe.gob.ar/assets/standard/css/styles-1.0.2.css
+
+                                                    (Ver la sección "head" de la plantilla, y los archivos js apuntados)
+
+                                                </p>
+
+                                                Basado en <a href="https://jqueryui.com">https://jqueryui.com</a>.
+                                                <br>
+                                                Soporte de tablas: <a href="http://getbootstrap.com/css/#tables">http://getbootstrap.com/css/#tables</a>
+                                                <br>
+                                                Grilla de filas y columnas basado en: <a href="http://www.santafe.gob.ar/assets/standard/css/1140.css">1140.css</a>
+                                                <br>
+                                                El uso de la imágen (Superior de la plantilla) es opcional y puede depender del aplicativo.
+
+                                                <h3>Para uso con Symfony</h3><br><p> Utilizar el bundle: <a href="https://app.santafe.gob.ar/archivist/"> stg/theme-bundle</a> y seleccionar la última rama estable (tag) stg/theme-bundle
+
+                                                    via <a href="https://getcomposer.org/" title="https://getcomposer.org/">Composer</a>.
+                                                </p>
+
+                                                <h3>Repositorio de imágenes de Gobierno</h3><br>
+                                                <p><a href="standard/images" title="Repositorio de imágenes publicadas" > Repositorio de imágenes publicadas</a>
+                                                </p>
+
+
+                                            </td>
+                                        </tr>
+
+
+                                        <!--tr>
+
+                                            <td><a href="index_1.0.1.html">Plantilla html para trámites / aplicativos</a></td>
+                                            <td>Versión 1.0.1</td>
+                                            <td>SI</td>
+                                            <td>
+                                                <ul>
+                                                    <li>Google Chrome <span>version actualizada</span></li>
+                                                    <li>Mozilla Firefox <span>version actualizada</span></li>
+                                                    <li>Internet Explorer <span>> 8</span></li>
+                                                </ul>
+                                            </td>
+                                            <td>Html5 con diseño adaptativo basado en <a href="https://jqueryui.com">https://jqueryui.com</a>.
+                                                <br>
+                                                Soporte de tablas: <a href="http://getbootstrap.com/css/#tables">http://getbootstrap.com/css/#tables</a>
+                                                <br>
+                                                Grilla de filas y columnas basado en: <a href="http://www.santafe.gob.ar/assets/standard/css/1140.css">1140.css</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="index_1.0.html">Plantilla html para trámites / aplicativos</a>
+                                            </td>
+                                            <td>Versión 1.0</td>
+                                            <td>SI</td>
+                                            <td>
+                                                <ul>
+                                                    <li>Google Chrome <span>version actualizada</span></li>
+                                                    <li>Mozilla Firefox <span>version actualizada</span></li>
+                                                    <li>Internet Explorer <span>> 8</span></li>
+                                                </ul>
+                                            </td>
+                                            <td>Html5 con diseño adaptativo basado en <a href="https://jqueryui.com">https://jqueryui.com</a>.
+                                                <br>
+                                                Soporte de tablas: <a href="http://getbootstrap.com/css/#tables">http://getbootstrap.com/css/#tables</a>
+                                                <br>
+                                                Grilla de filas y columnas basado en: <a href="http://www.santafe.gob.ar/assets/standard/css/1140.css">1140.css</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><a href="//www.santafe.gob.ar/repositorio/tramites/componentesBasicos.html">Plantilla con elementos de ejemplo html para trámites / aplicativos</a>
+                                                <br>
+                                                <a href="//www.santafe.gob.ar/repositorio/tramites/index.html">Plantilla html para trámites / aplicativos 800px</a>
+                                                <br>
+                                                <a href="//www.santafe.gob.ar/repositorio/tramites/index_1024.html">Plantilla html para trámites / aplicativos 1024px</a>
+
+                                            </td>
+                                            <td>Versión 0.9</td>
+                                            <td>NO</td>
+                                            <td>
+                                                <ul>
+                                                    <li>Google Chrome <span>version actualizada</span></li>
+                                                    <li>Mozilla Firefox <span>version actualizada</span></li>
+                                                    <li>Internet Explorer <span>> 8</span></li>
+                                                </ul>
+                                            </td>
+                                            <td>Versión para resoluciones de 800px</td>
+                                        </tr-->
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row form">
+
+                <h3>Incluir los siguientes recursos de manera remota</h3>
+
+                <div class="twelvecol table-responsive">
+                    <table  class="table table-condensed table-hover table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col" colspan="5">Url CSS <button class="js-textareacopybtn-all-css">Copiar todos los css</button></th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/normalize.css"  type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/1140.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/jquery-ui/jquery-ui-1.10.3/css/gobierno/jquery-ui-1.10.3.custom.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/bootstrap/bootstrap-3.0.2-dist/tables-bootstrap/css/bootstrap.min.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/menu/menu.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/pagination/html5-pagination.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/fonts.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">&lt;link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/styles-1.0.2.css" type="text/css" /&gt;</textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-css">
+                                     <!-- 1140px Grid styles for IE -->
+        <!--[if lte IE 9]><link rel="stylesheet" href="//www.santafe.gob.ar/assets/standard/css/ie.css" type="text/css" media="screen" /><![endif]-->
+        <!--[if gte IE 9]>
+                <style type="text/css">
+                        .gradient {
+                                filter: none;
+                        }
+                </style>
+                <![endif]-->
+                                    </textarea>
+                                    <button class="js-textareacopybtn-css">Copiar</button>
+                                </td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="twelvecol table-responsive">
+                    <table  class="table table-condensed table-hover table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col" colspan="5">Url Javascript <button class="js-textareacopybtn-all-js">Copiar todos los js</button></th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/jquery/jquery-1.11.1.min.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/jquery-ui/jquery-ui-1.10.3/js/jquery-ui.min.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/jquery-ui/jquery-ui-1.10.3/js/jquery.ui.datepicker-es.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/jquery/jquery.ui.touch-punch.min.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/standard/js/match-media.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js">&lt;script src="https://www.santafe.gob.ar/assets/standard/js/interface.js"&gt;&lt;/script&gt;</textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <textarea readonly="" contenteditable="false" cols="148"  class="snippet js-copytextarea-js"><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                                <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                                <!--[if lt IE 9]>
+                                <script src="//www.santafe.gob.ar/assets/standard/js/html5shiv.js"></script>
+                                <script src="//www.santafe.gob.ar/assets/standard/js/respond.min.js"></script>
+                                <![endif]--></textarea>
+                                    <button class="js-textareacopybtn-js">Copiar</button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+            <form>
+                <div class="row">
+                    <div class="twelvecol">
+                        <label>Resultado copia total:</label>
+                        <textarea id="todo"></textarea>
+                    </div>
+                </div>
+            </form>
+
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+
+
+            <!-- Nuevo footer -->
+            <div class="footer">
+                <div class="row-back-none">
+                    <div class="div_left" id="sociales" style="width: 40%">
+                        <p><a href="/index.php/web/content/view/full/117678">RSS / SUSCRIPCIÓN A NOTICIAS</a></p>
+                        <ul class="inline footer-ul">
+                            <li><a target="_blank" href="http://www.twitter.com/GobSantaFe"><i class="icon-footertwitter"></i></a></li>
+                            <li><a target="_blank" href="http://www.facebook.com/GobSantaFe"><i class="icon-footerfacebook"></i></a></li>
+                            <li><a target="_blank" href="http://gplus.to/GobSantaFe"><i class="icon-footerg"></i></a></li>
+                            <li><a target="_blank" href="http://gobsantafe.tumblr.com/"><i class="icon-footertumblr"></i></a></li>
+                            <li><a target="_blank" href="http://www.youtube.com/GobSantaFe"><i class="icon-footeryoutube"></i></a></li>
+                            <li><a target="_blank" href="http://instagram.com/gobsantafe"><i class="icon-footerinstagram"></i></a></li>
+                            <li><a target="_blank" href="https://es.foursquare.com/gobsantafe"><i class="icon-footerfoursquare"></i></a></li>
+                            <li><a target="_blank" href="https://storify.com/GobSantaFe"><i class="icon-footerstorify"></i></a></li>
+                            <li><a target="_blank" href="http://www.linkedin.com/company/gobierno-de-la-provincia-de-santa-fe"><i class="icon-footerlinkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="div_left" id="marca" style="width: 20%">
+                        <p><img style="padding-bottom:10px;" alt="Santa Fe" src="/assets/app/portal/imgs/marca-footer.png"></p>
+                        <p>Atención telefónica: 0800-777-0801 </p>
+                        <p>Lunes a viernes de 8 a 18 hs </p>
+                        <p><span class="cc">c</span> Atribución-CompartirIgual 2.5 Argentina</p>
+                    </div>
+                    <div class="stg-logos-contenedor">
+                        <div class="stg-logos">
+                            <a href="https://www.santafe.gob.ar/tecnologias" target="_blank"><span class="stg-logos-logo-tec-stg"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="/assets/jquery/jquery-1.11.1.min.js"></script>
+
+        <script
+        src="/assets/jquery-ui/jquery-ui-1.10.3/js/jquery-ui.min.js"></script>
+        <script
+        src="/assets/jquery-ui/jquery-ui-1.10.3/js/jquery.ui.datepicker-es.js"></script>
+
+
+        <script
+        src="/assets/jquery/jquery.ui.touch-punch.min.js"></script>
+
+        <script src="/assets/standard/js/match-media.js"></script>
+
+        <script src="/assets/standard/js/interface.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="/assets/standard/js/html5shiv.js"></script>
+          <script src="/assets/standard/js/respond.min.js"></script>
+        <![endif]-->
+
+
+        <script>
+
+
+
+            $(document).ready(function () {
+
+                //copiar de un css
+                $('.js-textareacopybtn-css').click(function (event) {
+
+                    var copyTextarea = $(this).prev();
+
+                    copyTextarea.select();
+
+                    try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                        console.log('Copying text command was ' + msg);
+                    } catch (err) {
+                        console.log('Oops, unable to copy');
+                    }
+                });
+
+                //copiar de un js
+                $('.js-textareacopybtn-js').click(function (event) {
+
+                    var copyTextarea = $(this).prev();
+
+                    copyTextarea.select();
+
+                    try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                        console.log('Copying text command was ' + msg);
+                    } catch (err) {
+                        console.log('Oops, unable to copy');
+                    }
+                });
+
+
+                //copiar todos los css
+                $('.js-textareacopybtn-all-css').click(function (event) {
+
+                    var copyTextarea = $('.js-copytextarea-css');
+
+                    var cadenas = '';
+
+                    $.each(copyTextarea, function (key, value) {
+
+                        //console.log($(this).select().text());
+
+                        cadenas = cadenas + '' +
+                                $(this).select().text();
+                    });
+
+                    console.log(cadenas);
+
+                    $('#todo').val('');
+
+                    $('#todo').val(cadenas);
+
+                    $('#todo').select();
+
+                    try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                        console.log('Copying text command was ' + msg);
+                    } catch (err) {
+                        console.log('Oops, unable to copy');
+                    }
+                });
+
+
+                //copiar todos los js
+                $('.js-textareacopybtn-all-js').click(function (event) {
+
+                    var copyTextarea = $('.js-copytextarea-js');
+
+                    var cadenas = '';
+
+                    $.each(copyTextarea, function (key, value) {
+
+                        //console.log($(this).select().text());
+
+                        cadenas = cadenas + '' +
+                                $(this).select().text();
+                    });
+
+                    console.log(cadenas);
+
+                    $('#todo').val('');
+
+                    $('#todo').val(cadenas);
+
+                    $('#todo').select();
+
+                    try {
+                        var successful = document.execCommand('copy');
+                        var msg = successful ? 'successful' : 'unsuccessful';
+                        console.log('Copying text command was ' + msg);
+                    } catch (err) {
+                        console.log('Oops, unable to copy');
+                    }
+                });
+
+
+
+
+            });
+
+        </script>
+    </body>
+</html>

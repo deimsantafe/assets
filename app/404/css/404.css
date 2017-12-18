@@ -1,0 +1,165 @@
+ /* Global Elements */
+
+ body {
+     /*background-color: #d8dbdd;
+    background-repeat: repeat-x;*/
+ }
+
+ .h2-404 {
+     color: #4A4A4A;
+     font-size: 20px;
+     padding-bottom: 15px;
+     /*font-size: 50px;*/
+ }
+
+ .dropdowns {
+     margin-bottom: 20px;
+ }
+
+ .dropdown .btn {
+     color: #fff;
+     width: 100%;
+     text-align: left;
+     text-transform: uppercase;
+     height: 41px;
+     padding: 11px 0 0 20px;
+     font-family: 'Asap';
+     font-size: 13px;
+ }
+
+ .dropdowns .btn .caret {
+     position: absolute;
+     right: 12px;
+     top: 19px;
+ }
+
+ .dropdown-1 .btn {
+     background-color: #817373;
+ }
+
+ .dropdown-1 .dropdown-arrow {
+     border-color: transparent transparent #817373 transparent;
+ }
+
+ .dropdown-1 .dropdown-menu {
+     background-color: #817373;
+     color: #fff;
+ }
+
+ .dropdowns .dropdown-menu > li > a {
+     color: #e9e9e9;
+     padding: 5px 15px 5px !important;
+     border-radius: 4px;
+ }
+
+ .dropdowns .dropdown-menu {
+     width: 100%;
+     padding: 5px 0 5px;
+ }
+
+ .dropdown-menu>li {
+     padding: 0 5px;
+ }
+
+ .dropdowns .dropdown-menu>li>a:hover,
+ .dropdowns .dropdown-menu>li>a:focus {
+     background-image: none;
+     background-color: #e40020;
+ }
+ /* Santa Fe WI-FI */
+
+ .wifi {
+     background: url('../standard/images/santafe-fondo.jpg') no-repeat center 54px fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+ }
+
+ .acepta-wifi {
+     width: 100%;
+     text-align: center;
+     margin: 66px 0px 0px;
+ }
+
+ .acepta-wifi h3 {
+     font-family: 'aller', sans-serif;
+     color: #fff;
+     font-size: 1.5em;
+     text-align: center;
+     text-shadow: 1px 0px 15px black;
+     margin: 30px auto 40px;
+     width: 100%;
+     max-width: 320px;
+ }
+
+ .acepta-wifi h4 {
+     font-family: 'aller', sans-serif;
+     font-weight: 400;
+     color: #fff;
+     font-size: 18px;
+     text-align: center;
+     margin: 0 auto 40px;
+     text-shadow: 1px 0px 15px black;
+     width: 100%;
+     max-width: 320px;
+ }
+
+ .acepta-wifi h4 a {
+     font-family: 'aller', sans-serif;
+     font-weight: 700;
+     color: #fff;
+     font-size: 18px;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ .dropdown-wifi .btn {
+     width: 264px;
+     height: 52px;
+     padding: 12px;
+     font-size: 19px;
+     text-transform: inherit;
+     text-align: center;
+     box-shadow: 1px 0px 15px black;
+ }
+
+ .dropdown-term .btn {
+     width: 80px;
+     height: 30px;
+     padding: 2px;
+     font-size: 18px;
+     text-transform: inherit;
+     text-align: center;
+ }
+
+ form button {
+     float: none;
+ }
+
+ .fondo-opaco {
+     position: relative;
+     height: 800px;
+     width: 100%;
+     z-index: 0;
+     padding-top: 35px;
+     padding-bottom: 25px;
+ }
+
+ #effect {
+     padding-top: 80px;
+ }
+
+ @media (max-width: 360px) {
+     .acepta-wifi {
+         margin: 40px 0 0;
+     }
+     .acepta-wifi h3 {
+         font-size: 1.4em;
+         margin: 0px auto 15px;
+     }
+     .acepta-wifi h4 {
+         margin: 0 auto 15px;
+     }
+ }
