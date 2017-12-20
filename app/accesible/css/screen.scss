@@ -56,24 +56,39 @@ body {
                 color: $c-white !important;
                 border: 2px solid $c-white !important;
             }
-            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            ::-webkit-input-placeholder { 
               color: $c-white;
             }
-            ::-moz-placeholder { /* Firefox 19+ */
+            ::-moz-placeholder { 
               color: $c-white;
             }
-            :-ms-input-placeholder { /* IE 10+ */
+            :-ms-input-placeholder { 
               color: $c-white;
             }
-            :-moz-placeholder { /* Firefox 18- */
+            :-moz-placeholder {
               color: $c-white;
             }
             i {
                 color: $c-white;
             }
             .submit {
-                background-color: $c-black !important;
-                border: 2px solid $c-white !important;
+                background-color: transparent !important;
+                border: none !important;
+            }
+        }
+        .pagination {
+            a,span {
+                color: $c-white !important;
+                &.dots {
+                    color: $c-white;
+                }
+                &.current {
+                    color: $c-white;
+                }
+                &.next,
+                &.prev {
+                    color: $c-white;
+                }
             }
         }
     }
@@ -128,8 +143,23 @@ body {
                 color: $c-yellow;
             }
             .submit {
-                background-color: $c-black !important;
-                border: 2px solid $c-yellow !important;
+                background-color: transparent !important;
+                border: none !important;
+            }
+        }
+        .pagination {
+            a,span {
+                color: $c-yellow !important;
+                &.dots {
+                    color: $c-yellow;
+                }
+                &.current {
+                    color: $c-yellow;
+                }
+                &.next,
+                &.prev {
+                    color: $c-yellow;
+                }
             }
         }
     }
@@ -285,11 +315,15 @@ a {
             @include span(4 of 12);
             padding: 30px 35px 20px 40px;
             min-height: 600px;
+            margin-bottom: 50px;
         }
         &.last {
             @include susy-breakpoint($breakpoint-sm, $container-sm) {
                 @include span(4 of 12 last);
             }
+        }
+        &.gob-abierto{
+            min-height: 250px;
         }
     }
     h5 {
@@ -356,7 +390,7 @@ a {
     margin-bottom: 55px;
     text-align: center;
     @include susy-breakpoint($breakpoint-sm, $container-sm) {
-        margin: 60px 0;
+        margin: 50px 0;
     }
     h4 {
         > a {
@@ -368,6 +402,7 @@ a {
         font-weight: 700;
     }
 }
+
 
 #tramites {
     margin-bottom: 50px;
@@ -414,8 +449,10 @@ a {
         font-weight: 700;
         margin-bottom: 30px;
     }
-    li {
-        margin-bottom: 20px;
+    ul {
+        > li {
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -423,7 +460,7 @@ a {
     @include clearfix;
     margin-bottom: 20px;
     @include susy-breakpoint($breakpoint-sm, $container-sm) {
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
     p {
         font-size: 22px;
@@ -432,7 +469,10 @@ a {
         @include susy-breakpoint($breakpoint-sm, $container-sm) {
             font-size: 36px;
             line-height: 46px;
-            margin-bottom: 50px;
+            margin-bottom: 35px;
+        }
+        strong {
+            display: block;
         }
     }
     ul {
@@ -444,11 +484,6 @@ a {
         }
         &.info-top {
             float: inherit;
-        }
-        .number {
-            @include susy-breakpoint($breakpoint-sm, $container-sm) {
-                pointer-events: none;
-            }
         }
     }
     span {
@@ -465,6 +500,21 @@ a {
     }
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 60px;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .formulario {
     margin-bottom: 30px;
     @include susy-breakpoint($breakpoint-sm, $container-sm) {
@@ -475,7 +525,7 @@ a {
         margin-bottom: 10px;
         @include susy-breakpoint($breakpoint-sm, $container-sm) {
             font-size: 30px;
-            margin-bottom: 25px;
+            margin-bottom: 40px;
         }
     }
     > p {
@@ -524,6 +574,11 @@ a {
                     font-size: 19px;
                 }
             }
+            input[type=number] {
+                &::-webkit-inner-spin-button { 
+                    -webkit-appearance: none;
+                }
+            }
             &:nth-child(9) {
                 textarea {
                     resize: vertical;
@@ -546,6 +601,87 @@ a {
     }
 }
 
+.main-title {
+    margin-top: 30px;
+    margin-bottom: 55px;
+    text-align: center;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin: 50px 0;
+    }
+    h4 {
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    strong {
+        font-weight: 700;
+    }
+}
+
+// Paginacion
+.pagination {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    > ul {
+        display: inline-block;
+        @include clearfix;
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                float: left;
+                margin-right: 25px;
+                display: block;
+                margin-bottom: 0 !important;
+            }
+            a,span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 10px;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: $c-blue;
+                &.dots {
+                    color: lighten($c-blue, 20%);
+                    border: none;
+                    width: auto;
+                    pointer-events: none;
+                }
+                &.current {
+                    padding-top: 12px;
+                    pointer-events: none;
+                    cursor: default;
+                    background-color: transparent;
+                    color: lighten($c-blue, 10%);
+                }
+                &.next,
+                &.prev {
+                    font-size: 20px;
+                    padding: 0px 10px;
+                    color: darken($c-black, 10%);
+                    @include susy-breakpoint($breakpoint-sm, $container-sm) {
+                        font-size: 30px;
+                    }
+                }
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
 
 // Footer
 .site-footer {

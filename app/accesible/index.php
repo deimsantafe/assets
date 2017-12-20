@@ -1,5 +1,11 @@
 <?php include'header.php' ?>
 
+	<section id="responde">
+		<div class="container">
+			<h4><a target="_blank" href="http://santafe.gob.ar/index.php/web/guia/contactenosAccesible">¿Necesitás ayuda? Ingresá a <strong>Santa Fe Responde</strong></a></h4>
+		</div>
+	</section>
+
 	<section id="menu">
 		<div class="container">
 			<div id="servicios" role="group" aria-label="Servicios" class="box">
@@ -63,15 +69,9 @@
 		</div>
 	</section>
 
-	<section id="responde">
-		<div class="container">
-			<h4><a target="_blank" href="http://devsantafe.com/accesible/responde.php">¿Necesita ayuda? Ingrese a <strong>Santa Fe Responde</strong></a></h4>
-		</div>
-	</section>
-
 	<section id="tramites">
 		<div class="container">
-			<form class="search-tramites" action="//www.santafe.gob.ar/searchgoogle">
+			<form class="search-tramites" action="resultado-busqueda.php">
 				<input type="text" class="box" placeholder="Escriba el trámite que está buscando">
 				<i class="icon-search"></i>
 				<input type="submit" class="submit" aria-label="Buscar trámite" value="">
@@ -95,4 +95,3 @@
 	</section>
 
 <?php include'footer.php' ?>
-

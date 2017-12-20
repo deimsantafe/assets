@@ -3,11 +3,18 @@
 	<div class="container">
 		<div class="small-container">
 			<div class="page-content">
-				<div aria-label="Bienvenido al centro de soporte del Gobierno de Santa Fe. Puede realizar consultas enviando audio o video a los siguientes medios:" role="group">
-					<p>Bienvenido al centro de soporte del <strong>Gobierno de Santa Fe</strong>. Puede realizar consultas enviando audio o video a los siguientes medios:</p>
+				<div><a href="http://santafe.gob.ar/accesible" aria-label="Hola! Ingresaste a Santa Fe Responde Accesible. Si queres ir a Santa Fe accesible presioná ENTER"></a></div>
+
+				<p><strong>Santa Fe Responde Accesible</strong></p>
+
+				<div class="videoWrapper" aria-label="Video instructivo de Santa Fe Responde Accesible. Para reproducir presioná ENTER.">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Wqk_00as5nA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div aria-label="Envianos tus audios o videos a:">
+					<p>Envianos tus audios o videos a:</p>
 					<ul class="info-top">
 						<li><span>Whatsapp</span></li>
-						<li><a href="tel:+543424781130" class="number" aria-label="Número de Whatsapp">+54 342-4781130</a></li>
+						<li><a href="tel:+543424781130" class="number" aria-label="Número de Whatsapp: +543424781130">+54 342-4781130</a></li>
 					</ul>
 					<ul class="info-top">
 						<li><span>Facebook Messenger</span></li>
@@ -17,9 +24,8 @@
 			</div>
 			<!--page-content-->
 
-			<div class="formulario box" aria-label="También puede utilizar el siguiente formulario para contactarse con nosotros">
-				<h5>Escríbanos</h5>
-				<p>También puede utilizar el siguiente formulario para contactarse con nosotros.</p>
+			<div class="formulario box" aria-label="Escribinos tu consulta">
+				<h5>Escribinos tu consulta</h5>
 				<form>
 					<ul>
 						<li>
@@ -40,7 +46,7 @@
 						</li>
 						<li>
 							<label for="telefono">Teléfono</label>
-							<input type="number" id="telefono">
+							<input type="tel" id="telefono">
 						</li>
 						<li>
 							<label for="provincia">Provincia</label>
@@ -96,8 +102,8 @@
 			</div>	
 			<!--box-formulario-->
 
-			<div class="page-content" aria-label="Teléfonos en caso de emergencia">
-				<p>También recuerde que puede utilizar los siguientes teléfonos en caso de emergencia:</p>
+			<div class="page-content" aria-label="Teléfonos de emergencia">
+				<p>Teléfonos de emergencia:</p>
 				<ul>
 					<li><span>Central de emergencias</span></li>
 					<li><a href="tel:911" class="number" aria-label="Central de emergencias 911">911</a></li>
