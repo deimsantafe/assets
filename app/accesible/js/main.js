@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    //tramites mas visitados
     var url = '/index.php/tramites/modul1/index?m=lee_visitados&a=index_testing&json=true';
 
     $.get(url, {}, function (data) {
@@ -21,5 +22,6 @@ $(document).ready(function () {
         $('.tramites-mas-visitados').append(tramites_mas_visitados_tema);
 
     }, 'json');
+
 
 });
