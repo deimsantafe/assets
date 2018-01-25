@@ -8,5 +8,11 @@ Agregar dependencias (libreras a el proyecto assets) utilizando npm
 
 Luego de clonar este repositorio, instalarse npm https://docs.npmjs.com/getting-started/installing-node
 
-Para agregar una nueva librería: npm install nombre-paquete . Ver repositorio de packages https://www.npmjs.com/package/package
+Para agregar una nueva librería: 
+
+```bash
+npm install nombre-paquete
+```
+
+Ver repositorio de packages https://www.npmjs.com/package/package
 
