@@ -1,0 +1,26 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "Repositorio creado para alojar los assets del Gobierno de Santa Fe para utilizarlos en los diferentes desarrollos web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deimsantafe/assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deimsantafe/assets/issues"
+  },
+  "homepage": "https://github.com/deimsantafe/assets#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-paginate": "^1.0.1",
+    "jquery-ui": "^1.12.1",
+    "material-design-icons": "^3.0.1",
+    "urijs": "^1.19.0"
+  }
+}
