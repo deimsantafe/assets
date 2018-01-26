@@ -33,16 +33,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/*
-!node_modules/urijs/
-node_modules/urijs/*
-!node_modules/urijs/src
-node_modules/urijs/src/*
-!node_modules/urijs/src/URI.min.js
-
-!node_modules/jquery-paginate/
-node_modules/jquery-paginate/*
-!node_modules/jquery-paginate/jquery-paginate.min.js
+node_modules/
 
 jspm_packages/
 
