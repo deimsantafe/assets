@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98cea950-8907-4436-b94c-5a32311e3155" name="Default" comment="" />
+    <ignored path="node_modules/jquery/AUTHORS.txt" />
+    <ignored path="node_modules/jquery/bower.json" />
+    <ignored path="node_modules/jquery/LICENSE.txt" />
+    <ignored path="node_modules/jquery/package.json" />
+    <ignored path="node_modules/jquery/README.md" />
+    <ignored path="node_modules/urijs/CHANGELOG.md" />
+    <ignored path="node_modules/urijs/LICENSE.txt" />
+    <ignored path="node_modules/urijs/package.json" />
+    <ignored path="node_modules/urijs/README.md" />
+    <ignored path="node_modules/jquery/dist/core.js" />
+    <ignored path="node_modules/jquery/dist/jquery.js" />
+    <ignored path="node_modules/jquery/dist/jquery.min.js" />
+    <ignored path="node_modules/jquery/dist/jquery.min.map" />
+    <ignored path="node_modules/jquery/dist/jquery.slim.js" />
+    <ignored path="node_modules/jquery/dist/jquery.slim.min.js" />
+    <ignored path="node_modules/jquery/dist/jquery.slim.min.map" />
+    <ignored path="node_modules/jquery/external/sizzle/LICENSE.txt" />
+    <ignored path="node_modules/jquery/src/.eslintrc.json" />
+    <ignored path="node_modules/jquery/src/ajax.js" />
+    <ignored path="node_modules/jquery/src/attributes.js" />
+    <ignored path="node_modules/jquery/src/callbacks.js" />
+    <ignored path="node_modules/jquery/src/core.js" />
+    <ignored path="node_modules/jquery/src/css.js" />
+    <ignored path="node_modules/jquery/src/data.js" />
+    <ignored path="node_modules/jquery/src/deferred.js" />
+    <ignored path="node_modules/jquery/src/deprecated.js" />
+    <ignored path="node_modules/jquery/src/dimensions.js" />
+    <ignored path="node_modules/jquery/src/effects.js" />
+    <ignored path="node_modules/jquery/src/event.js" />
+    <ignored path="node_modules/jquery/src/jquery.js" />
+    <ignored path="node_modules/jquery/src/manipulation.js" />
+    <ignored path="node_modules/jquery/src/offset.js" />
+    <ignored path="node_modules/jquery/src/queue.js" />
+    <ignored path="node_modules/jquery/src/selector-native.js" />
+    <ignored path="node_modules/jquery/src/selector-sizzle.js" />
+    <ignored path="node_modules/jquery/src/selector.js" />
+    <ignored path="node_modules/jquery/src/serialize.js" />
+    <ignored path="node_modules/jquery/src/traversing.js" />
+    <ignored path="node_modules/jquery/src/wrap.js" />
+    <ignored path="node_modules/urijs/src/IPv6.js" />
+    <ignored path="node_modules/urijs/src/jquery.URI.js" />
+    <ignored path="node_modules/urijs/src/jquery.URI.min.js" />
+    <ignored path="node_modules/urijs/src/punycode.js" />
+    <ignored path="node_modules/urijs/src/SecondLevelDomains.js" />
+    <ignored path="node_modules/urijs/src/URI.fragmentQuery.js" />
+    <ignored path="node_modules/urijs/src/URI.fragmentURI.js" />
+    <ignored path="node_modules/urijs/src/URI.js" />
+    <ignored path="node_modules/urijs/src/URI.min.js" />
+    <ignored path="node_modules/urijs/src/URITemplate.js" />
+    <ignored path="node_modules/jquery/external/sizzle/dist/sizzle.js" />
+    <ignored path="node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
+    <ignored path="node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
+    <ignored path="node_modules/jquery/src/ajax/jsonp.js" />
+    <ignored path="node_modules/jquery/src/ajax/load.js" />
+    <ignored path="node_modules/jquery/src/ajax/parseXML.js" />
+    <ignored path="node_modules/jquery/src/ajax/script.js" />
+    <ignored path="node_modules/jquery/src/ajax/xhr.js" />
+    <ignored path="node_modules/jquery/src/attributes/attr.js" />
+    <ignored path="node_modules/jquery/src/attributes/classes.js" />
+    <ignored path="node_modules/jquery/src/attributes/prop.js" />
+    <ignored path="node_modules/jquery/src/attributes/support.js" />
+    <ignored path="node_modules/jquery/src/attributes/val.js" />
+    <ignored path="node_modules/jquery/src/core/access.js" />
+    <ignored path="node_modules/jquery/src/core/DOMEval.js" />
+    <ignored path="node_modules/jquery/src/core/init.js" />
+    <ignored path="node_modules/jquery/src/core/nodeName.js" />
+    <ignored path="node_modules/jquery/src/core/parseHTML.js" />
+    <ignored path="node_modules/jquery/src/core/ready-no-deferred.js" />
+    <ignored path="node_modules/jquery/src/core/ready.js" />
+    <ignored path="node_modules/jquery/src/core/readyException.js" />
+    <ignored path="node_modules/jquery/src/core/stripAndCollapse.js" />
+    <ignored path="node_modules/jquery/src/core/support.js" />
+    <ignored path="node_modules/jquery/src/css/addGetHookIf.js" />
+    <ignored path="node_modules/jquery/src/css/adjustCSS.js" />
+    <ignored path="node_modules/jquery/src/css/curCSS.js" />
+    <ignored path="node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+    <ignored path="node_modules/jquery/src/css/showHide.js" />
+    <ignored path="node_modules/jquery/src/css/support.js" />
+    <ignored path="node_modules/jquery/src/data/Data.js" />
+    <ignored path="node_modules/jquery/src/deferred/exceptionHook.js" />
+    <ignored path="node_modules/jquery/src/effects/animatedSelector.js" />
+    <ignored path="node_modules/jquery/src/effects/Tween.js" />
+    <ignored path="node_modules/jquery/src/event/ajax.js" />
+    <ignored path="node_modules/jquery/src/event/alias.js" />
+    <ignored path="node_modules/jquery/src/event/focusin.js" />
+    <ignored path="node_modules/jquery/src/event/support.js" />
+    <ignored path="node_modules/jquery/src/event/trigger.js" />
+    <ignored path="node_modules/jquery/src/exports/amd.js" />
+    <ignored path="node_modules/jquery/src/exports/global.js" />
+    <ignored path="node_modules/jquery/src/manipulation/_evalUrl.js" />
+    <ignored path="node_modules/jquery/src/manipulation/buildFragment.js" />
+    <ignored path="node_modules/jquery/src/manipulation/getAll.js" />
+    <ignored path="node_modules/jquery/src/manipulation/setGlobalEval.js" />
+    <ignored path="node_modules/jquery/src/manipulation/support.js" />
+    <ignored path="node_modules/jquery/src/manipulation/wrapMap.js" />
+    <ignored path="node_modules/jquery/src/queue/delay.js" />
+    <ignored path="node_modules/jquery/src/traversing/findFilter.js" />
+    <ignored path="node_modules/jquery/src/var/arr.js" />
+    <ignored path="node_modules/jquery/src/var/class2type.js" />
+    <ignored path="node_modules/jquery/src/var/concat.js" />
+    <ignored path="node_modules/jquery/src/var/document.js" />
+    <ignored path="node_modules/jquery/src/var/documentElement.js" />
+    <ignored path="node_modules/jquery/src/var/fnToString.js" />
+    <ignored path="node_modules/jquery/src/var/getProto.js" />
+    <ignored path="node_modules/jquery/src/var/hasOwn.js" />
+    <ignored path="node_modules/jquery/src/var/indexOf.js" />
+    <ignored path="node_modules/jquery/src/var/ObjectFunctionString.js" />
+    <ignored path="node_modules/jquery/src/var/pnum.js" />
+    <ignored path="node_modules/jquery/src/var/push.js" />
+    <ignored path="node_modules/jquery/src/var/rcssNum.js" />
+    <ignored path="node_modules/jquery/src/var/rnothtmlwhite.js" />
+    <ignored path="node_modules/jquery/src/var/slice.js" />
+    <ignored path="node_modules/jquery/src/var/support.js" />
+    <ignored path="node_modules/jquery/src/var/toString.js" />
+    <ignored path="node_modules/jquery/src/ajax/var/location.js" />
+    <ignored path="node_modules/jquery/src/ajax/var/nonce.js" />
+    <ignored path="node_modules/jquery/src/ajax/var/rquery.js" />
+    <ignored path="node_modules/jquery/src/core/var/rsingleTag.js" />
+    <ignored path="node_modules/jquery/src/css/var/cssExpand.js" />
+    <ignored path="node_modules/jquery/src/css/var/getStyles.js" />
+    <ignored path="node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
+    <ignored path="node_modules/jquery/src/css/var/rmargin.js" />
+    <ignored path="node_modules/jquery/src/css/var/rnumnonpx.js" />
+    <ignored path="node_modules/jquery/src/css/var/swap.js" />
+    <ignored path="node_modules/jquery/src/data/var/acceptData.js" />
+    <ignored path="node_modules/jquery/src/data/var/dataPriv.js" />
+    <ignored path="node_modules/jquery/src/data/var/dataUser.js" />
+    <ignored path="node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+    <ignored path="node_modules/jquery/src/manipulation/var/rscriptType.js" />
+    <ignored path="node_modules/jquery/src/manipulation/var/rtagName.js" />
+    <ignored path="node_modules/jquery/src/traversing/var/dir.js" />
+    <ignored path="node_modules/jquery/src/traversing/var/rneedsContext.js" />
+    <ignored path="node_modules/jquery/src/traversing/var/siblings.js" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/misc/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-v4.0.0/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_1.0.2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_1.0.2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="192" column="72" lean-forward="false" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="72" />
+              <folding>
+                <element signature="e#8243#8247#0" expanded="true" />
+                <element signature="e#8357#8361#0" expanded="true" />
+                <element signature="e#8433#8437#0" expanded="true" />
+                <element signature="e#8541#8545#0" expanded="true" />
+                <element signature="e#8617#8621#0" expanded="true" />
+                <element signature="e#8707#8711#0" expanded="true" />
+                <element signature="e#13157#13161#0" expanded="true" />
+                <element signature="e#13243#13247#0" expanded="true" />
+                <element signature="e#13247#13251#0" expanded="true" />
+                <element signature="e#13258#13262#0" expanded="true" />
+                <element signature="e#13334#13338#0" expanded="true" />
+                <element signature="e#13447#13451#0" expanded="true" />
+                <element signature="e#13451#13455#0" expanded="true" />
+                <element signature="e#13462#13466#0" expanded="true" />
+                <element signature="e#13538#13542#0" expanded="true" />
+                <element signature="e#13639#13643#0" expanded="true" />
+                <element signature="e#13643#13647#0" expanded="true" />
+                <element signature="e#13654#13658#0" expanded="true" />
+                <element signature="e#13730#13734#0" expanded="true" />
+                <element signature="e#13834#13838#0" expanded="true" />
+                <element signature="e#13838#13842#0" expanded="true" />
+                <element signature="e#13849#13853#0" expanded="true" />
+                <element signature="e#13925#13929#0" expanded="true" />
+                <element signature="e#14038#14042#0" expanded="true" />
+                <element signature="e#14042#14046#0" expanded="true" />
+                <element signature="e#14053#14057#0" expanded="true" />
+                <element signature="e#19371#19375#0" expanded="true" />
+                <marker date="1530549905913" expanded="true" signature="1692:1825" ph="..." />
+                <marker date="1530549905913" expanded="true" signature="1728:1801" ph="{...}" />
+                <marker date="1530549905913" expanded="true" signature="25027:25160" ph="..." />
+                <marker date="1530549905913" expanded="true" signature="25063:25136" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="material-icons.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1/iconfont/material-icons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#site-footer</find>
+      <find>social</find>
+      <find>site-footer</find>
+      <find>@media</find>
+      <find>jquery.url.packed.js</find>
+      <find>node</find>
+      <find>version</find>
+      <find>popper</find>
+      <find>url</find>
+      <find>font-fami</find>
+      <find>plantillas</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/standard/fonts/Aller/.htaccess" />
+        <option value="$PROJECT_DIR$/app/accesible/css/fonts/icons/.htaccess" />
+        <option value="$PROJECT_DIR$/app/accesible/css/screen.css" />
+        <option value="$PROJECT_DIR$/app/accesible/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/plantillas/index_2.x.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/misc/package.json" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="167" />
+    <option name="y" value="139" />
+    <option name="width" value="1590" />
+    <option name="height" value="845" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v4.7.3/bin/node" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jquery/jquery-v3.2.1" />
+      <recent name="$PROJECT_DIR$/bootstrap" />
+      <recent name="$PROJECT_DIR$/popper" />
+      <recent name="$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1/iconfont" />
+      <recent name="$PROJECT_DIR$/material-design-icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/popper/1.12.9" />
+      <recent name="$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98cea950-8907-4436-b94c-5a32311e3155" name="Default" comment="" />
+      <created>1513873339397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513873339397</updated>
+      <workItem from="1513873347613" duration="2523000" />
+      <workItem from="1513877335261" duration="600000" />
+      <workItem from="1513879709692" duration="3545000" />
+      <workItem from="1513949269144" duration="9769000" />
+      <workItem from="1514306544044" duration="76000" />
+      <workItem from="1514396424141" duration="3850000" />
+      <workItem from="1516712467167" duration="54000" />
+      <workItem from="1516814679109" duration="1086000" />
+      <workItem from="1516886965198" duration="10349000" />
+      <workItem from="1516975364551" duration="5530000" />
+      <workItem from="1517247683082" duration="1854000" />
+      <workItem from="1517927548808" duration="683000" />
+      <workItem from="1518787731113" duration="4604000" />
+      <workItem from="1527174434312" duration="2351000" />
+      <workItem from="1527872553205" duration="567000" />
+      <workItem from="1529419147508" duration="2633000" />
+      <workItem from="1530103989649" duration="24000" />
+      <workItem from="1530286899542" duration="4203000" />
+      <workItem from="1530535638324" duration="4142000" />
+      <workItem from="1530709517329" duration="211000" />
+      <workItem from="1530712362672" duration="315000" />
+      <workItem from="1530714400679" duration="1004000" />
+      <workItem from="1530886275638" duration="142000" />
+      <workItem from="1533221413491" duration="1207000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se agrega footer con logo de la secretaría de tecnologías.-">
+      <created>1513883720731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513883720731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se ignoran los archivos html tpl y php.-">
+      <created>1513883838646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513883838646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se agrega librería jquery-paginate">
+      <created>1513968082788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513968082788</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se elimina aclaración.-">
+      <created>1516987103789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516987103789</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se agrega fila a la tabla para linkear los nuevos markups de gobierno (bootstrap 4 materializecss) para aplicativos web y mobile.-">
+      <created>1527873041276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527873041276</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Se agregan archivos de imagenes para el app/stg-theme.&#10;- Se modifica pantalla de assets">
+      <created>1530712544715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530712544715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61322000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18856838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43979934" sideWeight="0.5030349" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43956044" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2846154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agrega footer con logo de la secretaría de tecnologías.-" />
+    <MESSAGE value="Se ignoran los archivos html tpl y php.-" />
+    <MESSAGE value="Se agrega librería jquery-paginate" />
+    <MESSAGE value="Se elimina aclaración.-" />
+    <MESSAGE value="Se agrega fila a la tabla para linkear los nuevos markups de gobierno (bootstrap 4 materializecss) para aplicativos web y mobile.-" />
+    <MESSAGE value="- Se agregan archivos de imagenes para el app/stg-theme.&#10;- Se modifica pantalla de assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Se agregan archivos de imagenes para el app/stg-theme.&#10;- Se modifica pantalla de assets" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21240">
+          <caret line="1180" column="47" lean-forward="false" selection-start-line="1180" selection-start-column="47" selection-end-line="1180" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13752">
+          <caret line="764" column="1" lean-forward="false" selection-start-line="764" selection-start-column="1" selection-end-line="764" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13752">
+          <caret line="764" column="1" lean-forward="true" selection-start-line="764" selection-start-column="1" selection-end-line="764" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13320">
+          <caret line="740" column="0" lean-forward="false" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="52" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="73" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13104">
+          <caret line="728" column="0" lean-forward="true" selection-start-line="728" selection-start-column="0" selection-end-line="728" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/fonts/Aller/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/fonts/Aller/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/fonts/icons/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/fonts/Aller/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/urijs/src/URI.min.js" />
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13752">
+          <caret line="764" column="1" lean-forward="false" selection-start-line="764" selection-start-column="1" selection-end-line="764" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21240">
+          <caret line="1180" column="47" lean-forward="false" selection-start-line="1180" selection-start-column="47" selection-end-line="1180" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-v3.2.1/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/material-design-icons/iconfont/material-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1/iconfont/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/material-design-icons/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/material-design-icons/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1/iconfont/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.min.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/popper.js/dist/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="3" column="2136" lean-forward="false" selection-start-line="3" selection-start-column="2129" selection-end-line="3" selection-end-column="2136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popper/popper-v1.12.9/popper.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popper/popper-v1.12.9/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2673">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/accesible/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/stg-theme/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="3638" column="11" lean-forward="false" selection-start-line="3638" selection-start-column="2" selection-end-line="3638" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap-v4.0.0/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plantillas/index_2.x.html" />
+    <entry file="file://$PROJECT_DIR$/index_1.0.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material-design-icons/material-design-icons-3.0.1/iconfont/material-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-v3.2.1/jquery.min.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-v3.2.1/jquery.slim.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-v3.2.1/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="192" column="72" lean-forward="false" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="72" />
+          <folding>
+            <element signature="e#8243#8247#0" expanded="true" />
+            <element signature="e#8357#8361#0" expanded="true" />
+            <element signature="e#8433#8437#0" expanded="true" />
+            <element signature="e#8541#8545#0" expanded="true" />
+            <element signature="e#8617#8621#0" expanded="true" />
+            <element signature="e#8707#8711#0" expanded="true" />
+            <element signature="e#13157#13161#0" expanded="true" />
+            <element signature="e#13243#13247#0" expanded="true" />
+            <element signature="e#13247#13251#0" expanded="true" />
+            <element signature="e#13258#13262#0" expanded="true" />
+            <element signature="e#13334#13338#0" expanded="true" />
+            <element signature="e#13447#13451#0" expanded="true" />
+            <element signature="e#13451#13455#0" expanded="true" />
+            <element signature="e#13462#13466#0" expanded="true" />
+            <element signature="e#13538#13542#0" expanded="true" />
+            <element signature="e#13639#13643#0" expanded="true" />
+            <element signature="e#13643#13647#0" expanded="true" />
+            <element signature="e#13654#13658#0" expanded="true" />
+            <element signature="e#13730#13734#0" expanded="true" />
+            <element signature="e#13834#13838#0" expanded="true" />
+            <element signature="e#13838#13842#0" expanded="true" />
+            <element signature="e#13849#13853#0" expanded="true" />
+            <element signature="e#13925#13929#0" expanded="true" />
+            <element signature="e#14038#14042#0" expanded="true" />
+            <element signature="e#14042#14046#0" expanded="true" />
+            <element signature="e#14053#14057#0" expanded="true" />
+            <element signature="e#19371#19375#0" expanded="true" />
+            <marker date="1530549905913" expanded="true" signature="1692:1825" ph="..." />
+            <marker date="1530549905913" expanded="true" signature="1728:1801" ph="{...}" />
+            <marker date="1530549905913" expanded="true" signature="25027:25160" ph="..." />
+            <marker date="1530549905913" expanded="true" signature="25063:25136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
