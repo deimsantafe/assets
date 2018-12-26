@@ -18,6 +18,9 @@
   "homepage": "https://github.com/deimsantafe/assets#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "datatables.net": "^1.10.19",
+    "datatables.net-bs4": "^1.10.19",
+    "datatables.net-dt": "^1.10.19",
     "jquery": "^3.2.1",
     "jquery-paginate": "^1.0.1",
     "jquery-ui": "^1.12.1",
