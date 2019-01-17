@@ -72,9 +72,9 @@ function widgetClima() {
 
             if (alerta === 1) {
                 //agrego link de alerta
-                output = output + '<br><div class="box-alerta"><div class="alerta-link"><div class="alerta-link-icono"><a style="display:inline" href="//www.santafe.gob.ar/index.php/content/view/full/154569"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/alerta.png" alt="Alerta Meteorologica"></a></div></div><div class="alerta-desc"><a style="display:inline" href="//www.santafe.gob.ar/index.php/content/view/full/154569">Ver m\u00e1s datos ></a></div></div>';
+                output = output + '<br><div class="box-alerta"><div class="alerta-link"><div class="alerta-link-icono"><a style="display:inline" href="//www.santafe.gob.ar/proteccioncivil/alerta"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/alerta.png" alt="Alerta Meteorologica"></a></div></div><div class="alerta-desc"><a style="display:inline" href="//www.santafe.gob.ar/proteccioncivil/alerta">Ver m\u00e1s datos ></a></div></div>';
                 //alerta en modo mobile
-                var output2 = '<div class="alerta-link"><div class="alerta-link-icono-mobile"><a style="display:inline" href="//www.santafe.gob.ar/index.php/content/view/full/154569"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/alerta.png" alt="Alerta Meteorologica"></a></div></div>';
+                var output2 = '<div class="alerta-link"><div class="alerta-link-icono-mobile"><a style="display:inline" href="//www.santafe.gob.ar/proteccioncivil/alerta"><img src="//www.santafe.gob.ar/assets/app/portal/imgs/alerta.png" alt="Alerta Meteorologica"></a></div></div>';
                 
                 $('.weather').html(output);
                 $('.weather-mobile').html(output2);
