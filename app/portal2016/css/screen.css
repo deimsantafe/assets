@@ -3169,13 +3169,14 @@ a.transmision-vivo .transmision-legend:hover span {
     font-size: 13px;
     line-height: 16px;
     border-top: 1px solid silver;
-    background: -moz-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
+    background-color: #fff;
+    /* background: -moz-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d4d4d4), color-stop(100%, rgba(212, 212, 212, 0))) !important;
     background: -webkit-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
     background: -o-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
     background: -ms-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
     background: linear-gradient(to bottom, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4d4d4', endColorstr='#d8dbdd', GradientType=0) !important
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4d4d4', endColorstr='#d8dbdd', GradientType=0) !important */
 }
 
 #site-footer p {
