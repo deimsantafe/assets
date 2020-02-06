@@ -2,9 +2,9 @@ $(document).ready(function () {
 
     alerta = 0;
 
-    $.getJSON("/index.php/guia/alerta", function (data) {
+    $.getJSON("/design/plain2/services/AlertaSMN.php", function (data) {
 
-        if (data.alerta === 1) {
+        if (data.alerta) {
 
             widgetClima();
 
@@ -60,7 +60,7 @@ function widgetClima() {
             for (var i = 0; i < regiones.length; i++) {
                 var json = $.parseJSON(data[regiones[i]]);
                 //console.log(json);
-                html += '<div class="box-clima"><div class="clima-region region-' + (i + 1) + '">Region ' + (i + 1) + '</div><div class="clima-details"><h4 class="clima-title">' + regiones_nombre[i] + '</h4>'
+                html += '<div class="box-clima"><div class="clima-region region-' + (i + 1) + '"></div><div class="clima-details"><h4 class="clima-title">' + regiones_nombre[i] + '</h4>'
                 html += '<div class="current"><div class="pull-left clima-icon-state"><div class="' + json.currently.icon + '"></div></div><div class="pull-right clima-current-temp"><div class="apparent">' + Math.ceil(json.currently.temperature) + ' &deg;</div><p class="current-summary">' + Math.floor(json.daily.data[0].temperatureMin) + ' &deg; / ' + Math.ceil(json.daily.data[0].temperatureMax) + '&deg;</p></div><p class="current-summary">' + json.currently.summary + '</p></div>';
 
                 html += '<div class="clima-next"><p>' + timeConverter(json.daily.data[1].time, 3) + ' <span class="pull-right">' + Math.floor(json.daily.data[1].temperatureMin) + ' &deg; / ' + Math.ceil(json.daily.data[1].temperatureMax) + '&deg; </span></p></div>';

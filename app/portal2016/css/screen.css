@@ -336,7 +336,7 @@ img {
 }
 
 .btn-hamburger:before, .btn-hamburger:after, .btn-hamburger span {
-    background-color: #4a4a4a;
+    background-color: #2c5d96;
     content: '';
     display: block;
     width: 20px;
@@ -796,7 +796,7 @@ img {
 }
 
 .site-logo.logo-header {
-    background-image: url(../images/logo-header-fixed.png);
+    background-image: url(../images/logo-header.png);
     width: 83px;
     height: 31px;
     opacity: 1
@@ -814,6 +814,9 @@ img {
         position: relative
     }
 
+    /* Ajustes 2020 */
+    
+/*     
     .site-logo.logo-header:hover {
         opacity: 1;
         -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -840,7 +843,7 @@ img {
         -o-transition: all .3s ease;
         -webkit-transition: all .3s ease;
         transition: all .3s ease
-    }
+    } */
 }
 
 .block-tramites {
@@ -1918,7 +1921,7 @@ a.transmision-vivo .transmision-legend:hover span {
     left: 0;
     z-index: 900;
     color: #4a4a4a;
-    background-color: #e6e6e6;
+    background-color: #fff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
@@ -1932,8 +1935,8 @@ a.transmision-vivo .transmision-legend:hover span {
         -webkit-box-shadow: none;
         box-shadow: none;
         position: absolute;
-        color: #fff;
-        background-color: transparent;
+        color: #2c5d96;
+        background-color: #fff;
         padding: 0
     }
 }
@@ -1942,7 +1945,9 @@ a.transmision-vivo .transmision-legend:hover span {
     position: relative
 }
 
-@media (min-width: 1024px) {
+/*Ajustes 2020*/
+
+/* @media (min-width: 1024px) {
     #site-header .header-bar:after {
         display: block;
         content: '';
@@ -1983,7 +1988,7 @@ a.transmision-vivo .transmision-legend:hover span {
         bottom: inherit;
         top: 0
     }
-}
+} */
 
 #site-header .container {
     position: relative;
@@ -2055,7 +2060,8 @@ a.transmision-vivo .transmision-legend:hover span {
     border-radius: 3px;
     border: none;
     padding: 9px 10px;
-    color: #4a4a4a;
+    color: #2c5d96;
+    background-color: #c4d8e1;
     width: 165px
 }
 
@@ -2096,7 +2102,7 @@ a.transmision-vivo .transmision-legend:hover span {
     top: 16px;
     right: 16px;
     z-index: 1;
-    color: #4a4a4a
+    color: #2c5d96
 }
 
 @media (min-width: 1024px) {
@@ -2108,7 +2114,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .logo-header {
     float: left;
-    margin-right: 25px;
+    margin-right: 50px;
     margin-top: .5rem;
     position: absolute;
     z-index: 1000;
@@ -2119,7 +2125,7 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .logo-header {
         position: static;
-        margin-bottom: -17px;
+        margin-bottom: -7px;
         margin-top: 0
     }
 }
@@ -2185,15 +2191,15 @@ a.transmision-vivo .transmision-legend:hover span {
     -ms-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    background-color: #495086;
+    background-color: #fff;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
+    /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
     background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #495086), color-stop(100%, #12b5c8));
     background-image: -moz-linear-gradient(left, #495086 0%, #12b5c8 100%);
     background-image: -webkit-linear-gradient(left, #495086 0%, #12b5c8 100%);
-    background-image: linear-gradient(to right, #495086 0%, #12b5c8 100%)
+    background-image: linear-gradient(to right, #495086 0%, #12b5c8 100%) */
 }
 
 @media (min-width: 1024px) {
@@ -2269,7 +2275,7 @@ a.transmision-vivo .transmision-legend:hover span {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
-    color: #fff;
+    color: #2c5d96;
     margin-bottom: 30px;
     float: left;
     width: 47.36842%;
@@ -2280,7 +2286,7 @@ a.transmision-vivo .transmision-legend:hover span {
     #site-header .main-nav > ul > li {
         font-size: 13px;
         width: auto;
-        color: #fff;
+        color: #2c5d96;
         margin-bottom: 0;
         padding: 50px 0px 20px 0;
         margin-right: 20px;
@@ -2399,7 +2405,7 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .options-nav .social-header li a {
     font-size: 16px;
     display: block;
-    color: #fff;
+    color: #2c5d96;
     margin-right: 15px
 }
 
@@ -2433,7 +2439,7 @@ a.transmision-vivo .transmision-legend:hover span {
         width: 2px;
         cursor: default;
         pointer-events: none;
-        background-color: #fff
+        background-color: #2c5d96;
     }
 }
 
@@ -2451,6 +2457,10 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .options-nav .social-header li a.search-link.close-search .icon-search:before {
     content: '\e805'
+}
+
+.icon-search {
+    color: #2c5d96;
 }
 
 #site-header .options-nav .weather-dropdown {
@@ -2524,7 +2534,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .options-nav .weather-dropdown .weather {
     padding: 25px 20px 20px 20px;
-    color: #fff
+    color: #4276bc
 }
 
 #site-header .options-nav .weather-dropdown .weather .header-clima {
@@ -2658,11 +2668,11 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region.region-1 .title-region {
-    border-bottom-color: #ecc623
+    border-bottom-color: #d53629
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region.region-2 .title-region {
-    border-bottom-color: #0092d2
+    border-bottom-color: #d53629
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region.region-3 .title-region {
@@ -2670,11 +2680,11 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region.region-4 .title-region {
-    border-bottom-color: #e07b07
+    border-bottom-color: #d53629
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region.region-5 .title-region {
-    border-bottom-color: #009144
+    border-bottom-color: #d53629
 }
 
 #site-header .options-nav .weather-dropdown .weather .footer-clima {
@@ -2788,14 +2798,14 @@ a.transmision-vivo .transmision-legend:hover span {
     padding-right: 8px;
     position: relative;
     text-transform: uppercase;
-    color: #fff;
+    color: #2c5d96;
     display: inline
 }
 
 @media (min-width: 1024px) {
     #site-header .options-nav .select-language > a {
         display: block;
-        color: #fff;
+        color: #2c5d96;
         font-size: 13px
     }
 }
@@ -2811,7 +2821,7 @@ a.transmision-vivo .transmision-legend:hover span {
         height: 0;
         border-style: solid;
         border-width: 4px 4px 0 4px;
-        border-color: #fff transparent transparent transparent
+        border-color: #2c5d96 transparent transparent transparent
     }
 }
 
@@ -2830,7 +2840,7 @@ a.transmision-vivo .transmision-legend:hover span {
         -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
         -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
         box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
-        background-color: #383838;
+        background-color: #fff;
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         border-radius: 4px;
@@ -2858,7 +2868,7 @@ a.transmision-vivo .transmision-legend:hover span {
         height: 0;
         border-style: solid;
         border-width: 0 8px 8px 8px;
-        border-color: transparent transparent #383838 transparent
+        border-color: transparent transparent #dd3541 transparent
     }
 }
 
@@ -2871,7 +2881,7 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .submenu > li > a {
     display: inline-block;
     text-transform: none;
-    color: #fff;
+    color: #2c5d96;
     padding: 6px 0px;
     font-weight: 400;
     font-size: 12px;
@@ -2887,7 +2897,7 @@ a.transmision-vivo .transmision-legend:hover span {
         opacity: 1;
         font-weight: 500;
         font-size: 14px;
-        background-color: #383838;
+        background-color: #fff;
         display: block;
         padding: 8px 13px;
         -moz-border-radius: 4px;
@@ -2904,13 +2914,13 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .submenu > li > a:hover {
         text-decoration: none;
-        background-color: #454545
+        background-color: #c4d8e1
     }
 }
 
 #site-header.header-fixed {
     position: fixed;
-    background-color: #e6e6e6;
+    /* background-color: #e6e6e6;
     color: #4a4a4a;
     top: 0;
     margin-top: 0;
@@ -2920,18 +2930,19 @@ a.transmision-vivo .transmision-legend:hover span {
     transition: top .4s ease;
     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25)
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25) */
 }
 
-#site-header.header-fixed .transmision-vivo {
+/* #site-header.header-fixed .transmision-vivo {
     display: none
-}
+} */
 
 #site-header.header-fixed .header-bar:after {
     display: none
 }
 
-@media (min-width: 1024px) {
+/*Ajustes 2020*/
+/* @media (min-width: 1024px) {
     #site-header.header-fixed .header-bar:before {
         bottom: -3px;
         top: inherit;
@@ -2939,7 +2950,7 @@ a.transmision-vivo .transmision-legend:hover span {
         background-position: 0 0;
         height: 3px
     }
-}
+} */
 
 #site-header.header-fixed .submenu {
     top: 50px
@@ -2949,7 +2960,8 @@ a.transmision-vivo .transmision-legend:hover span {
     top: 50px
 }
 
-#site-header.header-fixed .logo-header {
+/* Ajustes 2020 header-fixed */
+/* #site-header.header-fixed .logo-header {
     -moz-transition: none;
     -o-transition: none;
     -webkit-transition: none;
@@ -2958,8 +2970,7 @@ a.transmision-vivo .transmision-legend:hover span {
     background-image: url(../images/logo-header-fixed.png);
     opacity: 1;
     position: static
-}
-
+} 
 @media (min-width: 1024px) {
     #site-header.header-fixed .logo-header {
         margin: 8px 30px 0 0;
@@ -3063,7 +3074,7 @@ a.transmision-vivo .transmision-legend:hover span {
     #site-header.header-fixed .search-form #q {
         width: 200px
     }
-}
+} */
 
 #site-header.header-nav-open .logo-header {
     -moz-transition: all .3s ease .25s;
@@ -3093,7 +3104,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header.header-nav-open .nav-icons-mobile li .btn-hamburger:before, #site-header.header-nav-open .nav-icons-mobile li .btn-hamburger:after, #site-header.header-nav-open .nav-icons-mobile li .btn-hamburger span {
-    background-color: #fff
+    background-color: #2c5d96
 }
 
 #site-header.header-nav-open .nav-icons-mobile li .btn-hamburger:hover {
