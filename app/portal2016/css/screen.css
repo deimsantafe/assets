@@ -1590,21 +1590,26 @@ img {
 .section-category .title-section {
     color: #fff;
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: -0.015em;
     text-transform: uppercase
+}
+
+.section-category .title-section a {
+    padding: 10px 25px;
+    background: rgba(29, 151, 169, 0.8);
 }
 
 @media (min-width: 1024px) {
     .section-category .title-section {
         text-align: right;
-        font-size: 46px
+        font-size: 30px
     }
 }
 
 @media (min-width: 1280px) {
     .section-category .title-section {
-        font-size: 66px
+        font-size: 45px
     }
 }
 
@@ -1670,7 +1675,8 @@ img {
 
 @media (min-width: 1024px) {
     #section-tramites {
-        height: 100vh
+        height: 100vh;
+        margin-top: 115px;
     }
 }
 
