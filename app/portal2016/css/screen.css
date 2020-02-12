@@ -492,6 +492,10 @@ img {
     position: relative
 }
 
+.box-pre-pie {
+    background-color: #fff;
+}
+
 .box:after {
     content: "";
     display: table;
@@ -513,6 +517,10 @@ img {
     margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: -0.015em
+}
+
+.title-box-pre-pie{
+    color:#4276bc !important;
 }
 
 @media (min-width: 1024px) {
@@ -541,8 +549,16 @@ img {
     color: #fff
 }
 
+li.link-pre-pie a{
+    color: #4276bc !important;
+}
+
 .box .list-links li a:hover {
     text-decoration: underline
+}
+
+.box .list-links li a.link-pre-pie {
+    color:#4276bc
 }
 
 .box .list-agenda li {
