@@ -521,7 +521,7 @@ a {
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url(../images/gradient-sf.png);
+    background-image: none;
     background-position: 0 0;
     height: 4px
 }
@@ -1160,7 +1160,7 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 10px;
-    background-image: url(../images/logo-footer.png)
+    background-image: url(//www.santafe.gob.ar/assets/app/portal/imgs/marca-footer.png)
 }
 
 .site-footer .footer-datos p {
