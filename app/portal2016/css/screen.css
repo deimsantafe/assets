@@ -2582,7 +2582,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .weather-dropdown .submenu:before {
-    right: 95px;
+    right: 40px;
     left: auto
 }
 
@@ -3007,11 +3007,11 @@ a.transmision-vivo .transmision-legend:hover span {
 } */
 
 #site-header.header-fixed .submenu {
-    top: 50px
+    top: 70px
 }
 
 #site-header.header-fixed .submenu:hover {
-    top: 50px
+    top: 70px
 }
 
 /* Ajustes 2020 header-fixed */
