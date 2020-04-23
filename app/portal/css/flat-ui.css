@@ -1195,6 +1195,18 @@ select[multiple].navbar-form .btn {
   min-width: 100%;
   border-radius: 4px;
   padding: 5px 0;
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 3px 7px
+  rgba(0, 0, 0, 0.35);
+  background-color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 @media (max-width: 767px) {
   .navbar-nav > li > .dropdown-menu {

@@ -2,14 +2,15 @@
 body{
 	/*padding-top: 75px;*/
 	padding-top: 57px;
-	background-color: #d8dbdd;
+	background-color: #fff;
+	color: #888888;
 	/*background-image: url('img/bg.png');*/
 	background-repeat: repeat-x;
 	background-position: 0 55px;
 }
 
 .navbar-sf{
-    background-color: #e3e1e2;
+    background-color: #fff;
     height: 55px;
     padding: 15px 0;
 }
@@ -68,16 +69,18 @@ body{
 	color: #fff;
 }*/
 .navbar-sf .navbar-nav > li  li a{
-	color: #fff;
-	font-family: 'Asap';
+	color: #2c5d96;
+	font-family: 'Montserrat';
 	background-image: none;
 	font-size: 13px;
+	font-weight: 500;
 	letter-spacing: 0.02em;
 }
 .navbar-sf .navbar-nav li li a:hover{
-	color: #fff;
-	background-color: #333;
+	/* color: #fff; */
+	background-color: #c4d8e1;	
 }
+
 .navbar-sf .navbar-nav > li > a {
         color: #333;
 	font-family: 'Asap';
@@ -89,10 +92,10 @@ body{
 	float: left;
 	margin-top: 8px;
 	padding-bottom: 14px;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 }
 .navbar-sf .dropdown-menu{
-	background-color: #4a4a4a;
+	background-color: #fff;
 	/*margin-top: 2px !important;*/
 }
 .navbar-sf .clima-item .dropdown-menu{
@@ -115,7 +118,7 @@ body{
     right: 0;
     margin-top: -10px;
     background-repeat: repeat-x;
-    background-image: url("../../../standard/images/barra-header.png");
+    /* background-image: url("../../../standard/images/barra-header.png"); */
     background-position: left bottom;
     background-repeat: repeat-x;
     background-size: 1367px 3px;
@@ -316,13 +319,13 @@ body{
 	border-color: transparent transparent rgba(74,64,64,.95) transparent !important;
 }
 .navbar-sf .dropdown .dropdown-arrow{
-	border-color: transparent transparent #4a4a4a transparent;
+	border-color: transparent transparent #dd3541 transparent;
 }
 .navbar-sf .navbar-nav > li > a{
 	padding: 0px;
 	margin: 3px 2px 6px 2px;
 	text-transform: uppercase;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 }
 .navbar-sf .nav .open > a,
 .nav .open > a:hover,
@@ -343,18 +346,18 @@ body{
 .footer {
 	margin: 0 0 30px;
 	padding-top: 20px;
-	color: #888888;
-	font-family: 'Asap', sans-serif;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
 	line-height: 16px;
 	border-top: 1px solid rgba(192,192,192,1);
-	background: -moz-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(212,212,212,0) 100%);
+	/* background: -moz-linear-gradient(top, rgba(212,212,212,1) 0%, rgba(212,212,212,0) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(212,212,212,1)), color-stop(100%,rgba(212,212,212,0)));
 	background: -webkit-linear-gradient(top, rgba(212,212,212,1) 0%,rgba(212,212,212,0) 100%);
 	background: -o-linear-gradient(top, rgba(212,212,212,1) 0%,rgba(212,212,212,0) 100%);
 	background: -ms-linear-gradient(top, rgba(212,212,212,1) 0%,rgba(212,212,212,0) 100%);
 	background: linear-gradient(to bottom, rgba(212,212,212,1) 0%,rgba(212,212,212,0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#d8dbdd',GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d4d4', endColorstr='#d8dbdd',GradientType=0 ); */
 }
 
 .footer .row {
@@ -455,7 +458,7 @@ text-transform: uppercase;
 	border: 3px solid #aca7a8;
 }
 .ui-bg-1{
-	background-color: #e4e5e6;
+	background-color: #fff;
 }
 .ui-bg-2{
 	background-color: #efefef;
@@ -505,16 +508,10 @@ text-transform: uppercase;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d8082', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 .ui-bg-9{
-		background: -moz-linear-gradient(left, rgba(198,199,202,1) 20%, rgba(255,255,255,0) 65%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(20%,rgba(198,199,202,1)), color-stop(65%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, rgba(198,199,202,1) 20%,rgba(255,255,255,0) 65%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, rgba(198,199,202,1) 20%,rgba(255,255,255,0) 65%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, rgba(198,199,202,1) 20%,rgba(255,255,255,0) 65%); /* IE10+ */
-background: linear-gradient(to right, rgba(198,199,202,1) 20%,rgba(255,255,255,0) 65%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c7ca', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+	background-color: #fff;
 }
 .ui-bg-10{
-	background-color: #cccccc;
+	background-color: #fff;
 }
 .ui-bg-11{
 	background-color: #c6c7ca;
@@ -639,8 +636,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00998f8c', e
 	padding: 0 10px;
 }
 a.more-news{
-	font-family: 'Asap';
-	color: #80767c;
+	font-family: 'Montserrat';
+	color: #2c5d96;
 }
 .box-1 .more-news,
 .box-3 .more-news{
@@ -1192,7 +1189,7 @@ p.label a{
 }
 /* Header */
 h1,h2,h3,h4{
-	font-family: 'Asap', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .ui-h1-1 a{
 	color: #fff;
@@ -1209,9 +1206,9 @@ h1,h2,h3,h4{
 	font-weight: bold;
 }
 .ui-h2-1{
-	color: #9E9E9E;
+	color: #2c5d96;
 	font-size: 17px;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 	text-transform: uppercase;
 	margin: 0 0 15px 20px;
 	font-weight: 700;
@@ -1225,11 +1222,11 @@ h1,h2,h3,h4{
 	line-height: 18px;
 }
 .ui-h2-3, .ui-h2-3 a{
-	color: #108a97;
+	color: #2c5d96;
 	font-size: 20px;
 	text-transform: uppercase;
 	margin: 0;
-	font-family: 'Asap';
+	font-family: 'Montserrat';
 	font-weight: bold;
         margin-top: 6px;
 }
@@ -1277,8 +1274,8 @@ h1,h2,h3,h4{
 	float: left;
 }
 .ui-h4-1{
-	font-family: 'Aller';
-	color: #914744;
+	font-family: 'Montserrat';
+	color: #2c5d96;
 	font-size: 13px;
 	padding: 9px 20px;
 	border-bottom: 1px solid #b7b7b7;
@@ -1287,7 +1284,7 @@ h1,h2,h3,h4{
 	text-transform: uppercase;
 }
 .ui-h4-2{
-	color: #000000;
+	color: #2c5d96;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: normal;
@@ -1648,14 +1645,15 @@ p.label{
 .ui-list-1 li a{
 	width: 100%;
 	display: block;
-	font-family: 'Asap';
-	color: #5b5b5f;
+	font-family: 'Montserrat';
+	color: #2c5d96;
 	font-size: 13px;
+	font-weight: 400;
 	padding: 7px 20px;
 	border-bottom: 1px solid #b7b7b7;
 }
 .ui-list-1 li a:hover{
-	background-color: #e5e5e5;
+	background-color: #c4d8e1;
 }
 .map{
 	margin-left: -10px;
@@ -1774,6 +1772,26 @@ p.label{
 	margin: 0 0 20px;
 }
 
+/* agregado 2020 */
+.panel-title {
+	font-family: "Montserrat";
+}
+
+.panel-default > .panel-heading {
+	color:#fff;
+	background-color:#2c5d96;
+}
+
+.panel-default > .panel-heading:hover {
+	color:#fff;
+	background-color:#2c5d96;
+}
+
+.panel-heading .caret {
+	border-bottom-color: #fff;
+	border-top-color:#fff;
+}
+
 /* N4 */
 .sf-breadcrumb a{
 	color: #5b5b5f;
@@ -1890,6 +1908,7 @@ p.label{
 .body{
 	background-color: #efefef;
 	padding: 20px;
+	font-family: 'Montserrat';
 }
 /*sf-responde*/
 .contact-form{
@@ -2116,8 +2135,8 @@ margin: 0;
 	margin-top: 10px;
 }
 .modulo .title{
-	background-color: #ccc;
-	color: #474747;
+	background-color: #4276bc;
+	color: #fff;
 	text-transform: uppercase;
 	padding: 10px 10px 8px 40px;
 }
@@ -2132,12 +2151,12 @@ margin: 0;
 	float: left;
 }
 .modulo .content ul li a{
-	color: #444;
+	color: #4D4D4D;
 }
 .modulo .content ul li{
 	list-style: none;
 	font-size: 13px;
-	font-family: 'Asap';
+	font-family: 'Montserrat';
 	margin: 3px 20px 3px 0;
 	width: 280px;
 	display: inline-block;
@@ -2174,7 +2193,7 @@ margin: 0;
 }
 .child-body li a{
 	color: #000;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 }
 .imprimir, .enviar, .volver{
 	float: right !important;
@@ -2274,7 +2293,7 @@ margin: 0;
 	overflow: hidden;
 }
 .modulo{
-	background-color: #efefef;
+	background-color: #fff;
 	/*min-height: 180px;*/
 }
 /* Calendario */
@@ -2287,7 +2306,7 @@ margin: 0;
 
 .agenda-item .dia{
 	float: left;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 	height: 70px;
 	text-align: center;
 	font-size: 32px;
@@ -2299,7 +2318,7 @@ margin: 0;
 }
 .agenda-item .info .mes{
 	font-weight: bold;
-	font-family: 'Aller';
+	font-family: 'Montserrat';
 	font-size: 12px;
 	margin-top: 4px;
 	color: #fff;
@@ -3245,7 +3264,7 @@ margin: 0;
 	padding-right: 20px;
 	margin-left: -2px;
 	font-size: 13px;
-	font-family: 'Asap';
+	font-family: 'Montserrat';
 	vertical-align: top;
 }
 .ui-list-7 li a{ color:  #444}
