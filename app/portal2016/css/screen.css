@@ -896,7 +896,7 @@ li.link-pre-pie a{
 
 .block-tramites .title-tramites {
     display: inline-block;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 19px;
     margin: 0 110px 12px 0;
     padding: 13px 5px 15px;
@@ -918,17 +918,17 @@ li.link-pre-pie a{
 
 @media (min-width: 1024px) {
     .block-tramites .title-tramites {
-        font-size: 31px;
+        font-size: 26px;
         height: 70px;
-        margin: 0 -5px 0px 0;
+        margin: 0px -5px 0px 0px;
         line-height: 35px;
-        padding: 18px 11px
+        padding: 20.2px 11px
     }
 }
 
 .block-tramites .item-tramite {
     display: inline-block;
-    font-weight: 200;
+    font-weight: 400;
     color: #12b5c8;
     background-color: #fff;
     padding: 6px 9px;
@@ -943,17 +943,12 @@ li.link-pre-pie a{
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     transition: all .3s ease */
+    padding : 10px 10px;
+    margin : 0px 5px 5px 0px;
 }
 
-@media (min-width: 1024px) {
-    .block-tramites .item-tramite {
-        padding: 20px 12px;
-        margin: 0 -8px 0px 0
-    }
-}
-
-.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span {
-    background-color: #c4d8e1; 
+.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover  {
+    background-color: #2c5d96; 
     color: #fff;
 }
 
@@ -965,9 +960,10 @@ li.link-pre-pie a{
     -webkit-text-fill-color: transparent */
 }
 
+
 @media (min-width: 1024px) {
     .block-tramites .item-tramite span {
-        font-size: 32px
+        font-size: 24px
     }
     /* .block-tramites .item-tramite span:hover {
         color: #fff;
@@ -1114,6 +1110,14 @@ li.link-pre-pie a{
 .block-tramites .search-tramites .input-submit:focus {
     outline: none
 }
+
+/**
+Agregado 2020 -  boton coronavirus
+*/
+#coronavirus-btn{
+    background-color: red;
+}
+
 
 .list-items {
     *zoom: 1
