@@ -764,7 +764,7 @@ li.link-pre-pie a{
 
 @media (min-width: 1280px) {
     .box.box-featured .title-featured {
-        font-size: 50px
+        font-size: 35px
     }
 }
 
@@ -1549,7 +1549,8 @@ Agregado 2020 -  boton coronavirus
 .section-category .top-section .title-section {
     position: relative;
     z-index: 2;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4)
+    /* Ajustes 2020
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) */
 }
 
 .section-category .bottom-section {
@@ -1635,8 +1636,8 @@ Agregado 2020 -  boton coronavirus
 }
 
 .section-category .title-section {
-    color: #fff;
-    font-size: 26px;
+    color: #4276bc;
+    font-size: 3.5vw; 
     font-weight: 100;
     letter-spacing: -0.015em;
     text-transform: uppercase
@@ -1644,19 +1645,19 @@ Agregado 2020 -  boton coronavirus
 
 .section-category .title-section a {
     padding: 10px 25px;
-    background: rgba(29, 151, 169, 0.8);
+    background:#fff;
 }
 
 @media (min-width: 1024px) {
     .section-category .title-section {
         text-align: right;
-        font-size: 30px
+        /* font-size: 30px */
     }
 }
 
 @media (min-width: 1280px) {
     .section-category .title-section {
-        font-size: 45px
+        /* font-size: 45px */
     }
 }
 
@@ -3329,9 +3330,9 @@ a.transmision-vivo .transmision-legend:hover span {
         padding: 1rem
     }
 
-    .box.box-featured .title-featured {
+    /* .box.box-featured .title-featured {
         font-size: 55px
-    }
+    } */
 
     .box .list-links li {
         margin-bottom: 10px
@@ -3378,9 +3379,9 @@ a.transmision-vivo .transmision-legend:hover span {
         padding: 1rem
     }
 
-    .box.box-featured .title-featured {
+    /* .box.box-featured .title-featured {
         font-size: 50px
-    }
+    } */
 
     .box .list-agenda li {
         margin-bottom: 15px
