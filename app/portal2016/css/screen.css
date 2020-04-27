@@ -318,7 +318,9 @@ img {
 @media (min-width: 1024px) {
     .btn {
         padding: 15px 30px;
+        /*Ajuste 2020
         font-size: 16px
+        */
     }
 }
 
@@ -636,15 +638,14 @@ li.link-pre-pie a{
     min-height: 225px
 }
 
-/* Ajustes 2020 */
-/* .box.box-new:hover .content-new {
+.box.box-new:hover .content-new {
     position: bottom;
     bottom: 8px
 }
 
 .box.box-new:hover:before {
     opacity: .9
-} */
+}
 
 .box.box-new .content-new {
     position: bottom;
@@ -714,7 +715,7 @@ li.link-pre-pie a{
 }
 
 .box.box-new .content-new .date-new {
-    font-size: 11px;
+    font-size: 13px;
     display: inline-block;
     margin-bottom: 5px
 }
