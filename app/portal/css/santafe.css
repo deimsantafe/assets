@@ -2347,7 +2347,7 @@ margin: 0;
 }
 .agenda-item{
 	font-family: 'Asap';
-	background-image: url('img/agenda.jpg');
+	background-color: #c50404;
 	min-height: 87px;
 	/*-webkit-background-size: 100%;
 	background-size: 100%;*/
