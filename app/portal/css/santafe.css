@@ -3744,3 +3744,7 @@ li.social-header > a:hover i.elementosyoutube {
 .navbar{
     margin-bottom: 0px;
 }
+
+.custom-color-gray {
+	color: #656668;
+}
