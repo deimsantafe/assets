@@ -1239,7 +1239,7 @@ h1,h2,h3,h4{
 
 }
 .ui-h3-1 small{
-	color: #108a97;
+	color: #2c5d96;
 	font-size: 20px;
 	font-weight: normal;
 	margin-top: 0;
@@ -2413,7 +2413,7 @@ margin: 0;
 }
 .sf-responde-consultas{
 	margin-top: 20px;
-	background-color: #108a97;
+	background-color: #027aba;
 	display: block;
 	font-family: 'Aller';
 	font-weight: bold;
@@ -2552,7 +2552,7 @@ margin: 0;
 }
 .tramites-n2 .contact-form.nav-tramites .ui-bg-11 .ir-busqueda{
 	padding: 4px 3px;
-	background: #108a97;
+	background: #027aba;
 	border: none;
 	height: 30px;
 	width: 30px;
@@ -2578,7 +2578,7 @@ margin: 0;
 .body h3 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #108a97;
+	color: #2c5d96;
 }
 .tramites-n2 .body .realizar-tramite {
 	margin-bottom: 35px;
@@ -2594,7 +2594,7 @@ margin: 0;
 	width: auto;
 }
 .tramites-n2 .body .btn:hover {
-	background:#108a97;
+	background:#027aba;
 }
 .tramites-n2 .body .icons-tramite {
 	margin-top: 4px;
@@ -3161,7 +3161,7 @@ margin: 0;
 	margin-bottom: 0;
 }
 .compras-n2 .body i{
-	color: #108a97;
+	color: #2c5d96;
 	font-size: 13px;
 	margin: 0 5px;
 }
@@ -3203,7 +3203,7 @@ margin: 0;
 	width: 50%;
 }
 .body .body-items-list .documento p{
-	color:#108a97;
+	color:#2c5d96;
 	font-size: 13px;
 	font-weight: bold;
 	margin-bottom: -3px;
@@ -3518,7 +3518,7 @@ margin: 0;
 	display: inline-block;
 }
 .estadisticas .ui-list-4 li a:hover {
-	color: #914744;
+	color: #2c5d96;
 }
 .estadisticas .ui-list-4 li a i {
 	font-size: 16px;
