@@ -721,7 +721,7 @@ li.link-pre-pie a{
 }
 
 .box.box-new .content-new .title-box {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0;
     margin-bottom: 0;
     line-height: 115%;
@@ -732,7 +732,6 @@ li.link-pre-pie a{
 
 @media (min-width: 1024px) {
     .box.box-new .content-new .title-box {
-        font-size: 20px;
         height: auto;
         white-space: inherit;
         text-overflow: inherit;
@@ -3373,9 +3372,6 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 @media (max-height: 730px) and (min-width: 1280px) {
-    .box.box-new .content-new .title-box {
-        font-size: 20px
-    }
 
     .box.box-featured {
         padding: 1rem
