@@ -964,7 +964,9 @@ li.link-pre-pie a{
 
 @media (min-width: 1024px) {
     .block-tramites .item-tramite span {
-        font-size: 24px
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -0.03rem;
     }
     /* .block-tramites .item-tramite span:hover {
         color: #fff;
