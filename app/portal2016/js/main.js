@@ -95,7 +95,7 @@ function SectionCustom(section) {
                     '<h4 class="title-box">' + v.titulo + '</h4>' +
                     '<ul class="list-links" id="' + v.id + '">' +
                     '</ul>' +
-                    '<a class="btn" href="/index.php/tramites/modul1/index?m=tramites_por_temas&volver=1&ptema=' + v.tema + '&ponline=0&psubtema=0&page=1">Ver más trámites</a>' + '</div>';
+                    '<a class="btn" href="/index.php/tramites/modul1/index?m=tramites_por_temas&volver=1&ptema=' + v.tema + '&ponline=0&psubtema=0&page=1">Ver más</a>' + '</div>';
 
                     $('#' + boxDestiny).append(plantilla_tramites);
                     //console.log(boxDestiny);
