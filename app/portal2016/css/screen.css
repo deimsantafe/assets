@@ -3530,6 +3530,17 @@ a.transmision-vivo .transmision-legend:hover span {
     opacity: .8
 }
 
+@font-face {
+    font-family: 'CC-ICONS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('//www.santafe.gov.ar/assets/app/portal/fonts/ccicons/cc-icons.ttf') format('truetype');
+}
+span.cc {
+    font-family: 'CC-ICONS';
+    color: #6b736c !important;
+}
+
 
 @media (max-width: 980px) {
 
