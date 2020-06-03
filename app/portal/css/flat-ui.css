@@ -2371,7 +2371,7 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
 }
 .dropdown-menu li > a {
   color: rgba(52, 73, 94, 0.75);
-  padding: 4px 10px 4px !important;
+  padding: 3px 10px 3px !important;
   border-radius: 4px;
   text-decoration: none;
   -webkit-transition: background-color 0.25s;
