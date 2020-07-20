@@ -1387,11 +1387,15 @@ li.social-header > a i {
 .stg-logos-contenedor {
     margin-bottom: 0;
     float: left;
-    padding-left: 230px;
+    padding-left: 100px;
 }
 
 .stg-logos a:hover {
     opacity: 0.8
+}
+
+.stg-logos-contenedor p {
+    text-align: right !important;
 }
 
 @media (max-width: 980px) {
@@ -1403,5 +1407,9 @@ li.social-header > a i {
         padding-left: 0px;
         text-align: center;
         display: inline-flex;
+    }
+
+    .stg-logos-contenedor p {
+        text-align: left !important;
     }
 }
