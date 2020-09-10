@@ -75,6 +75,8 @@ body{
 	font-size: 12px;
 	font-weight: 500;
 	letter-spacing: 0.02em;
+	white-space: normal;
+	min-width: 220px;
 }
 .navbar-sf .navbar-nav li li a:hover{
 	/* color: #fff; */
