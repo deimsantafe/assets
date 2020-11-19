@@ -881,7 +881,7 @@ li.link-pre-pie a{
     .site-logo.logo-header {
         background-image: url(../images/logo-header.png);
         width: 135px;
-        height: 125px;
+        height: 120px;
         position: relative
     }
 
@@ -2139,7 +2139,7 @@ a.transmision-vivo .transmision-legend:hover span {
     position: absolute;
     display: none;
     right: 96px;
-    top: 0;
+    top: 8px;
     z-index: 1100;
     padding: 7px 9px 6px 9px;
     border-left: 1px solid #d3d3d3;
@@ -2228,7 +2228,6 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .logo-header {
         position: static;
-        margin-bottom: -7px;
         margin-top: 0
     }
 }
@@ -2258,7 +2257,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .nav-icons-mobile li a {
     display: block;
-    height: 47px;
+    height: 70px;
     width: 47px;
     padding: 16px;
     -moz-transition: all .5s ease .2s;
@@ -2273,7 +2272,8 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .nav-icons-mobile li a.search-link {
-    text-align: center
+    text-align: center;
+    padding-top: 25px;
 }
 
 #site-header .nav-icons-mobile li a.search-link.close-search .icon-search:before {
@@ -2360,7 +2360,8 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .main-nav {
         float: left;
-        padding: 0
+        padding-top: 4px;
+        padding-left: 90px;
     }
 }
 
@@ -3266,7 +3267,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-footer {
-    padding: 20px 0 30px 0;
+    padding: 20px 0 20px 0;
     color: #888888;
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -3295,7 +3296,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-footer .footer-social {
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 @media (min-width: 1024px) {
@@ -3313,13 +3314,13 @@ a.transmision-vivo .transmision-legend:hover span {
         width: 35%;
         float: left;
         text-align: center;
-        /*margin-right: 1.69492%*/
+        margin-top: 20px;
     }
 }
 
 #site-footer .footer-social ul {
     overflow: hidden;
-    padding-left: 170px;
+    padding-left: 40%;
 }
 
 #site-footer .footer-social ul li {
@@ -3622,7 +3623,8 @@ span.cc {
     #site-footer .footer-stg {
         width: 35%;
         float: right;
-        margin-right: 0
+        margin-right: 0;
+        margin-top: 20px;
     }
 }
 
@@ -3633,7 +3635,7 @@ span.cc {
 }
 
 /**Ajustes Noviembre 2020**/
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     #site-header.header-fixed {
         height: 70px;
     }

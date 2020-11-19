@@ -10,7 +10,7 @@ body{
 }
 
 .navbar-sf{
-    background-color: #fff;
+    background-color: #f0ebe0;
     height: 55px;
     padding: 15px 0;
 }
@@ -53,7 +53,7 @@ body{
 	font-size: 30px;
 }
 .navbar-sf .navbar-brand{
-	padding-top: 6px;
+	padding-top: 10px;
 	position: absolute;
 }
 .navbar-sf .gestion-item a span {
@@ -70,7 +70,7 @@ body{
 }*/
 .navbar-sf .navbar-nav > li  li a{
 	color: #2c5d96;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	background-image: none;
 	font-size: 12px;
 	font-weight: 500;
@@ -85,7 +85,7 @@ body{
 
 .navbar-sf .navbar-nav > li > a {
         color: #333;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .navbar-sf .navbar-nav > li > a i{
 	font-size: 32px;
@@ -94,7 +94,7 @@ body{
 	float: left;
 	margin-top: 8px;
 	padding-bottom: 14px;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 }
 .navbar-sf .dropdown-menu{
 	background-color: #fff;
@@ -124,7 +124,7 @@ body{
     background-repeat: repeat-x;
     background-size: 1367px 3px;
     height: 75px;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); */
 }
 
 .row-top {
@@ -157,7 +157,7 @@ body{
 	color: #fff;
 }
 .clima-updated{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-size: 12px;
 	color: #b4b4b4;
 }
@@ -206,7 +206,7 @@ body{
 .alerta-desc{
 	font-size: 12px;
 	color: #fff;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	 -webkit-column-count:2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -307,7 +307,7 @@ body{
 	text-transform: uppercase;
 }
 .clima-details .clima-title{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-weight: bold;
 	font-size: 16px;
 	margin-top: 0;
@@ -326,7 +326,7 @@ body{
 	padding: 0px;
 	margin: 3px 2px 6px 2px;
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 }
 .navbar-sf .nav .open > a,
 .nav .open > a:hover,
@@ -348,7 +348,7 @@ body{
 	margin: 0 0 30px;
 	padding-top: 20px;
 	background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
 	line-height: 16px;
 	border-top: 1px solid rgba(192,192,192,1);
@@ -362,9 +362,12 @@ body{
 }
 
 .footer .row {
-	padding-left: 40px;
+	padding-left: 20px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.footer ul.inline {
+	padding-left: 15%;
 }
 .footer ul.inline a:hover{
 	opacity: .8;
@@ -407,7 +410,7 @@ ul.inline li{
 top: 1px;
 	color: #80767c;
 	font-size: 12px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 text-transform: uppercase;
 	position: absolute;
 }
@@ -420,7 +423,7 @@ text-transform: uppercase;
 	text-align: center;
 	text-transform: uppercase;
 	width: 32px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	line-height: 32px;
 	border-radius: 32px;
@@ -562,7 +565,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00998f8c', e
 .ui-more-1{
 	color: #B3B3B3;
 	font-size: 14px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform: inherit;
 
 }
@@ -637,7 +640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00998f8c', e
 	padding: 0 10px;
 }
 a.more-news{
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	color: #2c5d96;
 }
 .box-1 .more-news,
@@ -668,7 +671,7 @@ a.more-news{
 
 .box-3{
 	padding: 30px 10px 10px 10px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	height: 225px;
 }
 
@@ -747,7 +750,7 @@ a.more-news{
 	padding-left: 30px;
 	margin-bottom: 0;
 	color: #fff;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -775,7 +778,7 @@ a.more-news{
 
 /* end N2 */
 .footer-menu li a{
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #fff;
 	font-size: 13px;
 }
@@ -792,7 +795,7 @@ a.more-news{
 
 p.label{
 	padding: 0;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 10px;
 	text-transform: uppercase;
@@ -852,7 +855,7 @@ p.label a{
 	text-transform: uppercase;
 	height: 41px;
 	padding: 11px 0 0 20px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-size: 13px;
 }
 
@@ -966,7 +969,7 @@ p.label a{
 	-webkit-transition: all .3s; /* For Safari 3.1 to 6.0 */
 			transition: all .3s;
 	color: #fff;
-	font-family: 'aller';
+	font-family: 'Poppins';
 	font-size: 13px;
 	line-height: 116px;
 	text-transform: uppercase;
@@ -1130,7 +1133,7 @@ p.label a{
 	position: relative;
 	color: #fff !important;
 	display: block;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100%;
 }
@@ -1190,7 +1193,7 @@ p.label a{
 }
 /* Header */
 h1,h2,h3,h4{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .ui-h1-1 a{
 	color: #fff;
@@ -1209,7 +1212,7 @@ h1,h2,h3,h4{
 .ui-h2-1{
 	color: #2c5d96;
 	font-size: 17px;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	text-transform: uppercase;
 	margin: 0 0 15px 20px;
 	font-weight: 700;
@@ -1227,7 +1230,7 @@ h1,h2,h3,h4{
 	font-size: 20px;
 	text-transform: uppercase;
 	margin: 0;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	font-weight: bold;
         margin-top: 6px;
 }
@@ -1250,7 +1253,7 @@ h1,h2,h3,h4{
 	color: #5b5b5f;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-weight: bold;
 
 }
@@ -1275,7 +1278,7 @@ h1,h2,h3,h4{
 	float: left;
 }
 .ui-h4-1{
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	color: #2c5d96;
 	font-size: 13px;
 	padding: 9px 20px;
@@ -1325,11 +1328,11 @@ h1,h2,h3,h4{
 .ui-p-1{
 	color: rgba(255,255,255,.55);
 	font-size: 17px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 20px;
 }
 .ui-p-2{
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #5b5b5f;
 	font-size: 13px;
 	line-height: 16px;
@@ -1339,7 +1342,7 @@ h1,h2,h3,h4{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 17px !important;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height: 20px;
 }
 /* Slider */
@@ -1416,7 +1419,7 @@ p.label{
 	left: 60px;
 	color: #80767c;
 	font-size: 12px;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
 .clima-icon i{
@@ -1466,7 +1469,7 @@ p.label{
 	border: 0;
 	padding: 9px 10px;
 	color: #a1a1a1;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 
 .cta-headers a.cta span.title{
@@ -1501,7 +1504,7 @@ p.label{
 }
 
 .cta-headers a.cta{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	width: 145px;
 	display: block;
 	margin-bottom: 0;
@@ -1602,7 +1605,7 @@ p.label{
 }
 .box-8{
 	padding: 10px 10px 34px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	margin-bottom: 20px;
 }
 
@@ -1646,7 +1649,7 @@ p.label{
 .ui-list-1 li a{
 	width: 100%;
 	display: block;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	color: #2c5d96;
 	font-size: 13px;
 	font-weight: 400;
@@ -1709,7 +1712,7 @@ p.label{
 }
 .ui-list-4 li{
 	background-color: #e5e5e5;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	margin: 1px 0;
 	font-size: 14px;
 	list-style: none;
@@ -1719,7 +1722,7 @@ p.label{
 	background-color: #efefef;
 }
 .ui-list-5 li{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	list-style: none;
 }
 .ui-list-5 {
@@ -1756,7 +1759,7 @@ p.label{
 	padding-right: 20px;
 	margin-left: -2px;
 	font-size: 13px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	vertical-align: top;
 }
 .ui-list-7 li a{ color:  #444}
@@ -1810,7 +1813,7 @@ p.label{
 	padding-left: 50px;
 	color: #5b5b5f;
 	font-size: 13px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	line-height: 16px;
 	width: 680px;
 	margin-bottom: 15px;
@@ -1821,7 +1824,7 @@ p.label{
 .box-7 .body{
 	padding: 40px 20px 20px 40px;
 	margin-top: 28px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	color: #5b5b5f;
 	font-size: 13px;
 }
@@ -1863,7 +1866,7 @@ p.label{
 	color: #fff;
 	font-size: 13px;
 	padding: 6px 10px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	bottom: 0;
 	left: 0;
 	z-index: 10;
@@ -1908,7 +1911,7 @@ p.label{
 	width: 30px;
 	overflow: hidden;
 	margin-top: -15px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	position: absolute;
 	text-align: center;
 	font-weight: bold;
@@ -1917,12 +1920,12 @@ p.label{
 .body{
 	background-color: transparent;
 	padding: 20px;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 }
 /*sf-responde*/
 .contact-form{
 	margin-bottom: 20px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	background: #efefef;
 	}
 .contact-form .ui-bg-2{
@@ -2085,7 +2088,7 @@ margin: 0;
 	background-color: #e5e5e5;
 	position: relative;
 	text-align: center;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-size: 12px;
 	text-transform: uppercase;
 	border-top: 1px solid #cdcdcd;
@@ -2165,7 +2168,7 @@ margin: 0;
 .modulo .content ul li{
 	list-style: none;
 	font-size: 13px;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	margin: 3px 20px 3px 0;
 	width: 280px;
 	display: inline-block;
@@ -2202,7 +2205,7 @@ margin: 0;
 }
 .child-body li a{
 	color: #000;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 }
 .imprimir, .enviar, .volver{
 	float: right !important;
@@ -2315,7 +2318,7 @@ margin: 0;
 
 .agenda-item .dia{
 	float: left;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	height: 70px;
 	text-align: center;
 	font-size: 32px;
@@ -2327,7 +2330,7 @@ margin: 0;
 }
 .agenda-item .info .mes{
 	font-weight: bold;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	font-size: 12px;
 	margin-top: 4px;
 	color: #fff;
@@ -2355,7 +2358,7 @@ margin: 0;
 
 }
 .agenda-item{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	background-color: #c50404;
 	min-height: 87px;
 	/*-webkit-background-size: 100%;
@@ -2385,7 +2388,7 @@ margin: 0;
 	overflow: hidden;
 	padding: 0;
 	margin: 0;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 
 .tab-content{
@@ -2675,7 +2678,7 @@ margin: 0;
 	text-align: center;
 	line-height: 35px;
 	text-transform: uppercase;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .tramites-busqueda .ui-list-4 li{
 	background-color: #efefef;
@@ -2719,7 +2722,7 @@ margin: 0;
 	background-position: center 60px;
 	color: #ffffff;
 	text-align: center;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	padding-top: 230px;
 }
 .envivo .box-1.ui-bg-1 .transmision-off p {
@@ -2735,7 +2738,7 @@ margin: 0;
 }
 .mas-videos{
 	list-style: none;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	width: 33.33%;
 	padding-left: 20px;
 }
@@ -2824,7 +2827,7 @@ margin: 0;
 	z-index: 10;
 	background-color: #108a97;
 	font-size: 11px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	min-width: 100px;
 	padding: 5px  20px 5px 20px ;
 	font-weight: normal;
@@ -2833,7 +2836,7 @@ margin: 0;
 .event-item dt,
 .event-item dd{
 	display: inline;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-size: 13px;
 }
 .event-body{
@@ -2862,7 +2865,7 @@ margin: 0;
 }
 .mod-documents dl dd a{
 	color: #333;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .mod-documents dl dt{
 	color: #991c24;
@@ -2913,13 +2916,13 @@ margin: 0;
 	border: 0;
 	color: #fff;
 	font-size: 14px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .mod-search-date label{
 	margin-bottom: 0;
 	font-size: 13px;
 	color: #454545;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	width: 36px;
 }
 .nm{
@@ -2931,7 +2934,7 @@ margin: 0;
 	width: 200px;
 	height: 26px;
 	border: 0;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-size: 13px;
 
 }
@@ -2954,7 +2957,7 @@ margin: 0;
 .price-title{
 	background-color: #9c9696;
 	line-height: 87px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	font-weight: bold;
 	color: #fff;
 	font-size: 20px;
@@ -2982,7 +2985,7 @@ margin: 0;
 	color: #b6b7b8
 }
 .event{
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .event .social{
 	border-color: #b6b7b8
@@ -2994,7 +2997,7 @@ margin: 0;
 }
 .ww{
 	margin-bottom: 20px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .ww h3{
 	width: 100%;
@@ -3112,7 +3115,7 @@ margin: 0;
 	color: #fff;
 	font-weight: normal;
 	padding: 7px 10px;
-        font-family:'Asap';
+        font-family:'Poppins';
 }
 .tabs-compras .tab-content table tr td{
 	vertical-align: top;
@@ -3128,7 +3131,7 @@ margin: 0;
 .tabs-compras .tab-content table tr td a{
 	font-size: 16px;
 	color: #817373;
-	font-family:'Asap';
+	font-family:'Poppins';
 }
 .compras-n2 .box-10 .santafe-avanza{
 	width: 17% !important;
@@ -3151,7 +3154,7 @@ margin: 0;
 }
 .compras-n2 .ui-bg-2 p.pull-left{
 	color: #5b5b5f;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	margin: 0 0 15px 10px;
 }
 .compras-n2 .ui-bg-2 .pull-right{
@@ -3273,7 +3276,7 @@ margin: 0;
 	padding-right: 20px;
 	margin-left: -2px;
 	font-size: 13px;
-	font-family: 'Montserrat';
+	font-family: 'Poppins';
 	vertical-align: top;
 }
 .ui-list-7 li a{ color:  #444}
@@ -3315,19 +3318,19 @@ margin: 0;
 	text-align: center;
 	line-height: 35px;
 	text-transform: uppercase;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 
 .back-guia{
     color: #5b5b5f;
-    font-family: 'Asap';
+    font-family: 'Poppins';
     font-size: 13px;
 }
 
 .resultados-agenda .ver-mas a {
     color: #464646;
     display: block;
-    font-family: 'Asap';
+    font-family: 'Poppins';
     font-size: 12px;
     line-height: 35px;
     text-align: center;
@@ -3353,7 +3356,7 @@ margin: 0;
 .tabs-compras .tab-content table tr td a[class="item_table_guia"] {
     font-size: 13px;
     color: #000;
-    font-family:'Asap';
+    font-family:'Poppins';
 }
 
 /*clases para link de descarga de cartelera de la guia compra*/
@@ -3362,7 +3365,7 @@ margin: 0;
 	display: table;
 	list-style: none;
 	font-size: 13px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	margin: 3px 20px 3px 0;
 	/*width: 280px;*/
 	vertical-align: top;
@@ -3457,7 +3460,7 @@ margin: 0;
 }
 .box-personas .box-persona p {
 	color: #5b5b5f;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 	line-height: 120%;
 	overflow: auto;
 	height: 35px;
@@ -3480,7 +3483,7 @@ margin: 0;
 .perfil-desaparecido {
 	padding: 20px 30px 25px 30px;
 	overflow: hidden;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .perfil-desaparecido img {
 	-webkit-border-radius: 12px;
@@ -3540,7 +3543,7 @@ margin: 0;
 	font-size: 14px;
 	color: #444444;
 	margin-bottom: 0px;
-	font-family: 'Asap';
+	font-family: 'Poppins';
 }
 .estadisticas .datos-estadisticas strong {
 	color: #108a97;
@@ -3585,7 +3588,7 @@ margin: 0;
 }
 
 .link-cerrar {
-    font-family: 'Asap';
+    font-family: 'Poppins';
     color: #5b5b5f;
     font-size: 13px;
 }
