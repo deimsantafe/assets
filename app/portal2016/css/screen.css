@@ -990,7 +990,7 @@ li.link-pre-pie a{
     margin : 0px 5px 5px 0px;
 }
 
-.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover  {
+.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover  {
     background-color: #2c5d96; 
     color: #fff;
 }
@@ -1170,6 +1170,10 @@ Agregado 2021 -  boton beg
     background-color: #4570B4;
 }
 
+/* Santa Fe Vacuna*/
+#vacuna-btn{
+    background-color: #f891a5;
+}
 
 .list-items {
     *zoom: 1
