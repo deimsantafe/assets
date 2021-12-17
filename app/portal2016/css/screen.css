@@ -990,9 +990,18 @@ li.link-pre-pie a{
     margin : 0px 5px 5px 0px;
 }
 
-.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover  {
+.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover, .block-tramites #pase-sanitario:hover {
     background-color: #2c5d96; 
     color: #fff;
+}
+
+/*Agregado 2021 - Pase sanitario*/
+#pase-sanitario {
+    background-color: #00aae4;
+}
+
+#pase-sanitario span {
+    color: #ffffff;
 }
 
 .block-tramites .item-tramite span {
