@@ -990,7 +990,7 @@ li.link-pre-pie a{
     margin : 0px 5px 5px 0px;
 }
 
-.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover, .block-tramites #pase-sanitario:hover {
+.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover, .block-tramites #pase-sanitario:hover, .block-tramites #turnos-hisopado:hover {
     background-color: #2c5d96; 
     color: #fff;
 }
@@ -1001,6 +1001,15 @@ li.link-pre-pie a{
 }
 
 #pase-sanitario span {
+    color: #ffffff;
+}
+
+/*Agregado 2022 - Turnos hisopado*/
+#turnos-hisopado {
+    background-color: #008b37;
+}
+
+#pase-sanitario span, #turnos-hisopado span {
     color: #ffffff;
 }
 
