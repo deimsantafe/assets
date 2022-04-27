@@ -990,7 +990,7 @@ li.link-pre-pie a{
     margin : 0px 5px 5px 0px;
 }
 
-.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover, .block-tramites #pase-sanitario:hover, .block-tramites #turnos-hisopado:hover {
+.block-tramites .item-tramite:hover, .block-tramites .item-tramite:hover span, .block-tramites #coronavirus-btn:hover, .block-tramites #beg-btn:hover , .block-tramites #vacuna-btn:hover, .block-tramites #pase-sanitario:hover, .block-tramites #turnos-hisopado:hover, .block-tramites #juegos-sud-btn:hover {
     background-color: #2c5d96; 
     color: #fff;
 }
@@ -1192,6 +1192,14 @@ Agregado 2021 -  boton beg
 #vacuna-btn{
     background-color: #f891a5;
 }
+
+/**
+Agregado 2022 -  boton Juegos Sudamericanos
+*/
+#juegos-sud-btn{
+    background-color: #712368;
+}
+
 
 .list-items {
     *zoom: 1
