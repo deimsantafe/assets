@@ -2061,7 +2061,7 @@ a.transmision-vivo .transmision-legend:hover span {
     left: 0;
     z-index: 900;
     color: #4a4a4a;
-    background-color: #F0EBE0;
+    background-color: #ffffff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
@@ -2076,7 +2076,7 @@ a.transmision-vivo .transmision-legend:hover span {
         box-shadow: none;
         position: absolute;
         color: #2c5d96;
-        background-color: #F0EBE0;
+        background-color: #ffffff;
         padding: 0
     }
 }
