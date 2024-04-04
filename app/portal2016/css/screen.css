@@ -1258,18 +1258,7 @@ Agregado 2020 -  boton coronavirus
     background-color: red;
 }
 
-/**
-Agregado 2021 -  boton beg
-*/
-#beg-btn{
-    /* background-color: #4570B4; */
-    background-color: #fff;
-}
-
-#beg-btn.item-tramite:hover span{
-    background-color: #fff !important;
-}
-#beg-btn.item-tramite {
+#beg-btn, #impulsa-btn {
     padding: 3px;
 }
 /**
