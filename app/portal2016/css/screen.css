@@ -1944,7 +1944,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .transmision-vivo {
     background-color: #12b5c8;
-    background: linear-gradient(270deg, #495086, #12b5c8);
+    background: linear-gradient(270deg, #ffb102, #6d33bb);
     background-size: 400% 400%;
     color: #fff;
     display: block;
@@ -2171,7 +2171,8 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .header-bar {
-    position: relative
+    position: relative;
+    background-color: #fff;
 }
 
 /*Ajustes 2020*/
@@ -2408,7 +2409,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .nav-icons-mobile li {
     float: left;
-    border-left: 1px solid #d3d3d3
+    /* border-left: 1px solid #d3d3d3 */
 }
 
 #site-header .nav-icons-mobile li a {
