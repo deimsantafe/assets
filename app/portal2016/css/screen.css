@@ -610,8 +610,7 @@ img {
         height: 20px;
         overflow: hidden;
         text-overflow: ellipsis;
-        white-space: nowrap;
-        color: #333;
+        white-space: nowrap;        
     }
 }
 
@@ -3639,6 +3638,10 @@ a.transmision-vivo .transmision-legend:hover span {
     margin-bottom: 15px
 }
 
+.box .title-box {
+    color: #333;
+}
+
 @media (min-width: 1024px) {
     #site-bottom .box .title-box {
         margin-bottom: 20px;
@@ -3780,7 +3783,7 @@ a.transmision-vivo .transmision-legend:hover span {
     }
 
     .box .title-box {
-        margin-bottom: 15px
+        margin-bottom: 15px;        
     }
 
     .box .btn {
@@ -4209,14 +4212,16 @@ section#destacados {
         }
     }
     @media (min-width: 1024px) {
-    .title-destacados {
-        font-size: 55px;
-        font-weight: 900;
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-    }
-} 
+        .title-destacados {
+            font-size: 55px;
+            font-weight: 900;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            text-align:center;
+        }
+    } 
 
 #section-tramites .boxes-container {
     min-height: 400px;

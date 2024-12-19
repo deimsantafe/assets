@@ -44,12 +44,11 @@ function SectionCustom(section) {
     this.boxs = section.boxs;
 
 
-    if(this.id === "destacados"){ 
-        this.htmlToRender = '' +
+    this.htmlToRender = '' +
     '<section  id="' + this.id + '" class="' + this.class + ' section-category-destacados">' +
     '<div class="top-section-destacados" >' +
     '    <div class="container-destacados-title">' +
-    '      <h2 class="title-destacados">Destacados de la semana</h2>' +
+    '      <h2 class="title-destacados">'+this.title+'</h2>' +
     '   </div>' +
     '  </div>' +
     '  <!--/top-section-->' +
@@ -64,34 +63,7 @@ function SectionCustom(section) {
     '  <!--/bottom-section-->' +
     ' </section>' +
     ' <!--/section-end-->';
-    } else {
-
-    this.htmlToRender = '' +
-    ' <section  id="' + this.id + '" class="' + this.class + '">' +
-    '<div class="top-section">' +
-    '    <picture class="picture-section placeholderCustom' + this.id + '" data-large="' + this.image + '">' +
-    '      <source srcset="' + this.image + '">' +
-    '     <img src="' + this.imageBlur + '" alt="" class="img-small">' +
-    '    </picture>' +
-    '    <img class="picture-blur" src="' + this.imageBlur + '" alt="" >' +
-    '   <div class="container">' +
-    '      <h2 class="title-section"><a href="' + this.link + '">' + this.title + '</a></h2>' +
-    '   </div>' +
-    '     <!--/container-->' +
-    '  </div>' +
-    '  <!--/top-section-->' +
-    '  <div  class="bottom-section">' +
-    '      <div id="' + this.id + '-boxDestiny" class="container">' +
-    '         <!--/box-->' +
-    '         <!--/box-->' +
-    '      </div>' +
-    '  </div>' +
-    '   <!--/container-->' +
-    '  </div>' +
-    '  <!--/bottom-section-->' +
-    ' </section>' +
-    ' <!--/section-end-->';
-    }
+    
 
     this.render = function(destiny) {
         $(destiny).append(this.htmlToRender);
