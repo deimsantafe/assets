@@ -386,7 +386,7 @@ $(document).ready(function() {
     ];
     */
 
-    $.getJSON('/index.php/tramites/modul1/index?m=home&a=tramites', function(data) {
+    $.getJSON('/index.php/tramites/modul1/index?m=tramites_timbo', function(data) {
 
         //console.log(data);
 
