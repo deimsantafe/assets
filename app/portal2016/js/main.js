@@ -131,8 +131,8 @@ function SectionCustom(section) {
 
                     var plantilla_imagen =                    
                     '<a class="' + v.clases + '" href="'+ v.link +'">' +
-                        '<img src="' +  v.content + '" alt="">' +
-                    '</a>';
+                        '<img src="' +  v.content + '" alt="'+ v.altText +'">' +
+                    '</a>'; 
 
                     $('#' + boxDestiny).append(plantilla_imagen).fadeIn(2000);
 
