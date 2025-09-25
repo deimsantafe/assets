@@ -3377,9 +3377,9 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .submenu > li > a {
     display: inline-block;
     text-transform: none;
-    color: #494973;
+    color: #000000;
     padding: 6px 0px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     opacity: .7;
     -moz-transition: all .2s ease;
@@ -3675,19 +3675,13 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-footer {
     padding: 20px 0 20px 0;
-    color: #888888;
+    color: #555555;
     font-family: "Inter", sans-serif;
     font-size: 13px;
     line-height: 16px;
-    /* background: -moz-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d4d4d4), color-stop(100%, rgba(212, 212, 212, 0))) !important;
-    background: -webkit-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    background: -o-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    background: -ms-linear-gradient(top, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    background: linear-gradient(to bottom, #d4d4d4 0%, rgba(212, 212, 212, 0) 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4d4d4', endColorstr='#d8dbdd', GradientType=0) !important */
     background-color: #f0f0f0;
     border-top: 1px solid #ccc;
+    font-weight: bold;
 }
 
 #site-footer p {
