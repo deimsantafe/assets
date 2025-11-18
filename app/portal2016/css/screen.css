@@ -187,7 +187,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .icon-search:before {
     content: '\e802';
-    color: #ff7402;
+    color: #544A45;
 }
 
 .icon-foursquare:before {
@@ -279,7 +279,7 @@ img {
 }
 
 .container {
-    *zoom: 1;
+    zoom : 1;
     max-width: 380px;
     margin-left: auto;
     margin-right: auto;
@@ -329,7 +329,7 @@ img {
 }
 
 .clearfix {
-    *zoom: 1
+    zoom: 1
 }
 
 .clearfix:after {
@@ -567,7 +567,6 @@ img {
     padding: 1rem;
     color: #fff;
     overflow: hidden;
-    *
     zoom: 1;
     position: relative;
     /* color: red; */
@@ -902,7 +901,7 @@ li.link-pre-pie a{
     .box.box-btn .title-featured {
         height: calc(40vh - 110px);
         overflow-y: auto;
-        overflow-x: hidden
+        overflow-x: hidden;
         color: #333;
     }
 }
@@ -924,7 +923,7 @@ li.link-pre-pie a{
     display: block;
     text-indent: -9999em;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .site-logo.logo-header {
@@ -1283,7 +1282,7 @@ li.link-pre-pie a{
 
 .block-tramites .search-tramites .btn-search {
     /* background-color: #495086;
-    *zoom: 1;
+    zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -1378,7 +1377,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 
 .list-items {
-    *zoom: 1
+    zoom: 1
 }
 
 .list-items:after {
@@ -1518,7 +1517,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .section-articles {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -1558,7 +1557,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 }
 
 .section-articles .list-articles {
-    *zoom: 1
+    zoom: 1
 }
 
 .section-articles .list-articles:after {
@@ -1669,7 +1668,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .section-articles.section-gradient-1 {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -1691,7 +1690,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .section-articles.section-gradient-2 {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFDE006F', endColorstr='#FFFFE904');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlMDA2ZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZTkwNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -1711,7 +1710,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .section-articles.section-gradient-3 {
     background-color: #d70002;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFD70002', endColorstr='#FF00043C');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3MDAwMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDQzYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -1812,7 +1811,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 .section-category .bottom-section {
     position: relative;
     z-index: 500;
-    *zoom: 1;
+    zoom: 1;
     padding-top: .5rem
 }
 
@@ -1986,7 +1985,7 @@ hr {
 
 .section-category.section-gradient-1 .bottom-section {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -2008,7 +2007,7 @@ hr {
 
 .section-category.section-gradient-2 .bottom-section {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFDE006F', endColorstr='#FFFFE904');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlMDA2ZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZTkwNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -2029,7 +2028,7 @@ hr {
 
 .section-category.section-gradient-3 .bottom-section {
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFD70002', endColorstr='#FF00043C');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3MDAwMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDQzYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -2316,7 +2315,7 @@ ul.list-agenda {
     display: inline-block;
     font-size: 12px;
     width: 100%;
-    *zoom: 1
+    zoom: 1
 }
 
 .transmision-vivo .transmision-legend:after {
@@ -2396,7 +2395,7 @@ a.transmision-vivo .transmision-legend:hover span {
         position: absolute;
         color: #2c5d96;
         background-color: #ffffff;
-        padding: 0
+        padding-left:20px
     }
 }
 
@@ -2604,7 +2603,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .logo-header {
     float: left;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     margin-top: .5rem;
     position: absolute;
     z-index: 1000;
@@ -2615,14 +2614,14 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .logo-header {
         position: static;
-        margin-top: 0
+        margin-top: 0;
     }
 }
 
 #site-header .nav-icons-mobile {
     float: right;
-    *zoom: 1;
-    margin-right: -.5rem
+    zoom: 1;
+    margin-right: -.5rem;
 }
 
 #site-header .nav-icons-mobile:after {
@@ -2682,7 +2681,7 @@ a.transmision-vivo .transmision-legend:hover span {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     background-color: #fff;
-    *zoom: 1;
+    zoom: 1;
     /* filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF495086', endColorstr='#FF12B5C8');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NTA4NiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzEyYjVjOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
     background-size: 100%;
@@ -2695,7 +2694,7 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .nav-mobile {
         background-color: transparent;
-        *zoom: 1;
+        zoom: 1;
         filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#00000000', endColorstr='#00000000');
         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
         background-size: 100%;
@@ -2741,19 +2740,19 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .main-nav {
-    padding: 2rem .5rem 0 .5rem
+    /* padding: 2rem .5rem 0 .5rem; */
 }
 
 @media (min-width: 1024px) {
     #site-header .main-nav {
         float: left;
         padding-top: 4px;
-        padding-left: 90px;
+        padding-left: 65px;
     }
 }
 
 #site-header .main-nav > ul {
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .main-nav > ul:after {
@@ -2766,7 +2765,7 @@ a.transmision-vivo .transmision-legend:hover span {
     margin-bottom: 30px;
     float: left;
     width: 47.36842%;
-    margin-right: 5.26316%
+    margin-right: 5.26316%;
 
     text-transform: normal;
     font-size: 18px;
@@ -2809,6 +2808,31 @@ a.transmision-vivo .transmision-legend:hover span {
         width: auto;
         margin-right: 20px
     }
+    
+    #opciones_gobierno:focus-within + .submenu{
+        opacity: 1;
+        visibility: visible;
+        top: 80px
+    }
+
+    #opciones_servicios:focus-within + .submenu{
+        opacity: 1;
+        visibility: visible;
+        top: 80px
+    }
+
+
+    #opciones_provincia:focus-within + .submenu{
+        opacity: 1;
+        visibility: visible;
+        top: 80px
+    }
+
+    #site-header .main-nav > ul > li:focus-within .submenu{
+        opacity: 1;
+        visibility: visible;
+        top: 80px
+    }
 }
 
 @media (min-width: 1280px) {
@@ -2840,7 +2864,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav {
-    *zoom: 1;
+    zoom: 1;
     padding: 1rem .5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 }
@@ -2853,10 +2877,11 @@ a.transmision-vivo .transmision-legend:hover span {
 
 @media (min-width: 1024px) {
     #site-header .options-nav {
-        margin-top: 48px;
         float: right;
         border: none;
-        padding: 0
+        padding: 0;
+        margin-top: 52px;
+        /* align-items: center; */
     }
 }
 
@@ -2864,7 +2889,7 @@ a.transmision-vivo .transmision-legend:hover span {
     width: 47.36842%;
     margin-right: 5.26316%;
     float: left;
-    *zoom: 1;
+    zoom: 1;
     padding-left: 6px
 }
 
@@ -2879,13 +2904,19 @@ a.transmision-vivo .transmision-legend:hover span {
         margin-right: 10px;
         width: auto;
         padding-left: 0;
-        color: #ff7402;
+        color: #333;
     }
 }
 
 #site-header .options-nav .social-header li {
     float: left;
-    position: relative
+    position: relative;
+}
+
+@media (max-width:992px){
+    #site-header .options-nav .social-header li{
+        margin-top:15px;
+    }
 }
 
 #site-header .options-nav .social-header li:last-child a {
@@ -2901,7 +2932,7 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .options-nav .social-header li a {
     font-size: 16px;
     display: block;
-    color: #ff7402;
+    color: #544A45;
     margin-right: 15px
 }
 
@@ -2919,23 +2950,14 @@ a.transmision-vivo .transmision-legend:hover span {
 
 @media (min-width: 1024px) {
     #site-header .options-nav .social-header li a.divider-link {
-        margin-right: 50px;
+        margin-right: 18px;
         font-size: 18px
     }
 }
 
 @media (min-width: 1024px) {
     #site-header .options-nav .social-header li a.divider-link:before {
-        display: block;
-        content: '';
-        position: absolute;
-        top: -4px;
-        bottom: -4px;
-        right: -25px;
-        width: 2px;
-        cursor: default;
-        pointer-events: none;
-        background-color: #ff7402
+        display: none;
     }
 }
 
@@ -2946,7 +2968,7 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .options-nav .social-header li a.search-link {
         display: block;
-        width: 15px;
+        /* width: 15px; */
         margin-right: 25px
     }
 }
@@ -2956,7 +2978,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 .icon-search {
-    color: ##ff7402;
+    color: #ff7402;
 }
 
 #site-header .options-nav .weather-dropdown {
@@ -3035,7 +3057,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .options-nav .weather-dropdown .weather .header-clima {
     margin-bottom: 20px;
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .options-nav .weather-dropdown .weather .header-clima:after {
@@ -3064,7 +3086,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region {
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region:after {
@@ -3105,7 +3127,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region .clima-details .current-day-box {
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region .clima-details .current-day-box:after {
@@ -3146,7 +3168,7 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region .clima-next {
     padding: 10px 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .options-nav .weather-dropdown .weather .list-clima-region .item-clima-region .clima-next:after {
@@ -3196,7 +3218,7 @@ a.transmision-vivo .transmision-legend:hover span {
 #site-header .options-nav .select-language {
     width: 47.36842%;
     float: left;
-    *zoom: 1
+    zoom: 1
 }
 
 #site-header .options-nav .select-language:after {
@@ -3332,7 +3354,7 @@ a.transmision-vivo .transmision-legend:hover span {
         top: 72px;
         margin-left: -15px;
         padding: 8px 0px;
-        *zoom: 1;
+        zoom: 1;
         -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
         -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
         box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
@@ -3944,7 +3966,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 
-/* logos de secretarÃƒÂ­a de tecnologÃƒÂ­as para la gestion remoto */
+/* logos de secretarÃƒÆ’Ã‚Â­a de tecnologÃƒÆ’Ã‚Â­as para la gestion remoto */
 
 @font-face {
     font-family: 'stg-logos';
@@ -4232,4 +4254,3 @@ a.box.box-4.box-img {
     left: 10px;
     right: 10px
 } 
-
