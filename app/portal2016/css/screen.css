@@ -4254,3 +4254,7 @@ a.box.box-4.box-img {
     left: 10px;
     right: 10px
 } 
+
+a:focus, input:focus, button:focus{
+    outline:4px solid #6dd5ff !important;
+}
