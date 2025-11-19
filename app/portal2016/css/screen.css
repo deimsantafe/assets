@@ -2917,10 +2917,10 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .options-nav .social-header li a {
-    font-size: 16px;
+    font-size: 16px !important;
     display: block;
     color: #544A45;
-    margin-right: 15px
+    padding-right: 15px;
 }
 
 @media (min-width: 1024px) {
@@ -4248,4 +4248,8 @@ a:focus, input:focus, button:focus{
 
 a img{
     color:#0a0a0a !important;
+}
+
+#site-header .options-nav .social-header li a i{
+    padding-right:5px !important
 }
