@@ -2809,20 +2809,7 @@ a.transmision-vivo .transmision-legend:hover span {
         margin-right: 20px
     }
     
-    #opciones_gobierno:focus-within + .submenu{
-        opacity: 1;
-        visibility: visible;
-        top: 80px
-    }
-
-    #opciones_servicios:focus-within + .submenu{
-        opacity: 1;
-        visibility: visible;
-        top: 80px
-    }
-
-
-    #opciones_provincia:focus-within + .submenu{
+    .listaCAtegorias:focus-within + .submenu{
         opacity: 1;
         visibility: visible;
         top: 80px
