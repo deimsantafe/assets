@@ -2099,8 +2099,9 @@ hr {
 }
 
 
-#section-tramites .container { 
-    display: table;
+#section-tramites .container {
+    margin-top:10%;
+    display:flex;
     width: 75%;
     position: relative;
     z-index: 3;
@@ -4252,4 +4253,64 @@ a img{
 
 #site-header .options-nav .social-header li a i{
     padding-right:5px !important
+}
+
+.top-noticias {
+    position: relative;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.img-noticias {
+    width: 40%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.container.container-noticias{
+    display:flex !important;
+    justify-content: center;
+}
+
+a.link-top-noticias
+ {
+    display: flex;
+    background: #FFF;
+    border-radius: 4px;
+    box-shadow: 2px 1px 15px #312D2D;;
+}
+
+.noticias-title {
+    width: 60%;
+    height: 190px;
+}
+
+@media (max-width:1023px){
+    .container.container-noticias{
+        display:flex !important;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-noticias {
+        height: 100%;
+    }
+    .top-noticias {
+        width: 100%;
+    }
+}
+
+@media (min-width:1024px){
+    .container.container-noticias{
+        display:flex !important;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .img-noticias {
+        height: 100%;
+    }
+    .top-noticias {
+        width: 50%;
+    }
 }
