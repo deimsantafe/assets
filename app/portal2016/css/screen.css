@@ -1883,7 +1883,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 }
 
 .box-top-noticia, .box-top-destacado, .box-top-accesos{
-    box-shadow:2px 1px 15px #312D2D;
+   border-radius:4px !important;
 }
 
 .box-top-destacado{
@@ -2100,11 +2100,12 @@ hr {
 
 
 #section-tramites .container {
-    margin-top:10%;
+    margin-top: 2%;
     display:flex;
     width: 75%;
     position: relative;
     z-index: 3;
+    justify-content: center;
 }
 
 
@@ -4279,13 +4280,24 @@ a.link-top-noticias
     display: flex;
     background: #FFF;
     border-radius: 4px;
-    box-shadow: 2px 1px 15px #312D2D;;
+
 }
 
 .noticias-title {
     width: 60%;
     height: 190px;
+    max-height:190px;
+    font-weight:bolder;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+    
 }
+.noticias-title span{
+    font-weight:200;
+}
+
 
 @media (max-width:1023px){
     .container.container-noticias{
@@ -4298,6 +4310,10 @@ a.link-top-noticias
     }
     .top-noticias {
         width: 100%;
+    }
+
+    .container-md.container-noticias{
+        margin: 20px 10px !important;
     }
 }
 
