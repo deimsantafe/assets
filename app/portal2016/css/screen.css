@@ -4352,3 +4352,12 @@ a.link-top-noticias
     margin-bottom: 5px;
 }
 
+@media (min-width: 1300px) {
+    #site-header .options-nav .social-header {
+        margin-top:30px;
+    }
+
+    #site-header .options-nav .weather-dropdown{
+        margin-top:23px;
+    }
+}
