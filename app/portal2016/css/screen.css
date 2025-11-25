@@ -262,7 +262,7 @@ body.en-vivo-page {
 }
 
 body.en-vivo-page #site-header .nav-mobile-content {
-    top: 87px
+    top: 100px;
 }
 
 a {
@@ -4058,7 +4058,7 @@ span.cc {
 /**Ajustes Noviembre 2020**/
 @media (max-width: 1023px) {
     #site-header.header-fixed {
-        height: 70px;
+        height: 100px;
     }
 
 
