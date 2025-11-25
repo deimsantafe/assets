@@ -1132,7 +1132,7 @@ li.link-pre-pie a{
 }
 /* icono weather */
 .wi{
-	color: #ff7402;
+	color: #544A45;
 }
 
 
@@ -2865,7 +2865,7 @@ a.transmision-vivo .transmision-legend:hover span {
         float: right;
         border: none;
         padding: 0;
-        margin-top: 52px;
+        margin-top: 17px;
         /* align-items: center; */
     }
 }
@@ -2974,10 +2974,11 @@ a.transmision-vivo .transmision-legend:hover span {
     #site-header .options-nav .weather-dropdown {
         display: block;
         float: left;
-        margin-right: 20px;
+        margin-right: 60px;
         margin-top: -5px;
         font-size: 31px;
-        padding-bottom: 15px
+        padding-bottom: 15px;
+        margin-left: -23px;
     }
 }
 
@@ -4231,7 +4232,7 @@ a.box.box-4.box-img {
 
 .weather-mobile {
     position: absolute;
-    top: -50px;
+    top: -38px;
     left: 10px;
     right: 10px
 } 
