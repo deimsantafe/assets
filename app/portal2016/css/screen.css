@@ -4248,13 +4248,6 @@ a img{
     padding-right:5px !important
 }
 
-.top-noticias {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-}
-
 .img-noticias {
     width: 60%;
     border-top-left-radius: 4px;
@@ -4334,4 +4327,11 @@ a.link-top-noticias
     .noticias-title span , h4{
         font-size:small !important;
     }
+}
+
+.top-noticias {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
