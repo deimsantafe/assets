@@ -1755,7 +1755,7 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 @media (min-width: 300px) and (max-width: 567px) {
       .section-category {
-    margin-top: 30%;
+    /* margin-top: 30%; */
     } 
 } 
 
@@ -2719,7 +2719,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-header .nav-icons-mobile li a {
     display: block;
-    height: 70px;
+    height: 62px;
     width: 47px;
     padding: 16px;
     -moz-transition: all .5s ease .2s;
@@ -2818,7 +2818,7 @@ a.transmision-vivo .transmision-legend:hover span {
 @media (min-width: 1024px) {
     #site-header .main-nav {
         float: left;
-        padding-top: 4px;
+        /* padding-top: 4px; */
         padding-left: 65px;
     }
 }
@@ -4131,9 +4131,7 @@ span.cc {
 
 /**Ajustes Noviembre 2020**/
 @media (max-width: 1023px) {
-    #site-header.header-fixed {
-        height: 100px;
-    }
+
 
 
     #site-footer .footer-social ul {
@@ -4306,7 +4304,7 @@ a.box.box-4.box-img {
 
 .weather-mobile {
     position: absolute;
-    top: -60px;
+    top: -25px;
     left: 10px;
     right: 10px
 } 
@@ -4457,5 +4455,4 @@ a.link-top-noticias
 
 nav.main-nav {
     margin-left: 15px;
-    margin-top: 25px;
 }
