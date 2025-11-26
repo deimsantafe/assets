@@ -1753,6 +1753,13 @@ Agregado 2022 -  boton Juegos Sudamericanos
     margin-top: 5px;
 }
 
+@media (min-width: 300px) and (max-width: 567px) {
+      .section-category {
+    margin-top: 30%;
+    } 
+} 
+
+
 .section-category .top-section {
     padding: 250px 0 .5rem 0;
     background-color: #383838;
