@@ -4282,7 +4282,6 @@ a.link-top-noticias
     padding: 0px 20px;
     overflow-y:scroll;
     overflow:hidden;
-    padding-top: 15px;
 }
 
 .noticias-title span{
@@ -4310,6 +4309,12 @@ a.link-top-noticias
         margin-top:10% !important;
         
     }
+    .noticias-title{
+            padding-top: 30px;
+    }
+    .noticias-title span , h4{
+        font-size:small !important;
+    }
 }
 
 @media (min-width:1024px){
@@ -4329,10 +4334,14 @@ a.link-top-noticias
         .container.container-noticias{
         margin-top: 6% !important;
     }
-}
-    .noticias-title span , h4{
+        .noticias-title span , h4{
         font-size:medium !important;
     }
+        .noticias-title{
+            padding-top: 20px;
+    }
+}
+
 
 .top-noticias {
     position: relative;
