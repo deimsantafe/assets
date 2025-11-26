@@ -1884,20 +1884,42 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 .box-top-noticia, .box-top-destacado, .box-top-accesos{
    border-radius:4px !important;
+   width: 100%;
 }
 
 .box-top-destacado{
     background: #ffff;
 }
 
-ul.list-agenda:last-child {
-    border: none;
+ul.list-agenda {
+    margin-top:15px;
+    display:flex;
+    gap: 25px;
+    flex-wrap:wrap;
 }
 
-ul.list-agenda li {
-    border-bottom: 1px solid #7d7d7d;
+ul.list-agenda li a{
+    border: 2px solid #4a4a4a;
+    border-radius:20px;
+    font-size:larger;
+    width:100%;
+    padding:10px 25px;
+    display:flex;
+    align-items: center;
+    text-align:center !important;
+}
+ul.list-agenda li a i{
+    font-weight:200;
 }
 
+ul.list-agenda li:hover a {
+    font-weight:bold;
+    border: 3px solid #4a4a4a;
+}
+
+ul.list-agenda li a:hover i{
+      font-weight:500
+} 
 .box-3{
     border-radius: 15px;
 }
@@ -1943,7 +1965,7 @@ hr {
     }
 
     .container-title-and-icon {
-        width: 90%; 
+        /* width: 90%; */
    }
 
    .hr-glide {
