@@ -2621,10 +2621,15 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-header .nav-icons-mobile {
-    float: right;
+    /* float: left; */
     zoom: 1;
-    margin-right: -.5rem;
+    /* margin-right: -.5rem; */
+    background: #FFF;
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
+
 
 #site-header .nav-icons-mobile:after {
     content: "";
