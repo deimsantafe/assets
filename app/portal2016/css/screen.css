@@ -2397,7 +2397,6 @@ a.transmision-vivo .transmision-legend:hover span {
         position: absolute;
         color: #2c5d96;
         background-color: #ffffff;
-        padding-left:20px
     }
 }
 
@@ -2617,6 +2616,7 @@ a.transmision-vivo .transmision-legend:hover span {
     #site-header .logo-header {
         position: static;
         margin-top: 0;
+        margin-left: 30px;
     }
 }
 
