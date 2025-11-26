@@ -4376,3 +4376,8 @@ a.link-top-noticias
         margin-top:23px;
     }
 }
+
+nav.main-nav {
+    margin-left: 15px;
+    margin-top: 25px;
+}
