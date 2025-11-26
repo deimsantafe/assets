@@ -2317,7 +2317,8 @@ ul.list-agenda {
     display: inline-block;
     font-size: 12px;
     width: 100%;
-    zoom: 1
+    zoom: 1;
+    margin-left: 12px;
 }
 
 .transmision-vivo .transmision-legend:after {
@@ -4237,7 +4238,7 @@ a.box.box-4.box-img {
 
 .weather-mobile {
     position: absolute;
-    top: -38px;
+    top: -22px;
     left: 10px;
     right: 10px
 } 
