@@ -1898,6 +1898,44 @@ Agregado 2022 -  boton Juegos Sudamericanos
     background: #ffff;
 }
 
+.box-top-accesos.container{
+height: calc(10vh - 62px);
+}
+
+@media (max-width:767px){
+    .box-top-accesos.container{
+    padding-top: 18%;
+    }
+    
+    div#destino {
+        margin-top: 600px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .box-top-accesos.container{
+    padding-top: 2%;
+    }
+    
+    div#destino {
+        margin-top: 400px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1280px) {
+
+    div#destino {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width:1281px) {
+
+    div#destino {
+        margin-top: 100px;
+    }
+}
+
+
 ul.list-agenda {
     margin-top:15px;
     display:flex;
@@ -1922,6 +1960,7 @@ ul.list-agenda li a i{
 ul.list-agenda li:hover a {
     font-weight:bold;
     border: 3px solid #4a4a4a;
+    transition: 0.2s ease;
 }
 
 ul.list-agenda li a:hover i{
@@ -4323,9 +4362,15 @@ a.link-top-noticias
     font-weight:200;
 }
 
-
+ .container-title-and-icon h5{
+     color:#4a4a4a !important;
+ }
 
 @media (max-width:1023px){
+    .container-title-and-icon h5{
+        font-size:22px !important;
+        
+    }
     .container.container-noticias{
         display:flex !important;
         justify-content: center;
@@ -4353,6 +4398,10 @@ a.link-top-noticias
 }
 
 @media (min-width:1024px){
+ .container-title-and-icon h5{
+        font-size:32px !important;
+    }
+    
     .container.container-noticias{
         display:flex !important;
         justify-content: center;
