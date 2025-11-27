@@ -3775,24 +3775,24 @@ a.transmision-vivo .transmision-legend:hover span {
 
 #site-footer {
     padding: 20px 0 20px 0;
-    color: #555555;
+    color: #fff !important;
     font-family: "Inter", sans-serif;
     font-size: 13px;
     line-height: 16px;
-    background-color: #f0f0f0;
-    border-top: 1px solid #ccc;
+    background-color: #484A61;
     font-weight: bold;
 }
 
 #site-footer p {
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    color: #fff !important;
 }
 
 #site-footer a {
     font-weight: 700;
+    color: #fff !important;
     font-size: 14px;
     text-transform: uppercase;
-    color: #494963;
 }
 
 #site-footer a strong {
@@ -3800,7 +3800,12 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 #site-footer .footer-social {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: #fff !important;
+}
+
+#site-footer span.cc{
+    color: #fff !important;
 }
 
 @media (min-width: 1024px) {
@@ -4040,7 +4045,7 @@ a.transmision-vivo .transmision-legend:hover span {
 }
 
 
-/* logos de secretarÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­a de tecnologÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­as para la gestion remoto */
+/* logos de secretarÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­a de tecnologÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­as para la gestion remoto */
 
 @font-face {
     font-family: 'stg-logos';
