@@ -1953,6 +1953,9 @@ height: calc(10vh - 62px);
     }
 }
 
+   div#destino {
+        margin-bottom: 20px;
+    }
 
 ul.list-agenda {
     margin-top:15px;
