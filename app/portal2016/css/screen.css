@@ -3876,6 +3876,7 @@ a.transmision-vivo .transmision-legend:hover span {
         float: left;
         margin-right: 0;
         text-align: left;
+        margin-top: 10px;
 
     }
 }
