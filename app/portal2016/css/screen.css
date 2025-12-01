@@ -4499,3 +4499,7 @@ a.link-top-noticias
 nav.main-nav {
     margin-left: 15px;
 }
+
+#destacados .top-section-destacados {
+    display:none;
+}
