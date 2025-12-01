@@ -1840,8 +1840,8 @@ Agregado 2022 -  boton Juegos Sudamericanos
 
 @media (min-width: 1024px) {
     .section-category .bottom-section {
-        height: 40vh;
-        padding: 1.4rem 0
+        /* height: 40vh; */
+        /* padding: 1.4rem 0; */
     }
 }
 
