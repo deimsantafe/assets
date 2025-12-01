@@ -1918,6 +1918,10 @@ height: calc(10vh - 62px);
         padding-top:calc(92vh - 40px);
         /* padding-bottom: 30px; */
     }
+        a h2.title-destacados{
+      padding-bottom: 40px;
+
+    }
 }
 
 @media (min-width:376px) and (max-width:444px){
@@ -1929,6 +1933,12 @@ height: calc(10vh - 62px);
     div#destino #destacados {
         padding-top:calc(68vh - 50px);
     }
+    
+    a h2.title-destacados{
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
+    
 }
 
 @media (max-width:767px){
@@ -1937,6 +1947,16 @@ height: calc(10vh - 62px);
     }
     
 }
+
+@media (min-width:768px) and (max-width:991px){
+    a h2.title-destacados{
+      padding-bottom: 40px;
+      padding-top: 40px;
+    }
+}
+
+
+
 @media (min-width:445px) and (max-width:992px){
     .box-top-accesos.container{
     padding-top: 2%;
@@ -1945,26 +1965,42 @@ height: calc(10vh - 62px);
     div#destino #destacados {
         padding-top:calc(55vh - 50px);
     }
+        a h2.title-destacados{
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
+    
 }
 
 @media (min-width:1024px) and (max-width:1279px) {
     div#destino #destacados {
         padding-top:calc(20vh - 50px);
     }
-
+    a h2.title-destacados{
+          padding-bottom: 20px;
+          padding-top: 40px;
+        }
 }
 
 @media (min-width:1024px) and (max-height:600px) {
     div#destino #destacados {
         padding-top:calc(55vh - 50px);
     }
-
+    a h2.title-destacados{
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
 }
 
 @media (min-width:1280px) {
 
     div#destino {
         margin-top: 220px;
+    }
+
+    a h2.title-destacados{
+      padding-bottom: 40px;
+      padding-top: 20px;
     }
 }
 
@@ -3866,7 +3902,7 @@ a.transmision-vivo .transmision-legend:hover span {
 
 .footer-datos img {
     width: 150px !important;
-    height: 33px !important;
+    height: 35px !important;
 }
 
 @media (min-width: 1024px) {
@@ -4512,6 +4548,3 @@ nav.main-nav {
     display:none;
 }
 
-a h2.title-destacados{
-  padding-bottom: 40px;  
-}
