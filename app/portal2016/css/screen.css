@@ -1762,12 +1762,6 @@ Agregado 2022 -  boton Juegos Sudamericanos
     margin-top: 5px;
 }
 
-@media (min-width: 300px) and (max-width: 567px) {
-      .section-category {
-    /* margin-top: 30%; */
-    } 
-} 
-
 
 .section-category .top-section {
     padding: 250px 0 .5rem 0;
@@ -1837,12 +1831,6 @@ Agregado 2022 -  boton Juegos Sudamericanos
     clear: both
 }
 
-@media (min-width: 1024px) {
-    .section-category .bottom-section {
-        /* height: 40vh; */
-        /* padding: 1.4rem 0; */
-    }
-}
 
 @media (min-width: 1024px) {
     .section-category .bottom-section .container {
@@ -2075,9 +2063,6 @@ hr {
         width: 60%;
     }
 
-    .container-title-and-icon {
-        /* width: 90%; */
-   }
 
    .hr-glide {
        margin-left: 18px; 
@@ -2791,7 +2776,7 @@ a.transmision-vivo .transmision-legend:hover span {
     -o-transition: all .5s ease .2s;
     -webkit-transition: all .5s ease;
     -webkit-transition-delay: .2s;
-    transition: all .5s ease .2s
+    transition: all .5s ease .2s;
 }
 
 #site-header .nav-icons-mobile li a:hover {
