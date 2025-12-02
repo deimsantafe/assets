@@ -819,17 +819,6 @@ li.link-pre-pie a{
     font-size: 11px;
 }
 
-.box.box-new .content-new .title-box {
-    padding: 0;
-    margin-bottom: 0;
-    margin-right: 30px;
-    text-transform: inherit;
-    font-weight: 600;
-    font-size: 18px !important;
-    line-height: 23px;
-}
-
-@media (min-width: 1024px) {
     .box.box-new .content-new .title-box {
         height: auto;
         white-space: inherit;
@@ -839,12 +828,22 @@ li.link-pre-pie a{
         font-size: 26px !important;
         line-height: 28px;
     }
-}
 
 .box.box-new .content-new .title-box:after {
     display: none
 }
 
+@media (min-width:1024px) and (max-width: 1279px){
+        .box.box-new .content-new .title-box {
+        height: auto;
+        white-space: inherit;
+        text-overflow: inherit;
+        overflow: visible;
+        font-weight: 800;
+        font-size: 15px !important;
+        line-height: 20px;
+    }
+}
 .box.box-featured .title-featured {
     font-size: 30px;
     letter-spacing: -0.015em;
