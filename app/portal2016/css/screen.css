@@ -829,7 +829,7 @@ li.link-pre-pie a{
     display: none
 }
 
-@media (min-width:1024px) and (max-width: 1279px){
+@media (min-width:1024px) and (max-width: 1280px){
         .box.box-new .content-new .title-box {
         height: auto;
         white-space: inherit;
