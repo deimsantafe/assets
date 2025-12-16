@@ -240,6 +240,35 @@ function ajax_sync(indice) {
                 ajax_sync(siguiente_indice);
 
 
+                // Función que permite adaptar las imagenes y los box de las Noticias al tamaño de las imágenes
+
+                // traemos del dom el container de Destacados
+
+                const containerListaDestacados = document.querySelector('#destacados-boxDestiny');
+
+                // obtenemos una de la imágenes 
+                const imagen = containerListaDestacados.querySelector('img');
+                //obtenemos las <a></a> links que son los contenedores de cada noticia
+                const boxNew = document.querySelectorAll('.box-new');
+                // y la lista de lás imagenes de las noticias
+                const noticiasCard = document.querySelectorAll('.thumb-new');
+
+
+                const resizeObserver = new ResizeObserver(entries => {
+                    entries.forEach(entry => {
+                    const altura = entry.contentRect.height;
+                    // recorre las img de noticias y adapta el 
+                    noticiasCard.forEach((noti, index) => {
+                        if(index > 0){
+                            boxNew[index].style.fontSize = "14px!important";
+                            boxNew[index].style.height = altura + 'px';
+                            noti.style.height = altura + 'px';
+                        }
+                    });
+                    });
+                });
+                // escucha si hay cambios de tamaño en las imágenes de destacados
+                resizeObserver.observe(imagen);
             })
         .fail(function() {
             console.log('Error:  ' + indice + ' - ' + $.mynamespace_sections.array_section[indice]);
