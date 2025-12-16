@@ -168,7 +168,7 @@ function ajax_sync(indice) {
 
         $.ajax({
                 //url: '/index.php/section_home/index',
-                url: '/index.php/section_home/get_section/' + $.mynamespace_sections.array_section[indice],
+                url: '/index.php/section_home/get_section/' + $.mynamespace_sections.array_section[indice] + "?v=2.0",
                 type: 'GET',
                 dataType: 'json',
                 timeout: $.mynamespace_global_time_out
