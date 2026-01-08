@@ -3941,6 +3941,18 @@ a:hover .elementosfacebook:after{
 	color: #ff7402;
 }
 
+@media (max-width: 912px){
+	.gestion-ciudadana{
+		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-mobile.webp');
+		min-width:484;
+		min-height:88px;
+	    background-size: cover;
+	    background-position: center;
+	    background-repeat: no-repeat;
+		margin-bottom:35px
+	}
+}
+
 @media (min-width: 913px){
 	.gestion-ciudadana{
 		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-desktop.webp');
