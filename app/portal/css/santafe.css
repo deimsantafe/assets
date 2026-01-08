@@ -3943,12 +3943,12 @@ a:hover .elementosfacebook:after{
 
 @media (max-width: 820px){
 	.gestion-ciudadana{
-	background-image: url('https://dwww.santafe.gob.ar/assets/app/portal/imgs/gestion-ciudadana-mobile.webp?');
+	background-image: url('/assets/app/portal/imgs/gestion-ciudadana-mobile.webp');
 	}
 }
 
 @media (min-width: 821px){
 	.gestion-ciudadana{
-	background-image: url('https://dwww.santafe.gob.ar/assets/app/portal/imgs/gestion-ciudadana-desktop.webp?');
+	background-image: url('/assets/app/portal/imgs/gestion-ciudadana-desktop.webp');
 	}
 }
