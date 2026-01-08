@@ -44,23 +44,15 @@ function SectionCustom(section) {
     this.boxs = section.boxs;
 
 
-
-
     this.htmlToRender = '' +
-    ' <section  id="' + this.id + '" class="' + this.class + '">' +
-    '<div class="top-section">' +
-    '    <picture class="picture-section placeholderCustom' + this.id + '" data-large="' + this.image + '">' +
-    '      <source srcset="' + this.image + '">' +
-    '     <img src="' + this.imageBlur + '" alt="" class="img-small">' +
-    '    </picture>' +
-    '    <img class="picture-blur" src="' + this.imageBlur + '" alt="" >' +
-    '   <div class="container">' +
-    '      <h2 class="title-section"><a href="' + this.link + '">' + this.title + '</a></h2>' +
+    '<section  id="' + this.id + '" class="' + this.class + ' section-category-destacados">' +
+    '<div class="top-section-destacados" >' +
+    '    <div class="container-destacados-title">' +
+    '      <h2 class="title-destacados">'+this.title+'</h2>' +
     '   </div>' +
-    '     <!--/container-->' +
     '  </div>' +
     '  <!--/top-section-->' +
-    '  <div  class="bottom-section">' +
+    '  <div  class="bottom-section bottom-section-destacados">' +
     '      <div id="' + this.id + '-boxDestiny" class="container">' +
     '         <!--/box-->' +
     '         <!--/box-->' +
@@ -71,7 +63,7 @@ function SectionCustom(section) {
     '  <!--/bottom-section-->' +
     ' </section>' +
     ' <!--/section-end-->';
-
+    
 
     this.render = function(destiny) {
         $(destiny).append(this.htmlToRender);
@@ -139,8 +131,8 @@ function SectionCustom(section) {
 
                     var plantilla_imagen =                    
                     '<a class="' + v.clases + '" href="'+ v.link +'">' +
-                        '<img src="' +  v.content + '" alt="">' +
-                    '</a>';
+                        '<img src="' +  v.content + '" alt="'+ v.altText +'">' +
+                    '</a>'; 
 
                     $('#' + boxDestiny).append(plantilla_imagen).fadeIn(2000);
 
@@ -176,7 +168,7 @@ function ajax_sync(indice) {
 
         $.ajax({
                 //url: '/index.php/section_home/index',
-                url: '/index.php/section_home/get_section/' + $.mynamespace_sections.array_section[indice],
+                url: '/index.php/section_home/get_section/' + $.mynamespace_sections.array_section[indice] + "?v=2.0",
                 type: 'GET',
                 dataType: 'json',
                 timeout: $.mynamespace_global_time_out
