@@ -3944,21 +3944,30 @@ a:hover .elementosfacebook:after{
 @media (max-width: 912px){
 	.gestion-ciudadana{
 		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-mobile.webp');
-		min-width:200px;
-		min-height:68px;
+		min-width:484;
+		min-height:144px;
+	    background-size: cover;
+	    background-position: center;
+	    background-repeat: no-repeat;
+		margin-bottom:35px
+	}
+}
+
+@media (min-width: 913px){
+	.gestion-ciudadana{
+		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-desktop.webp');
+		min-width:1020px;
+		min-height:144px;
 	    background-size: cover;
 	    background-position: center;
 	    background-repeat: no-repeat;
 	}
 }
 
-@media (min-width: 913px){
+@media (min-width: 1024px){
 	.gestion-ciudadana{
-	background-image: url('/assets/app/portal/imgs/gestion-ciudadana-desktop.webp');
 		min-width:1020px;
-		min-height:144px;
-	    background-size: cover;
-	    background-position: center;
-	    background-repeat: no-repeat;
+		min-height:120px;
+		max-height:120px;
 	}
 }
