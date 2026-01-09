@@ -3941,38 +3941,7 @@ a:hover .elementosfacebook:after{
 	color: #ff7402;
 }
 
-@media (max-width: 912px){
-	.gestion-ciudadana{
-		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-mobile.webp');
-		min-width:484;
-		min-height:88px;
-	    background-size: cover;
-	    background-position: center;
-	    background-repeat: no-repeat;
-		margin-bottom:35px
-	}
+.gestion-ciudadana a{
+	width:100%;
+	height:100%;
 }
-
-@media (min-width: 913px){
-	.gestion-ciudadana{
-		background-image: url('/assets/app/portal/imgs/gestion-ciudadana-desktop.webp');
-		min-width:1020px;
-		min-height:144px;
-	    background-size: cover;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	}
-}
-
-@media (min-width: 1024px){
-	.gestion-ciudadana{
-		min-width:1020px;
-		min-height:120px;
-		max-height:120px;
-	}
-}
-
-	.gestion-ciudadana a{
-		width:100%;
-		height:100%;
-	}
